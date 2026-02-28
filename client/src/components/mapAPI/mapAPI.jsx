@@ -29,17 +29,17 @@ function MapAPI({potholes}) {
             <Map
             style={{ width: '100%', height: '100%' }}
             defaultCenter={ROLLA_CENTER}
-            defaultZoom={13}
+            defaultZoom={12}
             mapId="56e3f3ba5b24b19c7eb8f11c"
             styles={mapStyles}
-            disableDefaultUI={true}
+            disableDefaultUI={false}
             gestureHandling={'greedy'}
             minZoom={14}
             restriction={{
                 latLngBounds: {
-                north: 37.980,
-                south: 37.910,
-                west: -91.820, // Adjusted slightly west to keep Rolla centered
+                north: 37.970,
+                south: 37.920,
+                west: -91.810, // Adjusted slightly west to keep Rolla centered
                 east: -91.720
                 },
                 strictBounds: false // False allows smooth bouncing; True is a hard "wall"

@@ -17,6 +17,8 @@
 
 .rightSide{
   display: flex;
-  width: 100%;
+  width: 85%;
+  height: 90%;
+  margin: auto;
   border: 2px solid pink;
 }
