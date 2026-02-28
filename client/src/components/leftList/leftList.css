@@ -1,0 +1,24 @@
+.leftList{
+    height: 100vh;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    height: 10%;
+    background: blue;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.icon h1{
+    margin-left: 10%;
+}
+
+.potholes{
+    margin-left: 10%;
+}

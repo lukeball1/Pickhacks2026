@@ -29,7 +29,7 @@ def getAllPotholes():
     potholes.database.client.close()
     print("results:", results)
     for result in final: 
-        del result['_id']
+        result['_id'] = str(result['_id'])
     response = {"success": True, "potholes": final}
     return jsonify(response)
     # display image of pothole with labels? 
