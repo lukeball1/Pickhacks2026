@@ -6,6 +6,9 @@ Pothole Classification Model:
 * [Roboflow cloud model instance](https://universe.roboflow.com/hiteshram/object-detection-bounding-box-ftfs5/model/1)
 * [Inference Client Documentation](https://inference.roboflow.com/inference_helpers/inference_sdk/)
 
+## Install Docker
+Follow the instructions [here](https://docs.docker.com/desktop/) to install Docker on your device. Docker is necessary for running the model. 
+
 ## Model Local Server Setup
 1. Download Docker Engine and ensure the daemon is running
 2. Go to Code Snippets section of the cloud model on roboflow
