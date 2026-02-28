@@ -1,11 +1,69 @@
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-uri = "mongodb+srv://wokapplicant_db_user:3ps7kYcutHpb58j9@ipis.dare254.mongodb.net/?appName=IPIS" # HARD CODED PASSWORD!!!
-# Create a new client and connect to the server
-client = MongoClient(uri, server_api=ServerApi('1'))
-# Send a ping to confirm a successful connection
-try:
-    client.admin.command('ping')
-    print("Pinged your deployment. You successfully connected to MongoDB!")
-except Exception as e:
-    print(e)
+import time
+import cv2
+
+from camera import capture_frame
+from model import detect_pothole, is_pothole_detected
+from db import connect_db, insert_or_update_pothole
+from utils import get_current_location
+from storage import upload_image
+from config import CAMERA_ID, VEHICLE_ID, DUPLICATE_DISTANCE_M
+
+
+def main_loop():
+    collection = connect_db()
+
+    while True:
+        # time.sleep(1)
+        try:
+            print("capturing")
+            frame = capture_frame(CAMERA_ID)
+
+            # Save temporary image for inference
+            temp_file = "temp.jpg"
+            cv2.imwrite(temp_file, frame)
+            print("written")
+            result = detect_pothole(temp_file)
+
+            detected, confidence, size = is_pothole_detected(result)
+            print("analyzed.")
+            if detected:
+                print(f"Pothole detected with confidence {confidence:.3f}")
+
+                location = get_current_location()
+
+                filename = f"{VEHICLE_ID}_{int(time.time())}.jpg"
+                image_url = upload_image(frame, filename)
+
+                pothole_data = {
+                    "location": {
+                        "type": "Point",
+                        "coordinates": [
+                            location["latitude"],
+                            location["longitude"]
+                        ],
+                    },
+                    "confidence": confidence,
+                    "size": size,
+                    "image_url": image_url,
+                    "vehicle_id": VEHICLE_ID,
+                    "status": "open",
+                    "first_detected_at": time.time(),
+                    "last_updated_at": time.time(),
+                }
+
+                insert_or_update_pothole(
+                    collection,
+                    pothole_data,
+                    DUPLICATE_DISTANCE_M
+                )
+
+                print("Pothole reported to database.")
+
+        except Exception as e:
+            print("Error in main loop:", e)
+
+        time.sleep(1)
+
+
+if __name__ == "__main__":
+    main_loop()

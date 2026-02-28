@@ -1,26 +1,16 @@
 import cv2
 
-# 1. Initialize the webcam (0 is usually the default camera)
-cap = cv2.VideoCapture(4)
-
-# Check if camera opened successfully
-if not cap.isOpened():
-    print("Error: Could not open webcam.")
-    exit()
-
-# 2. Capture a single frame
-ret, frame = cap.read()
-if not ret:
-    print("Error: Could not read frame from webcam.")
+def capture_frame(camera_id=4):
+    cap = cv2.VideoCapture(camera_id)
+    if not cap.isOpened():
+        raise RuntimeError("Could not open camera")
+    ret, frame = cap.read()
     cap.release()
-    exit()
+    if not ret:
+        raise RuntimeError("Failed to capture frame")
+    return frame
 
-# 3. Display the captured frame
-cv2.imshow("Captured Image", frame)
-
-# Wait until a key is pressed
-cv2.waitKey(0)
-
-# 4. Clean up
-cap.release()
-cv2.destroyAllWindows()
+def show_frame(frame, window_name="Captured Image"):
+    cv2.imshow(window_name, frame)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()

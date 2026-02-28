@@ -6,5 +6,6 @@ CLIENT = InferenceHTTPClient(
 )
 
 result2 = CLIENT.infer("hole.jpg", model_id="object-detection-bounding-box-ftfs5/1")
+print(type(result2))
 
 print("hole", result2)
