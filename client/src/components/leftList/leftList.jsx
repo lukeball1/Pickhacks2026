@@ -1,22 +1,22 @@
 import React from 'react';
 import './leftList.css';
-import { useAuth0 } from '@auth0/auth0-react';
+// import { useAuth0 } from '@auth0/auth0-react';
 
 function LeftList({ potholes }){
-    const {
-        isLoading, // Loading state, the SDK needs to reach Auth0 on load
-        isAuthenticated,
-        error,
-        loginWithRedirect: login, // Starts the login flow
-        logout: auth0Logout, // Starts the logout flow
-        user, // User profile
-      } = useAuth0();
+    // const {
+    //     isLoading, // Loading state, the SDK needs to reach Auth0 on load
+    //     isAuthenticated,
+    //     error,
+    //     loginWithRedirect: login, // Starts the login flow
+    //     logout: auth0Logout, // Starts the logout flow
+    //     user, // User profile
+    //   } = useAuth0();
     
-      const signup = () =>
-        login({ authorizationParams: { screen_hint: "signup" } });
+    //   const signup = () =>
+    //     login({ authorizationParams: { screen_hint: "signup" } });
     
-      const logout = () =>
-        auth0Logout({ logoutParams: { returnTo: window.location.origin } });
+    //   const logout = () =>
+    //     auth0Logout({ logoutParams: { returnTo: window.location.origin } });
 
     return(
         <div className="leftList">

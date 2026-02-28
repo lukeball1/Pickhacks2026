@@ -1,27 +1,32 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 import LeftList from "./components/leftList/leftList";
-import MapAPI from "./components/mapAPI/mapAPI"
-import './App.css'
+import MapAPI from "./components/mapAPI/mapAPI";
+import './App.css';
+
 
 function App() {
-  const [potholes, setPotholes] = useState(["1", "2"]);
+  const [potholes, setPotholes] = useState([]);
 
-  // useEffect(() => {
-  //   async function loadPotholes(){
-  //     try{
-  //       const result = await fetch ("localhost:5000/potholes");
-  //       const data = await result.json();
+  useEffect(() => {
+    async function loadPotholes(){
+      console.log("pothole function called");
+      try{
+        const result = await fetch ("http://127.0.0.1:5000/");
+        const data = await result.json();
 
-  //       if (data.success){
-  //         setPotholes(data.data);
-  //       }
+        if (data.success){
+          setPotholes(data.potholes);
+          console.log("successfully loaded pothole data");
+        }
 
-  //     } catch (err) {
-  //       console.error(err);
-  //     }
-  //   }
-  // }, []);
-
+      } catch (err) {
+        console.error(err);
+        console.log("error in loading potholes");
+      }
+    }
+    loadPotholes();
+  }, []);
+  
   return(
     <div className='app'>
       <div className="leftSide">
@@ -35,4 +40,4 @@ function App() {
 
 }
 
-export default App
+export default App;
