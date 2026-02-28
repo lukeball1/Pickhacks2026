@@ -1,7 +1,7 @@
 import React from 'react';
 import './potholeModal.css';
 
-function potholeModal(){
+function potholeModal( pothole ){
     return(
         <div className="potholeModal">
 

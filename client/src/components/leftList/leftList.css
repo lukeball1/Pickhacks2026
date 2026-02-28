@@ -20,5 +20,10 @@
 }
 
 .potholes{
+    margin-left: 0%;
+    overflow-y: scroll;
+}
+
+.potholes h2{
     margin-left: 10%;
 }

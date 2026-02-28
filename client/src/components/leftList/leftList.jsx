@@ -1,10 +1,9 @@
 import React from 'react';
 import './leftList.css';
+import potholeModal from '../potholeModal/potholeModal';
 // import { useAuth0 } from '@auth0/auth0-react';
 
 function LeftList({ potholes }){
-
-    
 
     return(
         <div className="leftList">
@@ -20,7 +19,12 @@ function LeftList({ potholes }){
                         key={index}
                         className='potholeCard'
                         >
-                            <li> Pothole #{item.id}</li>
+                            <li
+                            style={{ cursor: "pointer"}}
+                            onClick={(e) => 
+                                <potholeModal pothole={item}/>
+                            }
+                            > Pothole #{index + 1}</li>
                         </div>
                     ))}
                 </ul>

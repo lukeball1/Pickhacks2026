@@ -24,7 +24,9 @@ function App() {
         console.log("error in loading potholes");
       }
     }
-    loadPotholes();
+    if (potholes.length == 0) {
+      loadPotholes();
+    }
   }, []);
   
   return(
