@@ -3,9 +3,19 @@ import './leftList.css';
 
 function LeftList({ potholes }){
     return(
-        <>
-            <p>leftlist</p>
-        </>
+        <div className="leftList">
+            <div className="icon">
+                <h1>PUPIL</h1>
+            </div>
+
+            <div className="potholes">
+                <h2>Potholes</h2>
+
+                    {/* Map out potholes id from arg */}
+
+            </div>
+
+        </div>
     );
 }
 
