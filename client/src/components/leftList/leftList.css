@@ -27,3 +27,12 @@
 .potholes h2{
     margin-left: 10%;
 }
+
+.potholeCard{
+    width: 85%;
+}
+
+.potholeCard:hover{
+    background-color: darkgray;
+    opacity: 85%;
+}

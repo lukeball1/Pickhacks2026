@@ -5,13 +5,33 @@ import './mapAPI.css';
 const ROLLA_CENTER = {lat: 37.9485, lng:-91.7715};
 
 function MapAPI({potholes}) {
+
+    const mapStyles = [
+    {
+        featureType: "poi",
+        elementType: "labels",
+        stylers: [{ visibility: "off" }],
+    },
+    {
+        featureType: "poi",
+        elementType: "geometry",
+        stylers: [{ visibility: "off" }],
+    },
+    {
+        featureType: "transit",
+        elementType: "labels.icon",
+        stylers: [{ visibility: "off" }],
+    },
+    ];
+
     return (
         <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
             <Map
             style={{ width: '100%', height: '100%' }}
             defaultCenter={ROLLA_CENTER}
             defaultZoom={13}
-            mapId="DEMO_MAP_ID"
+            mapId="56e3f3ba5b24b19c7eb8f11c"
+            styles={mapStyles}
             disableDefaultUI={true}
             gestureHandling={'greedy'}
             minZoom={14}
