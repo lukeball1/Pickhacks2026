@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 import LeftList from "./components/leftList/leftList";
-import MapAPI from "./components/mapAPI/mapAPI"
-import './App.css'
+import MapAPI from "./components/mapAPI/mapAPI";
+import './App.css';
+import fakeData from './assets/fakeData.js';
 
 function App() {
-  const [potholes, setPotholes] = useState(["1", "2"]);
+  const [potholes, setPotholes] = useState(fakeData.Potholes);
 
   // useEffect(() => {
   //   async function loadPotholes(){
@@ -21,7 +22,7 @@ function App() {
   //     }
   //   }
   // }, []);
-
+  
   return(
     <div className='app'>
       <div className="leftSide">
@@ -35,4 +36,4 @@ function App() {
 
 }
 
-export default App
+export default App;
