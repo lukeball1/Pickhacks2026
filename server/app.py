@@ -2,8 +2,11 @@ from flask import Flask, request, jsonify
 from pymongo.mongo_client import MongoClient
 from bson.objectid import ObjectId
 from db import getPotholeCollection
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/pothole/<pothole_id>", methods=["GET"])
 def getPothole(pothole_id):
@@ -27,7 +30,6 @@ def getAllPotholes():
     print("results:", results)
     for result in final: 
         del result['_id']
-    return final
+    response = {"success": True, "potholes": final}
+    return jsonify(response)
     # display image of pothole with labels? 
-
-    return "<p>Potholes</p>"

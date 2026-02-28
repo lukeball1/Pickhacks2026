@@ -15,7 +15,15 @@ function MapAPI({potholes}) {
             disableDefaultUI={true}
             gestureHandling={'greedy'}
             minZoom={14}
-            restriction={{north: 37.980, south: 37.910, west: -91.780, east: -91.720}}
+            restriction={{
+                latLngBounds: {
+                north: 37.980,
+                south: 37.910,
+                west: -91.820, // Adjusted slightly west to keep Rolla centered
+                east: -91.720
+                },
+                strictBounds: false // False allows smooth bouncing; True is a hard "wall"
+            }}
             >
 
             </Map>
