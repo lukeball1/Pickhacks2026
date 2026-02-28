@@ -29,7 +29,6 @@ function App() {
       </div>
       <div className="rightSide">
         <MapAPI potholes={potholes}/>
-        <p>asladfj</p>
       </div>
     </div>
   )
