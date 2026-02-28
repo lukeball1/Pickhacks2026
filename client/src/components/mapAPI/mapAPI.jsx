@@ -10,9 +10,12 @@ function MapAPI({potholes}) {
             <Map
             style={{ width: '100%', height: '100%' }}
             defaultCenter={ROLLA_CENTER}
-            defaultZoom={14}
+            defaultZoom={13}
             mapId="DEMO_MAP_ID"
             disableDefaultUI={true}
+            gestureHandling={'greedy'}
+            minZoom={14}
+            restriction={{north: 37.980, south: 37.910, west: -91.780, east: -91.720}}
             >
 
             </Map>
