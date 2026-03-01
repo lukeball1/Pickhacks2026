@@ -25,6 +25,7 @@ function App() {
   const loadPotholes = async (org_id) => {
     console.log("pothole function called");
     if (!org_id) {
+      console.log("No organization ID provided, skipping pothole load.");
       return;
     }
     try {
@@ -102,7 +103,7 @@ function App() {
         }
       </div>
       <div className="rightSide">
-        <MapAPI potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={loadPotholes} region={region} currentOrganization={selectedOrg}/>
+        <MapAPI potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={() => { loadPotholes(selectedOrg._id)}} region={region} currentOrganization={selectedOrg}/>
       </div>
     </div>
   )
