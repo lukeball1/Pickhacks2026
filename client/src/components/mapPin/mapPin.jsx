@@ -8,16 +8,16 @@ function MapPin({pothole, onClick}) {
   useEffect(() => {
     // const risk_score = (pothole['size']['width_cm'] * pothole['size']['depth_cm']) ** (1/2)
     const risk_score = Math.sqrt(pothole['size']['width_cm'] * pothole['size']['depth_cm'])
-    console.log(pothole['size']['width_cm'], pothole['size']['depth_cm'])
+    // console.log(pothole['size']['width_cm'], pothole['size']['depth_cm'])
 
-    console.log("risk: ", risk_score)
+    // console.log("risk: ", risk_score)
 
     const hue = Math.round(180 - (risk_score * 12))
 
-    console.log(hue)
+    // console.log(hue)
 
     const color = 'hsl(' + ((hue > 0) ? hue : 0) + ' 100% 50%)'
-    console.log(color)
+    // console.log(color)
     setBackgroundColor(color)
     
     if (!marker) { 
