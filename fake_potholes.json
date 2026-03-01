@@ -1,607 +1,7 @@
 [
   {
     "_id": {
-      "$oid": "8f0c61474be044798a1649dc"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75763660399731,
-        37.951492759339445
-      ]
-    },
-    "confidence": 0.69,
-    "size": {
-      "width_cm": 10.7,
-      "depth_cm": 12.9
-    },
-    "road_name": "East 10th Street",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_0.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333248Z",
-    "last_updated_at": "2026-02-28T23:04:21.333248Z",
-    "vehicle_id": "CAR_5",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "059be046306c4d9c82b65167"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7738018,
-        37.9730474
-      ]
-    },
-    "confidence": 0.5,
-    "size": {
-      "width_cm": 19.1,
-      "depth_cm": 13.7
-    },
-    "road_name": "Camelot Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_1.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333343Z",
-    "last_updated_at": "2026-02-28T23:04:21.333343Z",
-    "vehicle_id": "CAR_1",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "240da3f5aa9747a286494210"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.788165,
-        37.95776229999999
-      ]
-    },
-    "confidence": 0.68,
-    "size": {
-      "width_cm": 16.5,
-      "depth_cm": 6.2
-    },
-    "road_name": "Fraternity Circle",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_2.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333371Z",
-    "last_updated_at": "2026-02-28T23:04:21.333371Z",
-    "vehicle_id": "CAR_8",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "7ac8db13065e4d9b8adbc8c0"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7843528,
-        37.9610774
-      ]
-    },
-    "confidence": 0.85,
-    "size": {
-      "width_cm": 17.1,
-      "depth_cm": 12.2
-    },
-    "road_name": "Crinoidal Court",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_3.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333391Z",
-    "last_updated_at": "2026-02-28T23:04:21.333391Z",
-    "vehicle_id": "CAR_5",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "01bcb0fff5504035ac56227c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.803282,
-        37.94713329999999
-      ]
-    },
-    "confidence": 0.51,
-    "size": {
-      "width_cm": 11.4,
-      "depth_cm": 6.6
-    },
-    "road_name": "County Road 8110",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_4.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333407Z",
-    "last_updated_at": "2026-02-28T23:04:21.333407Z",
-    "vehicle_id": "CAR_4",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "dae45b4798e144ffbccaf28c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7738018,
-        37.9730474
-      ]
-    },
-    "confidence": 0.84,
-    "size": {
-      "width_cm": 9.7,
-      "depth_cm": 10.2
-    },
-    "road_name": "Camelot Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_5.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333423Z",
-    "last_updated_at": "2026-02-28T23:04:21.333423Z",
-    "vehicle_id": "CAR_1",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "8001e2471ae3403f9d8c02f6"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7787462,
-        37.972718099999994
-      ]
-    },
-    "confidence": 0.93,
-    "size": {
-      "width_cm": 8.9,
-      "depth_cm": 12.7
-    },
-    "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_6.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333436Z",
-    "last_updated_at": "2026-02-28T23:04:21.333436Z",
-    "vehicle_id": "CAR_7",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "a6e8e91f23bf4a51b8aea4a4"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7579017992195,
-        37.97140909841816
-      ]
-    },
-    "confidence": 0.58,
-    "size": {
-      "width_cm": 17.5,
-      "depth_cm": 9.3
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_7.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333449Z",
-    "last_updated_at": "2026-02-28T23:04:21.333449Z",
-    "vehicle_id": "CAR_9",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "2e04767400c640aaaee93117"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76444410060756,
-        37.92475078566721
-      ]
-    },
-    "confidence": 0.9,
-    "size": {
-      "width_cm": 12.4,
-      "depth_cm": 10.9
-    },
-    "road_name": "Brady Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_8.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333464Z",
-    "last_updated_at": "2026-02-28T23:04:21.333464Z",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "acc776bb6568410289c7c5bd"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76630732122129,
-        37.95665653093245
-      ]
-    },
-    "confidence": 0.8,
-    "size": {
-      "width_cm": 14.1,
-      "depth_cm": 14.4
-    },
-    "road_name": "['North Walnut Street', 'East 16th Street']",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_9.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333487Z",
-    "last_updated_at": "2026-02-28T23:04:21.333487Z",
-    "vehicle_id": "CAR_0",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "2ff711bb5b0f4640ab3997d9"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.73961848151747,
-        37.92643321599043
-      ]
-    },
-    "confidence": 0.6,
-    "size": {
-      "width_cm": 11.1,
-      "depth_cm": 7.2
-    },
-    "road_name": "Osage Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_10.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333503Z",
-    "last_updated_at": "2026-02-28T23:04:21.333503Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "11d801b36c164b6b8e39ae4d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7916045,
-        37.94277829999998
-      ]
-    },
-    "confidence": 0.5,
-    "size": {
-      "width_cm": 6.2,
-      "depth_cm": 14.1
-    },
-    "road_name": "Martin Springs Drive",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_11.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333516Z",
-    "last_updated_at": "2026-02-28T23:04:21.333516Z",
-    "vehicle_id": "CAR_7",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "53f73bc622d34f30b135f392"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.81068300000001,
-        37.93290899999999
-      ]
-    },
-    "confidence": 0.67,
-    "size": {
-      "width_cm": 19.9,
-      "depth_cm": 7.3
-    },
-    "road_name": "nan",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_12.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333531Z",
-    "last_updated_at": "2026-02-28T23:04:21.333531Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "64ee1225130b4702a44cafb0"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77513512118371,
-        37.922437000813325
-      ]
-    },
-    "confidence": 0.72,
-    "size": {
-      "width_cm": 8.4,
-      "depth_cm": 4.9
-    },
-    "road_name": "West Lions Club Drive",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_13.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333545Z",
-    "last_updated_at": "2026-02-28T23:04:21.333545Z",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "e9e5edfae6714914bc163aea"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76196724529976,
-        37.9523408578372
-      ]
-    },
-    "confidence": 0.52,
-    "size": {
-      "width_cm": 11.5,
-      "depth_cm": 9.8
-    },
-    "road_name": "Holloway Street",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_14.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333558Z",
-    "last_updated_at": "2026-02-28T23:04:21.333558Z",
-    "vehicle_id": "CAR_7",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "6aefb0be16a54075905877a8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7738018,
-        37.9730474
-      ]
-    },
-    "confidence": 0.84,
-    "size": {
-      "width_cm": 15.2,
-      "depth_cm": 10.7
-    },
-    "road_name": "Camelot Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_15.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333573Z",
-    "last_updated_at": "2026-02-28T23:04:21.333573Z",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "1e65938f14dd497784be2ff5"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7913071,
-        37.94292899999999
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 11.0,
-      "depth_cm": 9.5
-    },
-    "road_name": "Martin Springs Drive",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_16.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333585Z",
-    "last_updated_at": "2026-02-28T23:04:21.333585Z",
-    "vehicle_id": "CAR_9",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "ec9c9e6a755c4ca69c1afabe"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7690285,
-        37.9648341
-      ]
-    },
-    "confidence": 0.73,
-    "size": {
-      "width_cm": 9.5,
-      "depth_cm": 10.9
-    },
-    "road_name": "Savannah Court",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_17.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333598Z",
-    "last_updated_at": "2026-02-28T23:04:21.333598Z",
-    "vehicle_id": "CAR_6",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "457ba0f4ebd5405bac5c4076"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.776058,
-        37.96756
-      ]
-    },
-    "confidence": 0.76,
-    "size": {
-      "width_cm": 19.9,
-      "depth_cm": 11.6
-    },
-    "road_name": "Woodcrest Circle",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_18.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333610Z",
-    "last_updated_at": "2026-02-28T23:04:21.333610Z",
-    "vehicle_id": "CAR_9",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "a1677b46a1c04441835fa086"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77299835904296,
-        37.926937782873345
-      ]
-    },
-    "confidence": 0.87,
-    "size": {
-      "width_cm": 17.5,
-      "depth_cm": 3.5
-    },
-    "road_name": "nan",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_19.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333623Z",
-    "last_updated_at": "2026-02-28T23:04:21.333623Z",
-    "vehicle_id": "CAR_3",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "ba0ba6ce3d4b499d9b45aa55"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.759218,
-        37.936288999999995
-      ]
-    },
-    "confidence": 0.64,
-    "size": {
-      "width_cm": 10.1,
-      "depth_cm": 9.7
-    },
-    "road_name": "Oxford Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_20.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333636Z",
-    "last_updated_at": "2026-02-28T23:04:21.333636Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "1c859419121844e391310a9a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7738018,
-        37.9730474
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
-      "width_cm": 9.6,
-      "depth_cm": 11.0
-    },
-    "road_name": "Camelot Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_21.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333649Z",
-    "last_updated_at": "2026-02-28T23:04:21.333649Z",
-    "vehicle_id": "CAR_5",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "979ee6cbf2b14ff08dc8e1b7"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78787793562152,
-        37.95296675001385
-      ]
-    },
-    "confidence": 0.89,
-    "size": {
-      "width_cm": 17.2,
-      "depth_cm": 12.8
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_22.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333662Z",
-    "last_updated_at": "2026-02-28T23:04:21.333662Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "1b3293ab7b4141348771b2dd"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7848294,
-        37.9234659
-      ]
-    },
-    "confidence": 0.68,
-    "size": {
-      "width_cm": 8.6,
-      "depth_cm": 7.9
-    },
-    "road_name": "Redwood Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_23.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333675Z",
-    "last_updated_at": "2026-02-28T23:04:21.333675Z",
-    "vehicle_id": "CAR_9",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "0e8bbcc17b7f4b87b55d49db"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.803282,
-        37.94713329999999
-      ]
-    },
-    "confidence": 0.52,
-    "size": {
-      "width_cm": 19.8,
-      "depth_cm": 9.2
-    },
-    "road_name": "County Road 8110",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_24.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333688Z",
-    "last_updated_at": "2026-02-28T23:04:21.333688Z",
-    "vehicle_id": "CAR_2",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "fead08b139e2413bb16bc912"
+      "$oid": "1eb1be53d5514f9db9d763ac"
     },
     "location": {
       "type": "Point",
@@ -610,46 +10,214 @@
         37.9726675
       ]
     },
-    "confidence": 0.63,
+    "confidence": 0.78,
     "size": {
-      "width_cm": 13.7,
-      "depth_cm": 5.6
+      "width_cm": 5.3,
+      "depth_cm": 13.0
     },
+    "image_url": "https://example.com/pothole_0.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3202949,
+    "last_updated_at": 1772323539.3202953,
     "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_25.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333701Z",
-    "last_updated_at": "2026-02-28T23:04:21.333701Z",
-    "vehicle_id": "CAR_7",
-    "status": "unconfirmed"
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "0c8464d3f28a434e9c4be1bb"
+      "$oid": "044355925e05453eae0fdfe3"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.7754722419448,
-        37.93092880154638
+        -91.76039045056767,
+        37.95509545723093
       ]
     },
-    "confidence": 0.91,
+    "confidence": 0.98,
     "size": {
-      "width_cm": 5.1,
-      "depth_cm": 12.8
+      "width_cm": 7.8,
+      "depth_cm": 5.3
     },
-    "road_name": "nan",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_26.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333713Z",
-    "last_updated_at": "2026-02-28T23:04:21.333713Z",
-    "vehicle_id": "CAR_5",
-    "status": "open"
+    "image_url": "https://example.com/pothole_1.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3204062,
+    "last_updated_at": 1772323539.3204067,
+    "road_name": "East 14th Street",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "8e3b279060bd4874b4ae3802"
+      "$oid": "200d3dc83f7342a0a57d7dd7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7532296639722,
+        37.97496003540822
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 17.7,
+      "depth_cm": 10.6
+    },
+    "image_url": "https://example.com/pothole_2.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "first_detected_at": 1772323539.3204741,
+    "last_updated_at": 1772323539.3204744,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "6e386c9a04494acc83cb265a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.752857,
+        37.96997999999999
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 12.0,
+      "depth_cm": 6.7
+    },
+    "image_url": "https://example.com/pothole_3.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "first_detected_at": 1772323539.320527,
+    "last_updated_at": 1772323539.3205276,
+    "road_name": "Young Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d1313437dca84e98a8cc4149"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.752857,
+        37.96997999999999
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 11.6,
+      "depth_cm": 14.2
+    },
+    "image_url": "https://example.com/pothole_4.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.320579,
+    "last_updated_at": 1772323539.3205793,
+    "road_name": "Young Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "fd55ca8287f04c448cb81a64"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74787959639501,
+        37.94927748511387
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 16.6,
+      "depth_cm": 10.9
+    },
+    "image_url": "https://example.com/pothole_5.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3206253,
+    "last_updated_at": 1772323539.3206258,
+    "road_name": "Highland Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ef69068f7db74d2481e7d9ab"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77206884400202,
+        37.94841640712503
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 17.4,
+      "depth_cm": 9.0
+    },
+    "image_url": "https://example.com/pothole_6.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3206747,
+    "last_updated_at": 1772323539.320675,
+    "road_name": "West 6th Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "f3e928c2ff6b4c2995d22038"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7523192485297,
+        37.94423445199944
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 7.5,
+      "depth_cm": 4.9
+    },
+    "image_url": "https://example.com/pothole_7.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3207226,
+    "last_updated_at": 1772323539.320723,
+    "road_name": "Soest Road",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "be44bf049d8e41a486733475"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74655766117668,
+        37.94728986805485
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 6.4,
+      "depth_cm": 3.6
+    },
+    "image_url": "https://example.com/pothole_8.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3207583,
+    "last_updated_at": 1772323539.3207586,
+    "road_name": "South Murry Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "168be58a9d5d4b2e8d5e5e81"
     },
     "location": {
       "type": "Point",
@@ -658,478 +226,382 @@
         37.936089
       ]
     },
-    "confidence": 0.7,
+    "confidence": 0.78,
     "size": {
-      "width_cm": 10.5,
-      "depth_cm": 12.7
+      "width_cm": 15.1,
+      "depth_cm": 6.6
     },
+    "image_url": "https://example.com/pothole_9.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3207884,
+    "last_updated_at": 1772323539.3207886,
     "road_name": "Christy Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_27.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333727Z",
-    "last_updated_at": "2026-02-28T23:04:21.333727Z",
-    "vehicle_id": "CAR_4",
-    "status": "unconfirmed"
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "6740a2f843d34076b051d90f"
+      "$oid": "3816ed78d38f41378b9bd063"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.74656569986979,
-        37.946316419361665
-      ]
-    },
-    "confidence": 0.86,
-    "size": {
-      "width_cm": 7.7,
-      "depth_cm": 5.0
-    },
-    "road_name": "South Murry Lane",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_28.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333740Z",
-    "last_updated_at": "2026-02-28T23:04:21.333740Z",
-    "vehicle_id": "CAR_5",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "64340f91c9b54a31b7a2d54c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.8015766,
-        37.9463566
-      ]
-    },
-    "confidence": 0.94,
-    "size": {
-      "width_cm": 18.6,
-      "depth_cm": 13.6
-    },
-    "road_name": "Westside Drive",
-    "road_type": "unclassified",
-    "image_url": "https://example.com/pothole_29.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333753Z",
-    "last_updated_at": "2026-02-28T23:04:21.333753Z",
-    "vehicle_id": "CAR_5",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "b8a7d7af3ff44081bf94f91f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7343351998847,
-        37.972414361135215
-      ]
-    },
-    "confidence": 0.53,
-    "size": {
-      "width_cm": 16.6,
-      "depth_cm": 14.7
-    },
-    "road_name": "County Road 3060",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_30.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333765Z",
-    "last_updated_at": "2026-02-28T23:04:21.333765Z",
-    "vehicle_id": "CAR_2",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "a887e3538cf144f38fdbb16c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.782675922662,
-        37.93955429695153
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 6.8,
-      "depth_cm": 10.6
-    },
-    "road_name": "['Edith Avenue', 'Hess Avenue']",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_31.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333777Z",
-    "last_updated_at": "2026-02-28T23:04:21.333777Z",
-    "vehicle_id": "CAR_0",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "a2cd939c012341cf993fa264"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74278098770642,
-        37.93232809168959
-      ]
-    },
-    "confidence": 0.94,
-    "size": {
-      "width_cm": 10.1,
-      "depth_cm": 12.8
-    },
-    "road_name": "nan",
-    "road_type": "primary",
-    "image_url": "https://example.com/pothole_32.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333790Z",
-    "last_updated_at": "2026-02-28T23:04:21.333790Z",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "44d871667f0647bcab11aab0"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77711861185026,
-        37.95285419010883
-      ]
-    },
-    "confidence": 0.77,
-    "size": {
-      "width_cm": 10.0,
-      "depth_cm": 12.0
-    },
-    "road_name": "North Bishop Avenue",
-    "road_type": "primary",
-    "image_url": "https://example.com/pothole_33.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333803Z",
-    "last_updated_at": "2026-02-28T23:04:21.333803Z",
-    "vehicle_id": "CAR_8",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "fdee1a6b884144d19069dcc0"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75387094439523,
-        37.95414553764144
-      ]
-    },
-    "confidence": 0.85,
-    "size": {
-      "width_cm": 12.2,
-      "depth_cm": 14.2
-    },
-    "road_name": "Homelife Plaza",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_34.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333816Z",
-    "last_updated_at": "2026-02-28T23:04:21.333816Z",
-    "vehicle_id": "CAR_8",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "ee39ecd0a1b541ec913da4dd"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76960487204742,
-        37.94726372351813
-      ]
-    },
-    "confidence": 0.73,
-    "size": {
-      "width_cm": 17.0,
-      "depth_cm": 9.8
-    },
-    "road_name": "North Oak Street",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_35.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333828Z",
-    "last_updated_at": "2026-02-28T23:04:21.333828Z",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "1591e348460841ea80e1bb0a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77998039193984,
-        37.95324465806737
-      ]
-    },
-    "confidence": 0.59,
-    "size": {
-      "width_cm": 19.0,
-      "depth_cm": 8.8
-    },
-    "road_name": "West 12th Street",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_36.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333841Z",
-    "last_updated_at": "2026-02-28T23:04:21.333841Z",
-    "vehicle_id": "CAR_6",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "aaf4ada521e64e2a8d2380ce"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7510343437482,
-        37.95152668089639
-      ]
-    },
-    "confidence": 0.92,
-    "size": {
-      "width_cm": 7.9,
-      "depth_cm": 13.4
-    },
-    "road_name": "East 10th Street",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_37.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333853Z",
-    "last_updated_at": "2026-02-28T23:04:21.333853Z",
-    "vehicle_id": "CAR_5",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "f3e1f833fb0f4034a95b0c83"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7891352877464,
-        37.95545062079435
-      ]
-    },
-    "confidence": 0.77,
-    "size": {
-      "width_cm": 11.7,
-      "depth_cm": 3.0
-    },
-    "road_name": "Vista Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_38.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333865Z",
-    "last_updated_at": "2026-02-28T23:04:21.333865Z",
-    "vehicle_id": "CAR_5",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "5e27d5b775bd410dbb44f032"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74843,
-        37.91839699999999
-      ]
-    },
-    "confidence": 0.76,
-    "size": {
-      "width_cm": 9.9,
-      "depth_cm": 12.8
-    },
-    "road_name": "nan",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_39.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333877Z",
-    "last_updated_at": "2026-02-28T23:04:21.333877Z",
-    "vehicle_id": "CAR_6",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "b4cee9f82a394cb3824bdfd8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76254370119912,
-        37.963464237575316
-      ]
-    },
-    "confidence": 0.8,
-    "size": {
-      "width_cm": 19.2,
-      "depth_cm": 13.6
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_40.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333889Z",
-    "last_updated_at": "2026-02-28T23:04:21.333889Z",
-    "vehicle_id": "CAR_2",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "96ce852ca2f6431cbbb8685e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7497943,
-        37.96934929999999
-      ]
-    },
-    "confidence": 0.9,
-    "size": {
-      "width_cm": 11.0,
-      "depth_cm": 3.9
-    },
-    "road_name": "Country Hills Court",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_41.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333907Z",
-    "last_updated_at": "2026-02-28T23:04:21.333907Z",
-    "vehicle_id": "CAR_8",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "20ed24a9be9d40bfa2f0c75e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77626109912637,
-        37.938760218894075
+        -91.76859411136677,
+        37.94210465230249
       ]
     },
     "confidence": 0.64,
     "size": {
-      "width_cm": 19.5,
-      "depth_cm": 4.7
+      "width_cm": 15.6,
+      "depth_cm": 8.9
     },
-    "road_name": "Fort Wyman Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_42.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333923Z",
-    "last_updated_at": "2026-02-28T23:04:21.333923Z",
-    "vehicle_id": "CAR_6",
-    "status": "resolved"
+    "image_url": "https://example.com/pothole_10.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3208218,
+    "last_updated_at": 1772323539.320822,
+    "road_name": "South Olive Street",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "397595f635d0496dbdc2bdfd"
+      "$oid": "5af13982be9d4746bbd705d6"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.77665466517568,
-        37.97175853616186
+        -91.77841653004857,
+        37.922419187807535
       ]
     },
-    "confidence": 0.85,
+    "confidence": 0.89,
     "size": {
-      "width_cm": 11.0,
-      "depth_cm": 3.4
+      "width_cm": 9.2,
+      "depth_cm": 6.1
     },
-    "road_name": "Cooper Street",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_43.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333935Z",
-    "last_updated_at": "2026-02-28T23:04:21.333935Z",
-    "vehicle_id": "CAR_1",
-    "status": "in progress"
+    "image_url": "https://example.com/pothole_11.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3208544,
+    "last_updated_at": 1772323539.3208544,
+    "road_name": "West Lions Club Drive",
+    "road_type": "secondary"
   },
   {
     "_id": {
-      "$oid": "c8708406f9bc468294f6b134"
+      "$oid": "84b967da6f5c4c5ba06fe44b"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.77164247009773,
-        37.94575556101638
+        -91.757517,
+        37.94786899999999
       ]
     },
-    "confidence": 0.61,
+    "confidence": 0.52,
     "size": {
-      "width_cm": 7.0,
-      "depth_cm": 5.9
+      "width_cm": 13.6,
+      "depth_cm": 10.1
     },
-    "road_name": "North Pine Street",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_44.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333947Z",
-    "last_updated_at": "2026-02-28T23:04:21.333947Z",
+    "image_url": "https://example.com/pothole_12.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "first_detected_at": 1772323539.320885,
+    "last_updated_at": 1772323539.320885,
+    "road_name": "Irene Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b4061a6dea0e4f618de63a2d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7221304,
+        37.982199200000004
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 18.5,
+      "depth_cm": 4.5
+    },
+    "image_url": "https://example.com/pothole_13.jpg",
     "vehicle_id": "CAR_0",
-    "status": "open"
+    "status": "resolved",
+    "first_detected_at": 1772323539.3209164,
+    "last_updated_at": 1772323539.3209167,
+    "road_name": "Hy Point Industrial Park Drive",
+    "road_type": "secondary"
   },
   {
     "_id": {
-      "$oid": "b4b2ec47159a4e5fa10e69cc"
+      "$oid": "e12dfd98ebf04746a663c2f2"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.790381,
-        37.95443800000001
+        -91.7765177,
+        37.9641897
       ]
     },
-    "confidence": 0.82,
+    "confidence": 0.58,
     "size": {
-      "width_cm": 17.5,
-      "depth_cm": 4.8
+      "width_cm": 6.1,
+      "depth_cm": 13.9
     },
-    "road_name": "Hyer Court",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_45.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333960Z",
-    "last_updated_at": "2026-02-28T23:04:21.333960Z",
-    "vehicle_id": "CAR_1",
-    "status": "in progress"
+    "image_url": "https://example.com/pothole_14.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3209462,
+    "last_updated_at": 1772323539.3209465,
+    "road_name": "['Windsor Street', 'Ventoura']",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "1cc399fe0599407b8ffbfb80"
+      "$oid": "beaa573d89934416aa347787"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.7628019,
-        37.9152728
+        -91.7773074,
+        37.97286540000001
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 17.4,
+      "depth_cm": 9.5
+    },
+    "image_url": "https://example.com/pothole_15.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3209882,
+    "last_updated_at": 1772323539.3209884,
+    "road_name": "Vichy Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "55b5c412949048368689bd97"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75764840660862,
+        37.9246899506965
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 9.5,
+      "depth_cm": 8.2
+    },
+    "image_url": "https://example.com/pothole_16.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.32103,
+    "last_updated_at": 1772323539.3210301,
+    "road_name": "East Lions Club Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "88c43838e82d42cfb2f44a69"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75116089153285,
+        37.95152692096841
       ]
     },
     "confidence": 0.69,
     "size": {
-      "width_cm": 10.9,
-      "depth_cm": 10.0
+      "width_cm": 6.2,
+      "depth_cm": 13.3
     },
-    "road_name": "Thomas Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_46.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333973Z",
-    "last_updated_at": "2026-02-28T23:04:21.333973Z",
+    "image_url": "https://example.com/pothole_17.jpg",
     "vehicle_id": "CAR_7",
-    "status": "in progress"
+    "status": "resolved",
+    "first_detected_at": 1772323539.321071,
+    "last_updated_at": 1772323539.3210711,
+    "road_name": "East 10th Street",
+    "road_type": "secondary"
   },
   {
     "_id": {
-      "$oid": "ff4ddfbd44684289975f65e4"
+      "$oid": "04507e5917814daf942d4456"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7836966,
+        37.92253560000001
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 10.8,
+      "depth_cm": 6.5
+    },
+    "image_url": "https://example.com/pothole_18.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "first_detected_at": 1772323539.3211133,
+    "last_updated_at": 1772323539.3211136,
+    "road_name": "West Lions Club Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "9bf3c18d402b41b69eb15c39"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75341698734384,
+        37.9494775677577
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 7.4,
+      "depth_cm": 9.1
+    },
+    "image_url": "https://example.com/pothole_19.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "first_detected_at": 1772323539.3211558,
+    "last_updated_at": 1772323539.321156,
+    "road_name": "Angus Valley Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f80670318d804463bc887a38"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75672,
+        37.973127
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 8.7,
+      "depth_cm": 9.2
+    },
+    "image_url": "https://example.com/pothole_20.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "first_detected_at": 1772323539.3211963,
+    "last_updated_at": 1772323539.3211966,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "ec09700a8d1b42e88c307587"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77452154485617,
+        37.95074812572855
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 14.9,
+      "depth_cm": 14.3
+    },
+    "image_url": "https://example.com/pothole_21.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "first_detected_at": 1772323539.321238,
+    "last_updated_at": 1772323539.3212383,
+    "road_name": "West 9th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "46529f25b370465ba4ef7cbb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77254740387117,
+        37.96079749344332
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 12.1,
+      "depth_cm": 12.8
+    },
+    "image_url": "https://example.com/pothole_22.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3212845,
+    "last_updated_at": 1772323539.321285,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "90039baad27a41119fd8a3c5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77835573393818,
+        37.9277035742659
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 11.4,
+      "depth_cm": 14.6
+    },
+    "image_url": "https://example.com/pothole_23.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3213272,
+    "last_updated_at": 1772323539.3213274,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c1cd8e32160d4102924d252b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75181143653985,
+        37.95526020955234
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 8.0,
+      "depth_cm": 8.1
+    },
+    "image_url": "https://example.com/pothole_24.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3213682,
+    "last_updated_at": 1772323539.3213687,
+    "road_name": "Truman Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0061d72d9fcc44dfb38d4f65"
     },
     "location": {
       "type": "Point",
@@ -1138,142 +610,190 @@
         37.926914999999994
       ]
     },
-    "confidence": 0.54,
-    "size": {
-      "width_cm": 8.0,
-      "depth_cm": 8.9
-    },
-    "road_name": "nan",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_47.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333985Z",
-    "last_updated_at": "2026-02-28T23:04:21.333985Z",
-    "vehicle_id": "CAR_5",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "51de3b57b9e94cebbbcb314d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7650666,
-        37.91747719999999
-      ]
-    },
     "confidence": 0.76,
     "size": {
-      "width_cm": 10.1,
-      "depth_cm": 12.6
+      "width_cm": 14.9,
+      "depth_cm": 3.2
     },
-    "road_name": "['Chelsea Lane', 'Robyn Leann Drive']",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_48.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.333997Z",
-    "last_updated_at": "2026-02-28T23:04:21.333997Z",
-    "vehicle_id": "CAR_9",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "e006e5894ca34636a90f9291"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76088981186575,
-        37.936473071684205
-      ]
-    },
-    "confidence": 0.59,
-    "size": {
-      "width_cm": 13.6,
-      "depth_cm": 4.0
-    },
-    "road_name": "Oxford Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_49.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334014Z",
-    "last_updated_at": "2026-02-28T23:04:21.334014Z",
-    "vehicle_id": "CAR_9",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "5b1b9b501b80446993f59fe4"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78959541257842,
-        37.94932738077043
-      ]
-    },
-    "confidence": 0.95,
-    "size": {
-      "width_cm": 14.2,
-      "depth_cm": 11.2
-    },
+    "image_url": "https://example.com/pothole_25.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.321412,
+    "last_updated_at": 1772323539.3214123,
     "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_50.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334032Z",
-    "last_updated_at": "2026-02-28T23:04:21.334032Z",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "81839c9f4f3d4e55afa99ca4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.73959182485163,
+        37.92555276453505
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 9.4,
+      "depth_cm": 10.5
+    },
+    "image_url": "https://example.com/pothole_26.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "first_detected_at": 1772323539.321453,
+    "last_updated_at": 1772323539.3214533,
+    "road_name": "Osage Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b30070807a5b4900bbf74acb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76281262355285,
+        37.94779795730853
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 19.9,
+      "depth_cm": 9.0
+    },
+    "image_url": "https://example.com/pothole_27.jpg",
     "vehicle_id": "CAR_2",
-    "status": "unconfirmed"
+    "status": "in progress",
+    "first_detected_at": 1772323539.3214855,
+    "last_updated_at": 1772323539.3214858,
+    "road_name": "East 5th Street",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "9191865572564386be28581e"
+      "$oid": "44fadf031f964975b471acb8"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.770912,
-        37.97000309999999
+        -91.790381,
+        37.95443800000001
       ]
     },
-    "confidence": 1.0,
+    "confidence": 0.89,
     "size": {
-      "width_cm": 18.3,
-      "depth_cm": 7.3
+      "width_cm": 10.9,
+      "depth_cm": 14.0
     },
-    "road_name": "Vienna Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_51.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334049Z",
-    "last_updated_at": "2026-02-28T23:04:21.334049Z",
-    "vehicle_id": "CAR_5",
-    "status": "in progress"
+    "image_url": "https://example.com/pothole_28.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3215163,
+    "last_updated_at": 1772323539.3215163,
+    "road_name": "Hyer Court",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "8ad06a09506444e092c43113"
+      "$oid": "d569d77e045142909e03fd84"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.77863372963765,
-        37.917826090633
+        -91.74090693607685,
+        37.92931583022279
       ]
     },
-    "confidence": 0.94,
+    "confidence": 0.89,
     "size": {
-      "width_cm": 6.9,
-      "depth_cm": 12.7
+      "width_cm": 17.0,
+      "depth_cm": 6.9
     },
-    "road_name": "South Bishop Avenue",
-    "road_type": "primary",
-    "image_url": "https://example.com/pothole_52.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334066Z",
-    "last_updated_at": "2026-02-28T23:04:21.334066Z",
+    "image_url": "https://example.com/pothole_29.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3215458,
+    "last_updated_at": 1772323539.3215458,
+    "road_name": "East Lions Club Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "24357b05c2044edcb0d77be8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.790381,
+        37.95443800000001
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 15.9,
+      "depth_cm": 3.8
+    },
+    "image_url": "https://example.com/pothole_30.jpg",
     "vehicle_id": "CAR_0",
-    "status": "open"
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3215814,
+    "last_updated_at": 1772323539.3215816,
+    "road_name": "Hyer Court",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "a1e785723b4f43ce995c18bf"
+      "$oid": "7c0b7d7e9e924f9aa8986439"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74795459498714,
+        37.97153480862131
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 12.3,
+      "depth_cm": 12.2
+    },
+    "image_url": "https://example.com/pothole_31.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.321625,
+    "last_updated_at": 1772323539.3216252,
+    "road_name": "McCutchen Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6071172af0b24a49b2914e39"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.755626,
+        37.974002
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 8.5,
+      "depth_cm": 9.7
+    },
+    "image_url": "https://example.com/pothole_32.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.3216558,
+    "last_updated_at": 1772323539.321656,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "a7c7e20423a84925bab9fe4f"
     },
     "location": {
       "type": "Point",
@@ -1282,142 +802,1222 @@
         37.9726675
       ]
     },
-    "confidence": 0.76,
+    "confidence": 0.84,
     "size": {
-      "width_cm": 16.7,
-      "depth_cm": 6.7
+      "width_cm": 18.7,
+      "depth_cm": 5.1
     },
+    "image_url": "https://example.com/pothole_33.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "first_detected_at": 1772323539.3216863,
+    "last_updated_at": 1772323539.3216865,
     "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_53.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334083Z",
-    "last_updated_at": "2026-02-28T23:04:21.334083Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "c991163c2da5409f94b5e28c"
+      "$oid": "f09f39d238b64a409a7774d0"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.770912,
-        37.97000309999999
+        -91.7789135,
+        37.9726675
       ]
     },
-    "confidence": 0.78,
+    "confidence": 0.75,
     "size": {
-      "width_cm": 19.6,
-      "depth_cm": 7.9
+      "width_cm": 17.5,
+      "depth_cm": 5.5
     },
-    "road_name": "Vienna Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_54.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334102Z",
-    "last_updated_at": "2026-02-28T23:04:21.334102Z",
-    "vehicle_id": "CAR_0",
-    "status": "resolved"
+    "image_url": "https://example.com/pothole_34.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3217154,
+    "last_updated_at": 1772323539.3217156,
+    "road_name": "Eagleson Drive",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "44f72c218d294c9aaeccfbac"
+      "$oid": "43b50cf88100407d8a689c5d"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.750594,
-        37.917875
+        -91.74358062355927,
+        37.97653577443882
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 16.2,
+      "depth_cm": 7.1
+    },
+    "image_url": "https://example.com/pothole_35.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3217456,
+    "last_updated_at": 1772323539.3217459,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "3e99130bf8474fabbf75c94e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7773074,
+        37.97286540000001
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 5.6,
+      "depth_cm": 14.0
+    },
+    "image_url": "https://example.com/pothole_36.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "first_detected_at": 1772323539.321782,
+    "last_updated_at": 1772323539.3217824,
+    "road_name": "Vichy Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d720a37f518d48faaf908983"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78130590491455,
+        37.957001902246255
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 13.8,
+      "depth_cm": 14.5
+    },
+    "image_url": "https://example.com/pothole_37.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3218656,
+    "last_updated_at": 1772323539.3218658,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "32961e54d2054dcd9e94c1cb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78278335681874,
+        37.93037940868538
       ]
     },
     "confidence": 0.82,
     "size": {
-      "width_cm": 17.6,
-      "depth_cm": 13.6
+      "width_cm": 10.6,
+      "depth_cm": 9.1
     },
-    "road_name": "Casey Lane",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_55.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334120Z",
-    "last_updated_at": "2026-02-28T23:04:21.334120Z",
+    "image_url": "https://example.com/pothole_38.jpg",
     "vehicle_id": "CAR_1",
-    "status": "in progress"
+    "status": "resolved",
+    "first_detected_at": 1772323539.3219092,
+    "last_updated_at": 1772323539.3219094,
+    "road_name": "['Parkwood Drive', 'Lanning Lane']",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "5ffbdc908f354625966407cb"
+      "$oid": "5febd9456c3d4df686740eb4"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.78528686838345,
-        37.95826355598004
+        -91.7727657,
+        37.9277196
       ]
     },
-    "confidence": 0.98,
+    "confidence": 0.81,
     "size": {
-      "width_cm": 14.1,
-      "depth_cm": 11.5
+      "width_cm": 9.6,
+      "depth_cm": 9.8
     },
-    "road_name": "Fraternity Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_56.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334137Z",
-    "last_updated_at": "2026-02-28T23:04:21.334137Z",
+    "image_url": "https://example.com/pothole_39.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "first_detected_at": 1772323539.3219473,
+    "last_updated_at": 1772323539.3219476,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "95f9b9c9c92f43ecaa220e98"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.752873712884,
+        37.93000791566098
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 9.6,
+      "depth_cm": 13.2
+    },
+    "image_url": "https://example.com/pothole_40.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3219776,
+    "last_updated_at": 1772323539.321978,
+    "road_name": "Cypress Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "773078c05b0e4f00bea4c18b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7496991,
+        37.969351399999994
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 6.8,
+      "depth_cm": 12.5
+    },
+    "image_url": "https://example.com/pothole_41.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "first_detected_at": 1772323539.3220084,
+    "last_updated_at": 1772323539.3220084,
+    "road_name": "Country Hills Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "207c27b6dc19436d92fb2e79"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78347451037011,
+        37.95537495460802
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 16.1,
+      "depth_cm": 7.0
+    },
+    "image_url": "https://example.com/pothole_42.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3220377,
+    "last_updated_at": 1772323539.322038,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "17b1fb2ac5c0487ba9b10784"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77057358174507,
+        37.949955478703885
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 14.4,
+      "depth_cm": 6.1
+    },
+    "image_url": "https://example.com/pothole_43.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3220658,
+    "last_updated_at": 1772323539.322066,
+    "road_name": "West 8th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2db3d3b2dd14472b8bf44079"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.80330287209149,
+        37.94265601421977
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 16.3,
+      "depth_cm": 5.6
+    },
+    "image_url": "https://example.com/pothole_44.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3220963,
+    "last_updated_at": 1772323539.3220966,
+    "road_name": "County Road 8110",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e6b3d1b500a845c194f650a3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78539057351776,
+        37.94434811730968
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 8.9,
+      "depth_cm": 9.1
+    },
+    "image_url": "https://example.com/pothole_45.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3221262,
+    "last_updated_at": 1772323539.3221262,
+    "road_name": "Kingshighway",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "2a0ac0a92e3a44f0a2b7d535"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7721684756476,
+        37.95418414046082
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 7.7,
+      "depth_cm": 13.4
+    },
+    "image_url": "https://example.com/pothole_46.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3221562,
+    "last_updated_at": 1772323539.3221564,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e1dc13967b3345b1a40c0fcf"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7748352646035,
+        37.957501494160944
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 7.9,
+      "depth_cm": 5.1
+    },
+    "image_url": "https://example.com/pothole_47.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3221855,
+    "last_updated_at": 1772323539.3221858,
+    "road_name": "North Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "748ba8723ad74df5bd9c4f13"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7346555,
+        37.94765299999999
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 17.1,
+      "depth_cm": 8.4
+    },
+    "image_url": "https://example.com/pothole_48.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3222146,
+    "last_updated_at": 1772323539.3222148,
+    "road_name": "Nottingham Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6bfa63e784fd45f08f3dc160"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.788165,
+        37.95776229999999
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 13.9,
+      "depth_cm": 3.4
+    },
+    "image_url": "https://example.com/pothole_49.jpg",
     "vehicle_id": "CAR_2",
-    "status": "unconfirmed"
+    "status": "resolved",
+    "first_detected_at": 1772323539.3222446,
+    "last_updated_at": 1772323539.322245,
+    "road_name": "Fraternity Circle",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "91c15f40886247b18813e643"
+      "$oid": "aa49057d0f044fc595c3cb11"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.7537178,
-        37.9593838
+        -91.73984638300621,
+        37.96937141713761
       ]
     },
-    "confidence": 0.64,
+    "confidence": 0.85,
     "size": {
-      "width_cm": 6.6,
+      "width_cm": 9.3,
+      "depth_cm": 13.3
+    },
+    "image_url": "https://example.com/pothole_50.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3222756,
+    "last_updated_at": 1772323539.3222759,
+    "road_name": "County Road 3060",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "3e6d95192b734e129a71ec69"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75044100899096,
+        37.95635831501807
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 10.2,
+      "depth_cm": 12.0
+    },
+    "image_url": "https://example.com/pothole_51.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3223033,
+    "last_updated_at": 1772323539.3223035,
+    "road_name": "Hillview Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3248cfbfd5824853afe432ef"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77568096242845,
+        37.96756635764912
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 10.7,
+      "depth_cm": 7.7
+    },
+    "image_url": "https://example.com/pothole_52.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3223364,
+    "last_updated_at": 1772323539.3223364,
+    "road_name": "Woodcrest Circle",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e1d026ba9cfe4c53ad087e90"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77352850074256,
+        37.96061476370249
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 11.7,
+      "depth_cm": 6.9
+    },
+    "image_url": "https://example.com/pothole_53.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.322368,
+    "last_updated_at": 1772323539.3223686,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "15d07145897541a79c0c6dd7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.754177,
+        37.92156399999999
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 6.9,
+      "depth_cm": 14.8
+    },
+    "image_url": "https://example.com/pothole_54.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "first_detected_at": 1772323539.3223968,
+    "last_updated_at": 1772323539.322397,
+    "road_name": "Ironhorse Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "44ff8b7b478b4aaeae86a486"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7830515,
+        37.9223737
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 8.4,
       "depth_cm": 14.2
     },
-    "road_name": "East 18th Street",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_57.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334150Z",
-    "last_updated_at": "2026-02-28T23:04:21.334150Z",
-    "vehicle_id": "CAR_2",
-    "status": "resolved"
+    "image_url": "https://example.com/pothole_55.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "first_detected_at": 1772323539.3224256,
+    "last_updated_at": 1772323539.3224256,
+    "road_name": "West Lions Club Drive",
+    "road_type": "tertiary"
   },
   {
     "_id": {
-      "$oid": "819bc00ccea247d6bab418dd"
+      "$oid": "ac0d7b6fe57f42f8bdc90744"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.75824670917225,
-        37.97079561479305
+        -91.74900166586012,
+        37.92815615192441
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 19.0,
+      "depth_cm": 8.3
+    },
+    "image_url": "https://example.com/pothole_56.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "first_detected_at": 1772323539.322454,
+    "last_updated_at": 1772323539.3224542,
+    "road_name": "East Lions Club Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "754780e8d9e94aeaa40c17f9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7346555,
+        37.94765299999999
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 5.5,
+      "depth_cm": 4.7
+    },
+    "image_url": "https://example.com/pothole_57.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.322485,
+    "last_updated_at": 1772323539.3224852,
+    "road_name": "Nottingham Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "07d378dd99b5430ab1f58535"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75477990266612,
+        37.92364869230621
       ]
     },
     "confidence": 0.9,
     "size": {
-      "width_cm": 10.5,
-      "depth_cm": 11.2
+      "width_cm": 17.9,
+      "depth_cm": 8.6
     },
-    "road_name": "nan",
-    "road_type": "motorway",
     "image_url": "https://example.com/pothole_58.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334163Z",
-    "last_updated_at": "2026-02-28T23:04:21.334163Z",
-    "vehicle_id": "CAR_5",
-    "status": "in progress"
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3225152,
+    "last_updated_at": 1772323539.3225152,
+    "road_name": "Cobblestone Drive",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "ee0f60f2d3694095bb2012a2"
+      "$oid": "c8f0317766844d6f8aaa9091"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75105022164752,
+        37.95842237452273
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 8.3,
+      "depth_cm": 13.7
+    },
+    "image_url": "https://example.com/pothole_59.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3225439,
+    "last_updated_at": 1772323539.322544,
+    "road_name": "Eastwood Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4e4329f7ad18473488478438"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.79729024012705,
+        37.944728100140836
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 10.9,
+      "depth_cm": 6.4
+    },
+    "image_url": "https://example.com/pothole_60.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "first_detected_at": 1772323539.3225718,
+    "last_updated_at": 1772323539.322572,
+    "road_name": "Westside Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "ee8170a5b1a24dfd8d8ac240"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.778056721855,
+        37.9413816631867
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 12.3,
+      "depth_cm": 7.6
+    },
+    "image_url": "https://example.com/pothole_61.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3225994,
+    "last_updated_at": 1772323539.3225996,
+    "road_name": "South Spilman Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2865a32600404a3d8c94c477"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7346555,
+        37.94765299999999
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 17.7,
+      "depth_cm": 5.6
+    },
+    "image_url": "https://example.com/pothole_62.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.322628,
+    "last_updated_at": 1772323539.3226285,
+    "road_name": "Nottingham Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8bdcfec9924342d2a25fd245"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7547794821655,
+        37.9744553273334
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 14.8,
+      "depth_cm": 10.3
+    },
+    "image_url": "https://example.com/pothole_63.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.322658,
+    "last_updated_at": 1772323539.3226583,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "bcbf4b82385b4736b1c564b7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78889318653458,
+        37.95049810211953
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 10.6,
+      "depth_cm": 6.0
+    },
+    "image_url": "https://example.com/pothole_64.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3226876,
+    "last_updated_at": 1772323539.322688,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "df2b88cdbaa24e65b7f0f23f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7787462,
+        37.972718099999994
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 6.9,
+      "depth_cm": 4.4
+    },
+    "image_url": "https://example.com/pothole_65.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "first_detected_at": 1772323539.3227196,
+    "last_updated_at": 1772323539.3227198,
+    "road_name": "Eagleson Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3700ad889c924dc9a5eaa484"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77031223060322,
+        37.94917881033748
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 9.9,
+      "depth_cm": 11.7
+    },
+    "image_url": "https://example.com/pothole_66.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "first_detected_at": 1772323539.3227487,
+    "last_updated_at": 1772323539.322749,
+    "road_name": "East 7th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "55d1ceeb274d472abd1cf621"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74447397787688,
+        37.958694480999846
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 13.9,
+      "depth_cm": 3.8
+    },
+    "image_url": "https://example.com/pothole_67.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "first_detected_at": 1772323539.322777,
+    "last_updated_at": 1772323539.3227773,
+    "road_name": "Liberty Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "09e00b588063416499d66d3c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.80328820231509,
+        37.94620610376931
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 9.3,
+      "depth_cm": 10.6
+    },
+    "image_url": "https://example.com/pothole_68.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3228068,
+    "last_updated_at": 1772323539.322807,
+    "road_name": "County Road 8110",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6a5b62518bed459cb2c4459a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7391137518704,
+        37.9697828402286
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 18.6,
+      "depth_cm": 6.2
+    },
+    "image_url": "https://example.com/pothole_69.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.322834,
+    "last_updated_at": 1772323539.322834,
+    "road_name": "County Road 3060",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "cb630df088a34f3b82a7197e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74543314256609,
+        37.92813126067074
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 16.2,
+      "depth_cm": 8.5
+    },
+    "image_url": "https://example.com/pothole_70.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3228624,
+    "last_updated_at": 1772323539.3228626,
+    "road_name": "East Lions Club Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "3fc91283990749faa72c4b14"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76713383444428,
+        37.92651556100443
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 15.5,
+      "depth_cm": 10.4
+    },
+    "image_url": "https://example.com/pothole_71.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "first_detected_at": 1772323539.3228908,
+    "last_updated_at": 1772323539.3228908,
+    "road_name": "South Rolla Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "d1263fac4b204d8a9896bceb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77742216234982,
+        37.966654233023185
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 12.6,
+      "depth_cm": 11.4
+    },
+    "image_url": "https://example.com/pothole_72.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3229187,
+    "last_updated_at": 1772323539.322919,
+    "road_name": "Alpha Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "18c6fa2d889749c59c7be306"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74813738746624,
+        37.929994327635136
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 13.1,
+      "depth_cm": 9.9
+    },
+    "image_url": "https://example.com/pothole_73.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3229458,
+    "last_updated_at": 1772323539.3229463,
+    "road_name": "nan",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "eb0edf02f37341518c27cfe0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.790532,
+        37.93875599999999
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 16.3,
+      "depth_cm": 13.5
+    },
+    "image_url": "https://example.com/pothole_74.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.322976,
+    "last_updated_at": 1772323539.322976,
+    "road_name": "Bridge School Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a69b4fda241e4483988de230"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78254640483267,
+        37.94411012576171
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 5.3,
+      "depth_cm": 12.2
+    },
+    "image_url": "https://example.com/pothole_75.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "first_detected_at": 1772323539.323004,
+    "last_updated_at": 1772323539.3230042,
+    "road_name": "Lynwood Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c0d95754ba0d43c5a07a1877"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77868356995667,
+        37.917900609650616
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 17.9,
+      "depth_cm": 5.8
+    },
+    "image_url": "https://example.com/pothole_76.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "first_detected_at": 1772323539.3230329,
+    "last_updated_at": 1772323539.3230329,
+    "road_name": "South Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "0b96beafd138474988949662"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7773074,
+        37.97286540000001
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 15.3,
+      "depth_cm": 7.1
+    },
+    "image_url": "https://example.com/pothole_77.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "first_detected_at": 1772323539.323062,
+    "last_updated_at": 1772323539.3230622,
+    "road_name": "Vichy Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3376da10ef0c4e49adf2d9b0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7738018,
+        37.9730474
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 7.4,
+      "depth_cm": 13.2
+    },
+    "image_url": "https://example.com/pothole_78.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3230894,
+    "last_updated_at": 1772323539.3230896,
+    "road_name": "Camelot Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "69c876e270ce4454a14fc908"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74587206809127,
+        37.925567274093154
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 12.9,
+      "depth_cm": 9.7
+    },
+    "image_url": "https://example.com/pothole_79.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3231177,
+    "last_updated_at": 1772323539.3231177,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "612ef8a5f252410787496a38"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7695097,
+        37.96297129999999
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 17.2,
+      "depth_cm": 11.4
+    },
+    "image_url": "https://example.com/pothole_80.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "first_detected_at": 1772323539.3231456,
+    "last_updated_at": 1772323539.3231459,
+    "road_name": "Fairburn Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2e80f95777904d8eb4bf3c78"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7843528,
+        37.9610774
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 13.0,
+      "depth_cm": 10.0
+    },
+    "image_url": "https://example.com/pothole_81.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3231761,
+    "last_updated_at": 1772323539.3231764,
+    "road_name": "Crinoidal Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "66a5d4dc33af47959b448c2f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7768675,
+        37.9149745
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 6.1,
+      "depth_cm": 5.6
+    },
+    "image_url": "https://example.com/pothole_82.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "first_detected_at": 1772323539.323204,
+    "last_updated_at": 1772323539.3232043,
+    "road_name": "West Little Oaks Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "125f1977dc1646d189779623"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.788165,
+        37.95776229999999
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 16.2,
+      "depth_cm": 6.6
+    },
+    "image_url": "https://example.com/pothole_83.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.3232327,
+    "last_updated_at": 1772323539.3232331,
+    "road_name": "Fraternity Circle",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6dea6872cab340c0a9ddb9ff"
     },
     "location": {
       "type": "Point",
@@ -1426,977 +2026,377 @@
         37.94713329999999
       ]
     },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 18.4,
+      "depth_cm": 13.6
+    },
+    "image_url": "https://example.com/pothole_84.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3232622,
+    "last_updated_at": 1772323539.3232622,
+    "road_name": "County Road 8110",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a59921a05f584990b09e214d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.754284,
+        37.97466399999999
+      ]
+    },
     "confidence": 0.98,
     "size": {
-      "width_cm": 8.5,
-      "depth_cm": 4.0
+      "width_cm": 11.9,
+      "depth_cm": 4.2
     },
-    "road_name": "County Road 8110",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_59.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334175Z",
-    "last_updated_at": "2026-02-28T23:04:21.334175Z",
-    "vehicle_id": "CAR_6",
-    "status": "resolved"
+    "image_url": "https://example.com/pothole_85.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3233035,
+    "last_updated_at": 1772323539.3233037,
+    "road_name": "nan",
+    "road_type": "motorway"
   },
   {
     "_id": {
-      "$oid": "496a1e22f665488aa57dd3c7"
+      "$oid": "f7d04cf7c5e54cdf948cd272"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.75582528119286,
-        37.92557183854932
-      ]
-    },
-    "confidence": 0.8,
-    "size": {
-      "width_cm": 9.6,
-      "depth_cm": 12.1
-    },
-    "road_name": "East Lions Club Drive",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_60.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334193Z",
-    "last_updated_at": "2026-02-28T23:04:21.334193Z",
-    "vehicle_id": "CAR_4",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "292cf31bfb2b4c408b130c54"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75250068204352,
-        37.95643324358394
-      ]
-    },
-    "confidence": 0.82,
-    "size": {
-      "width_cm": 8.5,
-      "depth_cm": 5.5
-    },
-    "road_name": "Forum Drive",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_61.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334206Z",
-    "last_updated_at": "2026-02-28T23:04:21.334206Z",
-    "vehicle_id": "CAR_4",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "7d26faa766e54842addc7822"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76197005447735,
-        37.937163783685484
-      ]
-    },
-    "confidence": 0.74,
-    "size": {
-      "width_cm": 19.6,
-      "depth_cm": 7.4
-    },
-    "road_name": "Southview Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_62.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334221Z",
-    "last_updated_at": "2026-02-28T23:04:21.334221Z",
-    "vehicle_id": "CAR_5",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "7c48db3f772f4ae1aff05721"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7658844113345,
-        37.94319918983925
-      ]
-    },
-    "confidence": 0.97,
-    "size": {
-      "width_cm": 16.6,
-      "depth_cm": 12.2
-    },
-    "road_name": "Rolla Gardens Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_63.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334238Z",
-    "last_updated_at": "2026-02-28T23:04:21.334238Z",
-    "vehicle_id": "CAR_3",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "d9cface7c86a462d89b9bd7e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.73487294184426,
-        37.97349109825301
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 13.7,
-      "depth_cm": 6.5
-    },
-    "road_name": "Industrial Park Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_64.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334278Z",
-    "last_updated_at": "2026-02-28T23:04:21.334278Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "2d6a84e1ef0a46338f8aae72"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.79685087410269,
-        37.93673537023774
+        -91.7344001,
+        37.9482618
       ]
     },
     "confidence": 0.88,
     "size": {
-      "width_cm": 13.3,
-      "depth_cm": 5.0
-    },
-    "road_name": "Bridge School Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_65.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334298Z",
-    "last_updated_at": "2026-02-28T23:04:21.334298Z",
-    "vehicle_id": "CAR_0",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "e790850d0fa94024b46df850"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7842721,
-        37.954076799999996
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
       "width_cm": 13.4,
-      "depth_cm": 5.3
-    },
-    "road_name": "Duane Avenue",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_66.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334317Z",
-    "last_updated_at": "2026-02-28T23:04:21.334317Z",
-    "vehicle_id": "CAR_0",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "f7cdec94793a4377a24261cd"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.56,
-    "size": {
-      "width_cm": 15.5,
-      "depth_cm": 10.3
-    },
-    "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_67.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334334Z",
-    "last_updated_at": "2026-02-28T23:04:21.334334Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "b4b52cd3dcb7401f9ad140b8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75977778721833,
-        37.92511892947976
-      ]
-    },
-    "confidence": 0.97,
-    "size": {
-      "width_cm": 11.1,
-      "depth_cm": 12.5
-    },
-    "road_name": "Southview Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_68.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334351Z",
-    "last_updated_at": "2026-02-28T23:04:21.334351Z",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "fa019eb52ac2494fa51df20f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7521757991114,
-        37.943070837052225
-      ]
-    },
-    "confidence": 0.6,
-    "size": {
-      "width_cm": 9.5,
-      "depth_cm": 3.9
-    },
-    "road_name": "Honeysuckle Lane",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_69.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334367Z",
-    "last_updated_at": "2026-02-28T23:04:21.334367Z",
-    "vehicle_id": "CAR_1",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "cfa58f65e9b44d678a837b0c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75720076183326,
-        37.97257277865627
-      ]
-    },
-    "confidence": 0.81,
-    "size": {
-      "width_cm": 15.3,
-      "depth_cm": 7.5
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_70.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334383Z",
-    "last_updated_at": "2026-02-28T23:04:21.334383Z",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "5c76611e6fa84f0fb5d43f8b"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77488065586672,
-        37.93148139419202
-      ]
-    },
-    "confidence": 0.97,
-    "size": {
-      "width_cm": 12.2,
-      "depth_cm": 10.1
-    },
-    "road_name": "Lanning Lane",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_71.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334400Z",
-    "last_updated_at": "2026-02-28T23:04:21.334400Z",
-    "vehicle_id": "CAR_4",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "8b889dd962a94a0cab44eb11"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.754725,
-        37.974481
-      ]
-    },
-    "confidence": 0.83,
-    "size": {
-      "width_cm": 5.9,
-      "depth_cm": 11.2
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_72.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334418Z",
-    "last_updated_at": "2026-02-28T23:04:21.334418Z",
-    "vehicle_id": "CAR_0",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "46524cdd8ea34a87a9387608"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7628274,
-        37.916611499999995
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 18.2,
-      "depth_cm": 11.3
-    },
-    "road_name": "['Thomas Drive', 'Traci Dawn Drive']",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_73.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334433Z",
-    "last_updated_at": "2026-02-28T23:04:21.334433Z",
-    "vehicle_id": "CAR_7",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "2651e91e83ca4edb977dfb61"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74136824309224,
-        37.95028387021232
-      ]
-    },
-    "confidence": 0.63,
-    "size": {
-      "width_cm": 13.1,
       "depth_cm": 11.8
     },
-    "road_name": "Wakefield Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_74.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334448Z",
-    "last_updated_at": "2026-02-28T23:04:21.334448Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "f3a0e5a299784f05beed1a83"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76849858837392,
-        37.92921147505881
-      ]
-    },
-    "confidence": 0.6,
-    "size": {
-      "width_cm": 7.4,
-      "depth_cm": 5.4
-    },
-    "road_name": "South Rolla Street",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_75.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334461Z",
-    "last_updated_at": "2026-02-28T23:04:21.334461Z",
+    "image_url": "https://example.com/pothole_86.jpg",
     "vehicle_id": "CAR_7",
-    "status": "in progress"
+    "status": "open",
+    "first_detected_at": 1772323539.3233445,
+    "last_updated_at": 1772323539.3233447,
+    "road_name": "Kensington Square",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "1e2042e0b7a24beea52ede26"
+      "$oid": "8f04a7af0a744a05b3921abb"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.761062,
-        37.94044290000001
+        -91.73765739768491,
+        37.92876568879471
       ]
     },
-    "confidence": 0.81,
-    "size": {
-      "width_cm": 9.6,
-      "depth_cm": 7.9
-    },
-    "road_name": "Pete Avenue",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_76.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334477Z",
-    "last_updated_at": "2026-02-28T23:04:21.334477Z",
-    "vehicle_id": "CAR_1",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "5b442eb4ab954261b1a97bca"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75998948124587,
-        37.95687699603044
-      ]
-    },
-    "confidence": 0.58,
-    "size": {
-      "width_cm": 19.4,
-      "depth_cm": 8.5
-    },
-    "road_name": "Leroy Street",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_77.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334497Z",
-    "last_updated_at": "2026-02-28T23:04:21.334497Z",
-    "vehicle_id": "CAR_1",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "d51486964ceb4d279c8ad575"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75381112399403,
-        37.9748175631227
-      ]
-    },
-    "confidence": 0.98,
+    "confidence": 0.57,
     "size": {
       "width_cm": 12.2,
-      "depth_cm": 11.4
+      "depth_cm": 12.2
     },
+    "image_url": "https://example.com/pothole_87.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3233871,
+    "last_updated_at": 1772323539.3233874,
     "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_78.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334511Z",
-    "last_updated_at": "2026-02-28T23:04:21.334511Z",
-    "vehicle_id": "CAR_7",
-    "status": "open"
+    "road_type": "primary"
   },
   {
     "_id": {
-      "$oid": "02c64a576f0a49a28b1f150f"
+      "$oid": "236446369db8492ebe9cf06d"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.78696,
-        37.92739499999999
+        -91.77728953668286,
+        37.94420211181318
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 6.7,
+      "depth_cm": 4.9
+    },
+    "image_url": "https://example.com/pothole_88.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "first_detected_at": 1772323539.3234286,
+    "last_updated_at": 1772323539.3234286,
+    "road_name": "Black Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9619a514443b46a181ec93f2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.803282,
+        37.94713329999999
       ]
     },
     "confidence": 0.86,
     "size": {
-      "width_cm": 12.9,
-      "depth_cm": 12.8
+      "width_cm": 6.7,
+      "depth_cm": 9.2
     },
-    "road_name": "nan",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_79.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334523Z",
-    "last_updated_at": "2026-02-28T23:04:21.334523Z",
-    "vehicle_id": "CAR_7",
-    "status": "open"
+    "image_url": "https://example.com/pothole_89.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3234725,
+    "last_updated_at": 1772323539.3234727,
+    "road_name": "County Road 8110",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "45dd27633481466f99a4dbee"
+      "$oid": "8a43051af62442fe9e31ea17"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.752402,
-        37.919124
+        -91.76889748930633,
+        37.957063977952664
       ]
     },
-    "confidence": 0.61,
-    "size": {
-      "width_cm": 13.1,
-      "depth_cm": 13.0
-    },
-    "road_name": "Britt Lane",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_80.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334539Z",
-    "last_updated_at": "2026-02-28T23:04:21.334539Z",
-    "vehicle_id": "CAR_7",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "4b5bf4b11fe54d3b8cecbf29"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7826962,
-        37.9383069
-      ]
-    },
-    "confidence": 0.63,
-    "size": {
-      "width_cm": 19.5,
-      "depth_cm": 12.1
-    },
-    "road_name": "Lester Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_81.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334558Z",
-    "last_updated_at": "2026-02-28T23:04:21.334558Z",
-    "vehicle_id": "CAR_8",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "251c1db0f9c44af1aefde8d3"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.782405,
-        37.96209199999999
-      ]
-    },
-    "confidence": 0.7,
+    "confidence": 0.94,
     "size": {
       "width_cm": 10.5,
-      "depth_cm": 11.2
+      "depth_cm": 7.1
     },
-    "road_name": "White Colums Drive",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_82.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334575Z",
-    "last_updated_at": "2026-02-28T23:04:21.334575Z",
-    "vehicle_id": "CAR_2",
-    "status": "resolved"
+    "image_url": "https://example.com/pothole_90.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.323515,
+    "last_updated_at": 1772323539.3235152,
+    "road_name": "North Oak Street",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "5d07280e6e1c422eb380b375"
+      "$oid": "4ccb255f71b74d2ebf22e83a"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.76160971670417,
-        37.96469999260507
+        -91.756087,
+        37.97369099999999
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 17.1,
+      "depth_cm": 11.7
+    },
+    "image_url": "https://example.com/pothole_91.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "first_detected_at": 1772323539.3235579,
+    "last_updated_at": 1772323539.323558,
+    "road_name": "nan",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "704fca9f01a14b75b2f90565"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.81076636464464,
+        37.933926212052945
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 11.3,
+      "depth_cm": 9.7
+    },
+    "image_url": "https://example.com/pothole_92.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "first_detected_at": 1772323539.3236039,
+    "last_updated_at": 1772323539.323604,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cbcd9a9d5bc5492b8d1d57b4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.81068300000001,
+        37.93290899999999
       ]
     },
     "confidence": 0.64,
     "size": {
-      "width_cm": 15.4,
-      "depth_cm": 9.5
+      "width_cm": 9.5,
+      "depth_cm": 10.7
     },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_83.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334621Z",
-    "last_updated_at": "2026-02-28T23:04:21.334621Z",
-    "vehicle_id": "CAR_4",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "745feaf03df84ac7a0dbbf5e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74135576593073,
-        37.95429968754312
-      ]
-    },
-    "confidence": 0.65,
-    "size": {
-      "width_cm": 13.3,
-      "depth_cm": 5.0
-    },
-    "road_name": "Timber Creek Road",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_84.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334651Z",
-    "last_updated_at": "2026-02-28T23:04:21.334651Z",
+    "image_url": "https://example.com/pothole_93.jpg",
     "vehicle_id": "CAR_1",
-    "status": "open"
+    "status": "open",
+    "first_detected_at": 1772323539.3236413,
+    "last_updated_at": 1772323539.3236415,
+    "road_name": "nan",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "4d6c1e9adee2414ab9aba74a"
+      "$oid": "7eed864f91eb4672a09b40e4"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.74801528243151,
-        37.96195352839356
+        -91.7769982805501,
+        37.92153051579292
       ]
     },
     "confidence": 0.89,
     "size": {
       "width_cm": 10.1,
-      "depth_cm": 8.0
-    },
-    "road_name": "McCutchen Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_85.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334679Z",
-    "last_updated_at": "2026-02-28T23:04:21.334679Z",
-    "vehicle_id": "CAR_6",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "ecc944086808473bba657071"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.73402150000001,
-        37.972558899999996
-      ]
-    },
-    "confidence": 0.72,
-    "size": {
-      "width_cm": 16.5,
-      "depth_cm": 14.7
-    },
-    "road_name": "County Road 3060",
-    "road_type": "secondary",
-    "image_url": "https://example.com/pothole_86.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334697Z",
-    "last_updated_at": "2026-02-28T23:04:21.334697Z",
-    "vehicle_id": "CAR_0",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "bc8666e1efb54b229d766a6c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76908861197855,
-        37.95517768565557
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 19.3,
-      "depth_cm": 9.1
-    },
-    "road_name": "['North Oak Street', 'East 14th Street']",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_87.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334711Z",
-    "last_updated_at": "2026-02-28T23:04:21.334711Z",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "6a87350c5a954979b2e2c430"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76873086649564,
-        37.92987439418094
-      ]
-    },
-    "confidence": 0.68,
-    "size": {
-      "width_cm": 14.4,
-      "depth_cm": 4.3
-    },
-    "road_name": "South Rolla Street",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_88.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334725Z",
-    "last_updated_at": "2026-02-28T23:04:21.334725Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "bb194e2ab26441a781de9616"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 19.8,
-      "depth_cm": 8.0
-    },
-    "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_89.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334737Z",
-    "last_updated_at": "2026-02-28T23:04:21.334737Z",
-    "vehicle_id": "CAR_0",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "01ebb04a1177482387aece02"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74511487543414,
-        37.97637273024832
-      ]
-    },
-    "confidence": 0.68,
-    "size": {
-      "width_cm": 7.7,
-      "depth_cm": 14.9
-    },
-    "road_name": "nan",
-    "road_type": "motorway",
-    "image_url": "https://example.com/pothole_90.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334750Z",
-    "last_updated_at": "2026-02-28T23:04:21.334750Z",
-    "vehicle_id": "CAR_3",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "56d3381d55f2422096439a16"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.95,
-    "size": {
-      "width_cm": 8.5,
-      "depth_cm": 8.0
-    },
-    "road_name": "Eagleson Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_91.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334764Z",
-    "last_updated_at": "2026-02-28T23:04:21.334764Z",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "81a48d0f03d2421e871a5053"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.777409,
-        37.96717499999998
-      ]
-    },
-    "confidence": 0.83,
-    "size": {
-      "width_cm": 15.8,
       "depth_cm": 4.8
     },
-    "road_name": "Woodcrest Circle",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_92.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334777Z",
-    "last_updated_at": "2026-02-28T23:04:21.334777Z",
-    "vehicle_id": "CAR_4",
-    "status": "in progress"
+    "image_url": "https://example.com/pothole_94.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "first_detected_at": 1772323539.3236723,
+    "last_updated_at": 1772323539.3236723,
+    "road_name": "['Ozark Terrace', 'Keeton Road']",
+    "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "14708157ec14458ea9af387a"
+      "$oid": "01766c08a2a14e31ad5783d2"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.78093251195659,
-        37.930538642935346
+        -91.7402273,
+        37.916235599999986
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 13.4,
+      "depth_cm": 8.0
+    },
+    "image_url": "https://example.com/pothole_95.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3237069,
+    "last_updated_at": 1772323539.323707,
+    "road_name": "nan",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "47733eb31e45489993051eaa"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78258789591993,
+        37.95794598906767
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 16.4,
+      "depth_cm": 6.9
+    },
+    "image_url": "https://example.com/pothole_96.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "first_detected_at": 1772323539.3237364,
+    "last_updated_at": 1772323539.3237364,
+    "road_name": "White Colums Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "9c93567488e243a0898f0f89"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75277723987604,
+        37.9442325754055
+      ]
+    },
+    "confidence": 0.94,
+    "size": {
+      "width_cm": 17.6,
+      "depth_cm": 7.6
+    },
+    "image_url": "https://example.com/pothole_97.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "first_detected_at": 1772323539.3237653,
+    "last_updated_at": 1772323539.3237655,
+    "road_name": "Soest Road",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "199e56d9a9304db59b14a219"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75711163427792,
+        37.96298488722872
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 16.1,
+      "depth_cm": 11.8
+    },
+    "image_url": "https://example.com/pothole_98.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.3237946,
+    "last_updated_at": 1772323539.3237946,
+    "road_name": "Farrar Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "b4ee3304c3ca4a5eb8e02fc9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76400499053067,
+        37.955246360752994
       ]
     },
     "confidence": 0.58,
     "size": {
-      "width_cm": 8.3,
-      "depth_cm": 4.1
+      "width_cm": 13.0,
+      "depth_cm": 3.8
     },
-    "road_name": "Aldi Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_93.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334790Z",
-    "last_updated_at": "2026-02-28T23:04:21.334790Z",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "2ffee5864b1249b5b3a08902"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76201512221682,
-        37.94594609687029
-      ]
-    },
-    "confidence": 0.72,
-    "size": {
-      "width_cm": 5.6,
-      "depth_cm": 8.1
-    },
-    "road_name": "Holloway Street",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_94.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334802Z",
-    "last_updated_at": "2026-02-28T23:04:21.334802Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
-  },
-  {
-    "_id": {
-      "$oid": "79f79b258a514afeb5bd247a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77122122041516,
-        37.937493685029445
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 17.6,
-      "depth_cm": 4.9
-    },
-    "road_name": "South Rolla Street",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_95.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334813Z",
-    "last_updated_at": "2026-02-28T23:04:21.334813Z",
-    "vehicle_id": "CAR_8",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "0dfd8eb8102541339a7fe25e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76468563455488,
-        37.94152899606785
-      ]
-    },
-    "confidence": 0.83,
-    "size": {
-      "width_cm": 15.2,
-      "depth_cm": 14.9
-    },
-    "road_name": "Green Acres Drive",
-    "road_type": "residential",
-    "image_url": "https://example.com/pothole_96.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334826Z",
-    "last_updated_at": "2026-02-28T23:04:21.334826Z",
-    "vehicle_id": "CAR_3",
-    "status": "open"
-  },
-  {
-    "_id": {
-      "$oid": "d7894f3803c84112a372d87f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.782405,
-        37.96209199999999
-      ]
-    },
-    "confidence": 0.83,
-    "size": {
-      "width_cm": 19.2,
-      "depth_cm": 7.4
-    },
-    "road_name": "White Colums Drive",
-    "road_type": "tertiary",
-    "image_url": "https://example.com/pothole_97.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334840Z",
-    "last_updated_at": "2026-02-28T23:04:21.334840Z",
-    "vehicle_id": "CAR_6",
-    "status": "resolved"
-  },
-  {
-    "_id": {
-      "$oid": "fc473dd1add543bdaff63ade"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.8010189364403,
-        37.94612931532691
-      ]
-    },
-    "confidence": 0.96,
-    "size": {
-      "width_cm": 14.1,
-      "depth_cm": 7.3
-    },
-    "road_name": "Westside Drive",
-    "road_type": "unclassified",
-    "image_url": "https://example.com/pothole_98.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334858Z",
-    "last_updated_at": "2026-02-28T23:04:21.334858Z",
-    "vehicle_id": "CAR_7",
-    "status": "in progress"
-  },
-  {
-    "_id": {
-      "$oid": "8891cec188f4473580c158f8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.738959,
-        37.941030000000005
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 14.0,
-      "depth_cm": 3.1
-    },
-    "road_name": "Briarwood Drive",
-    "road_type": "residential",
     "image_url": "https://example.com/pothole_99.jpg",
-    "first_detected_at": "2026-02-28T23:04:21.334876Z",
-    "last_updated_at": "2026-02-28T23:04:21.334876Z",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed"
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "first_detected_at": 1772323539.323857,
+    "last_updated_at": 1772323539.3238573,
+    "road_name": "Iowa Street",
+    "road_type": "residential"
   }
 ]
