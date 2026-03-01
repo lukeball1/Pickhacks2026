@@ -41,7 +41,7 @@ function PotholeModal({ pothole, onClose }){
                     <motion.div 
                         className="modal-container"
                         initial={{ y: "100%" }}
-                        animate={{ y: -175 }}
+                        animate={{ y: -260 }}
                         exit={{ y: "100%" }}
                         transition={{ type: "spring", damping: 25, stiffness: 500 }}
                         onClick={(e) => e.stopPropagation()} // Prevents closing when clicking the card itself

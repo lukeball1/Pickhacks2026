@@ -41,12 +41,13 @@ function App() {
   return(
     <div className='app'>
       <div className="leftSide">
+        
+        <LeftList potholes={potholes}/>
         {
           isAuthenticated ?
           (<button onClick={logout} >LOG OUT</button>) :
           (<button onClick={loginWithRedirect} >LOG IN</button>)
         }
-        <LeftList potholes={potholes}/>
       </div>
       <div className="rightSide">
         <MapAPI potholes={potholes}/>

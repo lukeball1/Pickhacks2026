@@ -1,6 +1,7 @@
 import {React, useState} from 'react';
 import './leftList.css';
 import PotholeModal from '../potholeModal/potholeModal';
+import PupilIMG from '../../assets/PUPILlogo.png';
 // import { useAuth0 } from '@auth0/auth0-react';
 
 function LeftList({ potholes }){
@@ -11,7 +12,7 @@ function LeftList({ potholes }){
     return(
         <div className="leftList">
             <div className="icon">
-                <h1>PUPIL</h1>
+                <img src={PupilIMG}/>
             </div>
 
             <div className="potholes">
