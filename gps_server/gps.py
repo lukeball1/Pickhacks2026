@@ -10,10 +10,10 @@ current_location = {"lat": 0, "lon": 0}
 @app.route("/gps", methods=["POST"])
 def receive_gps():
     data = request.json
-    print("\n\n", datetime.now())
-    print(data)
     current_location["lat"] = data["lat"]
     current_location["lon"] = data["lon"]
+
+    print("Latitude:", data['lat'], "\nLongitude:", data['lon'], "\n")
 
     return jsonify({"status": "ok"})
 
