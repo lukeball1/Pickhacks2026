@@ -90,7 +90,7 @@ function PotholeModal({ pothole, onClose, currentOrganization }) {
                                             <option style={{color: 'white'}} value={"unconfirmed"}>UNCONFIRMED</option>
                                         </select>
                                     </> :
-                                    <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
+                                    <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}>{style.label}</span></p>
                                 }
                                 
                                 <hr />
