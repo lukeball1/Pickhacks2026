@@ -39,11 +39,11 @@ function PotholeModal({ pothole, onClose }){
     const getStatusStyle = (status) => {
         if (!status) return { color: '#757575', label: '' }; // Safety check
         switch (status.toLowerCase()) {
-            case 'resolved': return { color: '#4CAF50'};
-            case 'in progress': return { color: '#FBFB2D'};
-            case 'open': return { color: '#C77C2C'};
-            case 'unconfirmed': return { color: '#ec1010'};
-            default: return { color: '#757575'};
+            case 'resolved': return { color: '#4CAF50', label: 'RESOLVED' };
+            case 'in progress': return { color: '#FBFB2D', label: 'IN PROGRESS' };
+            case 'open': return { color: '#C77C2C', label: 'OPEN' };
+            case 'unconfirmed': return { color: '#ec1010', label: 'UNCONFIRMED' };
+            default: return { color: '#757575', label: status.toUpperCase() };
         }
     };
 
@@ -81,10 +81,10 @@ function PotholeModal({ pothole, onClose }){
                                     <>
                                         <label htmlFor="status">Status: </label>
                                         <select id="status" style={style} value={selectedStatus} onChange={changeStatus}>
-                                            <option style={{color: "white"}} value={"resolved"}>RESOLVED</option>
-                                            <option style={{color: "white"}} value={"in progress"}>IN PROGRESS</option>
-                                            <option style={{color: "white"}} value={"open"}>OPEN</option>
-                                            <option style={{color: "white"}} value={"unconfirmed"}>UNCONFIRMED</option>
+                                            <option style={{color: 'white'}} value={"resolved"}>RESOLVED</option>
+                                            <option style={{color: 'white'}} value={"in progress"}>IN PROGRESS</option>
+                                            <option style={{color: 'white'}} value={"open"}>OPEN</option>
+                                            <option style={{color: 'white'}} value={"unconfirmed"}>UNCONFIRMED</option>
                                         </select>
                                     </> :
                                     <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
