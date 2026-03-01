@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from pymongo.mongo_client import MongoClient
 from bson.objectid import ObjectId
-from db import getPotholeCollection
+from db import getPotholeCollection, getOrganizationCollection
 from flask_cors import CORS
 
 
@@ -44,3 +44,60 @@ def changePotholeStatus(pothole_id):
         return jsonify({"success": True, "message": "Pothole status updated successfully."})
     else:
         return jsonify({"success": False, "message": "Failed to update pothole status."}), 400
+
+@app.route("/organizations", methods=["GET"]) 
+def getOrganizations():
+    # fetch organization data from database
+    organizations = getOrganizationCollection()
+    results = organizations.find()
+    final = list(results)
+    organizations.database.client.close()
+    for result in final: 
+        result['_id'] = str(result['_id'])
+    response = {"success": True, "organizations": final}
+    return jsonify(response)
+
+@app.route("/organizations/<org_name>", methods=["GET"]) 
+def getOrganizationByName(org_name):
+    # fetch organization data from database
+    organizations = getOrganizationCollection()
+    result = organizations.find_one({ 'name': org_name })
+    if result is None: 
+        return jsonify({"success": False, "message": "Organization not found."}), 404
+    else:
+        result['_id'] = str(result['_id'])
+    organizations.database.client.close()
+    response = {"success": True, "organization": result}
+    return jsonify(response)
+
+@app.route("/regions", methods=["GET"])
+def getRegionsList():
+    organizations = getOrganizationCollection()
+    results = organizations.find()
+    final = list(results)
+    organizations.database.client.close()
+    regions = list()
+    for result in final:
+        regions.append(result['place'])
+    return jsonify({"success": True, "regions": regions})
+
+@app.route("/organization/create", methods=["POST"])
+def createOrganization():
+    organizations = getOrganizationCollection()
+    name = request.json.get("name")
+    region = request.json.get("region")
+    place_name = request.json.get("place")
+    
+    new_org = {
+        "name": name,
+        "region": region,
+        "place": place_name
+    }
+
+    result = organizations.insert_one(new_org)
+    organizations.database.client.close()
+    if result.inserted_id:
+        return jsonify({"success": True, "message": "Organization created successfully.", "organization_id": str(result.inserted_id)})
+    else:
+        return jsonify({"success": False, "message": "Failed to create organization."}), 400
+

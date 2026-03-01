@@ -36,7 +36,7 @@ function FilterMenu({onApplyFilters}) {
       </select>
       <br />
 
-      <input type="button" value="Apply Filters"onClick={() => onApplyFilters(roadName, streetType, status)}/>
+      <input type="button" value="Apply Filters" onClick={() => onApplyFilters(roadName, streetType, status)}/>
     </form>
 }
 

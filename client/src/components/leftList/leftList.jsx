@@ -1,14 +1,35 @@
-import {React, useState} from 'react';
+import { React, useState, useEffect } from 'react';
 import './leftList.css';
 import PotholeModal from '../potholeModal/potholeModal';
 import PupilIMG from '../../assets/PUPILlogo.png';
 import FilterMenu from '../filterMenu/filterMenu';
 // import { useAuth0 } from '@auth0/auth0-react';
 
-function LeftList({ allPotholes, potholes, onModalClose, onApplyFilters }){
+function LeftList({ allPotholes, potholes, onModalClose, onApplyFilters, onOrganizationChange }){
 
     const [selectedPothole, setSelectedPothole] = useState(null);
+    const [selectedOrg, setSelectedOrg] = useState(null);
+    const [orgs, setOrgs] = useState([]);
 
+    const fetchOrgs = async () => {
+        try {
+            const result = await fetch("http://127.0.0.1:5000/organizations");
+            // console.log(await result.text());
+            const data = await result.json();
+            if (data.success) {
+                setOrgs(data.organizations);
+            }
+        }
+        catch (error) {
+            console.error("Error fetching organizations:", error);
+        }
+    };
+
+    useEffect(() => {
+        if (orgs.length === 0) {
+            fetchOrgs();
+        }
+    }, [orgs]);
 
     return(
         <div className="leftList">
@@ -40,8 +61,16 @@ function LeftList({ allPotholes, potholes, onModalClose, onApplyFilters }){
 
             </div>
 
+            <select value={selectedOrg} onChange={(e) => { setSelectedOrg(e.target.value); onOrganizationChange(e.target.value); } }>
+                {
+                    orgs.map((org, index) => (
+                        <option key={index} value={org.name}>{org.name}</option>
+                    ))
+                }
+            </select>
+
             {selectedPothole && (
-                <PotholeModal pothole={selectedPothole} onClose={() => { setSelectedPothole(null); onModalClose(); }}/>
+                <PotholeModal pothole={selectedPothole} currentOrganization={selectedOrg} onClose={() => { setSelectedPothole(null); onModalClose(); }}/>
             )}
 
         </div>

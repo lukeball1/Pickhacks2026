@@ -7,7 +7,7 @@ from db import connect_db, insert_or_update_pothole
 from utils import get_current_location
 from storage import upload_image
 from config import CAMERA_ID, VEHICLE_ID, DUPLICATE_DISTANCE_M
-from pickhacksroads import snap_point_to_road
+from pickhacksroads import snap_point_to_road, generate_roads
 
 
 def main_loop():
@@ -30,9 +30,10 @@ def main_loop():
 
                 location = get_current_location()
                 image_url = upload_image("temp.jpg")
+                roads = generate_roads() # ROLLA ONLY
                 road_info, coords = snap_point_to_road(
-                    location["latitude"], location["longitude"]
-                )
+                    location["latitude"], location["longitude"], roads_gdf=roads
+                ) 
                 pothole_data = {
                     "location": {
                         "type": "Point",

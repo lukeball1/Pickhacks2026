@@ -4,13 +4,32 @@ import matplotlib.pyplot as plt
 from shapely.geometry import Point
 from shapely.ops import nearest_points
 
-# ----------------------------------------------------
-# Download road network for Rolla
-# ----------------------------------------------------
-place_name = "Rolla, Missouri, USA"
-G = ox.graph_from_place(place_name, network_type="drive")
-roads = ox.graph_to_gdfs(G, nodes=False, edges=True)
-roads = roads.to_crs("EPSG:4326")
+
+def generate_roads(place_name="Rolla, Missouri, USA"):
+    # ----------------------------------------------------
+    # Download road network for Rolla
+    # ----------------------------------------------------
+    G = ox.graph_from_place(place_name, network_type="drive")
+    roads = ox.graph_to_gdfs(G, nodes=False, edges=True)
+    roads = roads.to_crs("EPSG:4326")
+
+    roads["highway_clean"] = roads["highway"].apply(clean_highway)
+
+    # ----------------------------------------------------
+    # Define fixed color mapping
+    # ----------------------------------------------------
+    color_map = {
+        "motorway": "orange",
+        "primary": "red",
+        "secondary": "blue",
+        "residential": "gray",
+        "tertiary": "green",
+        "unclassified": "brown",
+    }
+
+    # Keep only types we defined (optional but cleaner)
+    roads = roads[roads["highway_clean"].isin(color_map.keys())]
+    return roads
 
 
 # ----------------------------------------------------
@@ -30,24 +49,6 @@ def clean_highway(hw):
     return hw
 
 
-roads["highway_clean"] = roads["highway"].apply(clean_highway)
-
-# ----------------------------------------------------
-# Define fixed color mapping
-# ----------------------------------------------------
-color_map = {
-    "motorway": "orange",
-    "primary": "red",
-    "secondary": "blue",
-    "residential": "gray",
-    "tertiary": "green",
-    "unclassified": "brown",
-}
-
-# Keep only types we defined (optional but cleaner)
-roads = roads[roads["highway_clean"].isin(color_map.keys())]
-
-
 # Example: your roads GeoDataFrame
 # roads["geometry"] = LineStrings
 # roads["highway_clean"] = cleaned road type
@@ -55,7 +56,7 @@ roads = roads[roads["highway_clean"].isin(color_map.keys())]
 
 
 # Function to snap a point to nearest road
-def snap_point_to_road(lat, lon, roads_gdf=roads):
+def snap_point_to_road(lat, lon, roads_gdf=generate_roads()):
     """
     Snap a latitude/longitude point to the nearest road segment.
 

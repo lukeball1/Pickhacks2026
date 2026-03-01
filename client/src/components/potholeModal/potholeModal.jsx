@@ -4,8 +4,8 @@ import './potholeModal.css';
 import { useAuth0 } from '@auth0/auth0-react'
 
 // Destructure pothole AND onClose from props
-function PotholeModal({ pothole, onClose }){
-    const { isAuthenticated } = useAuth0();
+function PotholeModal({ pothole, onClose, currentOrganization }) {
+    const { isAuthenticated, user } = useAuth0();
     const [selectedStatus, setSelectedStatus] = useState(null);
 
     const changeStatus = async (event) => {
@@ -47,6 +47,9 @@ function PotholeModal({ pothole, onClose }){
         }
     };
 
+    console.log("Current user:", user);
+    console.log("Current organization in modal:", currentOrganization);
+
     const style = selectedStatus ? getStatusStyle(selectedStatus) : { color: '#DDDDDD', label: 'LOADING...' };
 
     return (
@@ -77,7 +80,7 @@ function PotholeModal({ pothole, onClose }){
                                 </div>
                                 <p>Last Updated: {pothole.detection_date}</p>
                                 {
-                                    isAuthenticated ?
+                                    (user && currentOrganization && (user.org_id == currentOrganization._id)) ?
                                     <>
                                         <label htmlFor="status">Status: </label>
                                         <select id="status" style={style} value={selectedStatus} onChange={changeStatus}>

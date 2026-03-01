@@ -6,7 +6,7 @@ import PotholeModal from '../potholeModal/potholeModal';
 
 const ROLLA_CENTER = {lat: 37.9485, lng:-91.7715};
 
-function MapAPI({ potholes, onModalClose }) {
+function MapAPI({ potholes, onModalClose, region, currentOrganization }) {
     const [selectedPothole, setSelectedPothole] = useState(null);
     const [modal, setModal] = useState(false);
     
@@ -38,13 +38,13 @@ function MapAPI({ potholes, onModalClose }) {
                 // styles={mapStyles}
                 disableDefaultUI={false}
                 gestureHandling={'greedy'}
-                minZoom={13.5}
+                minZoom={8.0}
                 restriction={{
                     latLngBounds: {
-                    north: 38.000,
-                    south: 37.900,
-                    west: -91.880, // Adjusted slightly west to keep Rolla centered
-                    east: -91.640
+                    north: region ? region.maxLat || 38.000 : 38.000,
+                    south: region ? region.minLat || 37.900 : 37.900,
+                    west: region ? region.minLng || -91.880 : -91.880, // Adjusted slightly west to keep Rolla centered
+                    east: region ? region.maxLng || -91.640 : -91.640
                     },
                     strictBounds: false // False allows smooth bouncing; True is a hard "wall"
                 }}
@@ -57,7 +57,7 @@ function MapAPI({ potholes, onModalClose }) {
                 </Map>
                 {
                     selectedPothole && (
-                        <PotholeModal pothole={selectedPothole} onClose={() => { setSelectedPothole(null); onModalClose(); }} />
+                        <PotholeModal pothole={selectedPothole} currentOrganization={currentOrganization} onClose={() => { setSelectedPothole(null); onModalClose(); }} />
                     )
                 }
             </APIProvider>
