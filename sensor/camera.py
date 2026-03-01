@@ -1,5 +1,6 @@
 import cv2
 
+
 def capture_frame(camera_id=4):
     cap = cv2.VideoCapture(camera_id)
     if not cap.isOpened():
@@ -9,6 +10,7 @@ def capture_frame(camera_id=4):
     if not ret:
         raise RuntimeError("Failed to capture frame")
     return frame
+
 
 def show_frame(frame, window_name="Captured Image"):
     cv2.imshow(window_name, frame)

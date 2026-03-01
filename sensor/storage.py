@@ -4,8 +4,9 @@ import cloudinary.uploader
 cloudinary.config(
     cloud_name="duaqczxir",
     api_key="932599918752923",
-    api_secret="4VxunUYPHFmtP1jaH0tcvPUyt7E"
+    api_secret="4VxunUYPHFmtP1jaH0tcvPUyt7E",
 )
+
 
 def upload_image(image_path):
     print("trying to upload")
