@@ -94,9 +94,7 @@ def snap_point_to_road(lat, lon, roads_gdf=roads):
     
     return ({
         "road_name": nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME"),
-        "road_type": nearest_road.get("highway_clean"),
-        "distance_m": distance_m,
-    }, {        "lat": nearest_pt_latlon.y,
+        "road_type": nearest_road.get("highway_clean")}, {        "lat": nearest_pt_latlon.y,
         "lon": nearest_pt_latlon.x,})
 
 # ----------------------------------------------------
