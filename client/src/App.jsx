@@ -12,6 +12,8 @@ function App() {
   
   const { loginWithRedirect, isAuthenticated, isLoading, logout, error } = useAuth0();
 
+  const [allPotholes, setAllPotholes] = useState([]);
+
   const loadPotholes = async () => {
     console.log("pothole function called");
     try{
@@ -20,6 +22,7 @@ function App() {
       
       if (data.success){
         setPotholes(data.potholes);
+        setAllPotholes(data.potholes);
         console.log("successfully loaded pothole data");
       }
       
@@ -54,7 +57,7 @@ function App() {
   return(
     <div className='app'>
       <div className="leftSide">
-        <LeftList potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={loadPotholes} onApplyFilters={applyFilters}/>
+        <LeftList allPotholes = {allPotholes} potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={loadPotholes} onApplyFilters={applyFilters}/>
         {
           isAuthenticated ?
           (<button onClick={logout} >LOG OUT</button>) :

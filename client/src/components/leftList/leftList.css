@@ -36,13 +36,13 @@
 }
 
 .potholeCard{
-    width: 85%;
+    width: 95%;
     font-size: 18px;
 }
 
 .potholeCard li{
     list-style: none;
-    padding-left: 3px;
+    padding-left: 0px;
 }
 
 .potholeCard:hover{

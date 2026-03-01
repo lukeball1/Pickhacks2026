@@ -5,7 +5,7 @@ import PupilIMG from '../../assets/PUPILlogo.png';
 import FilterMenu from '../filterMenu/filterMenu';
 // import { useAuth0 } from '@auth0/auth0-react';
 
-function LeftList({ potholes, onModalClose, onApplyFilters }){
+function LeftList({ allPotholes, potholes, onModalClose, onApplyFilters }){
 
     const [selectedPothole, setSelectedPothole] = useState(null);
 
@@ -23,19 +23,18 @@ function LeftList({ potholes, onModalClose, onApplyFilters }){
             <div className="potholes">
                 <h2>Potholes</h2>
                 <ul>
-                    {potholes.map((item, index) => (
-                        <div
-                        key={index}
-                        className='potholeCard'
-                        >
-                            <li
-                            style={{ cursor: "pointer"}}
-                            onClick={() => 
-                                setSelectedPothole(item)
-                            }
-                            > Pothole #{index + 1} - {item.road_name}</li>
-                        </div>
-                    ))}
+                    {potholes.map((item) => {
+                        // This index is now "sticky" because it always references the master list
+                        const permanentIndex = allPotholes.findIndex(p => p._id === item._id) + 1;
+
+                        return (
+                            <div key={item._id} className='potholeCard'>
+                                <li onClick={() => setSelectedPothole(item)}> 
+                                    Pothole #{permanentIndex} - {item.road_name}
+                                </li>
+                            </div>
+                        );
+                    })}
                 </ul>
                 
 
