@@ -29,10 +29,37 @@
     width: 50%;
     height: 100%;
     margin: auto;
+    border-radius: 1rem;
 }
 
 .modal-text{
     margin-right: auto;
     top: 0;
-    
+}
+
+.modal-text button{
+    border-radius: 0.5rem;
+    border-color: transparent;
+    width: 3.75rem;
+    height: 1.75rem;  
+    margin-left: 40%;
+    margin-top: 1.75rem;
+}
+
+.modal-text-strlocation h4{
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    margin: -0.25rem;
+    padding: -0.25rem;
+}
+
+.modal-text-strlocation{
+    margin-bottom: 0.25rem;
+}
+
+.modal-text p{
+    display: flex;
+    flex-direction: column;
+    margin: -0.25rem;
 }
