@@ -100,8 +100,10 @@ def snap_point_to_road(lat, lon, roads_gdf):
         gpd.GeoSeries([nearest_pt_proj], crs="EPSG:26915").to_crs("EPSG:4326").iloc[0]
     )
 
+    road_name = nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME")
+    road_name = road_name if type(road_name) == type("") else ("Unknown" if type(road_name) == type(3.4) else road_name[0])
     return {
-        "road_name": nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME"),
+        "road_name": road_name,
         "road_type": nearest_road.get("highway_clean"),
         "closest_point": nearest_pt_latlon,
         "distance_m": nearest_pt_proj.distance(point_proj),
@@ -155,15 +157,7 @@ for i, snap in enumerate(snapped_results):
         "status": random.choice(status_options),
         "detection_date": time.strftime("%m/%d/%Y %H:%M", time.localtime(time.time() - random.randint(0, 2592000))),
         
-        "road_name": (
-            snap["road_name"]
-            if type(snap["road_name"]) == type("")
-            else (
-                "Unknown"
-                if type(snap["road_name"]) == type(3.4)
-                else snap["road_name"][0]
-            )
-        ),
+        "road_name": snap["road_name"],
         "road_type": snap["road_type"],
     }
     fake_dataset.append(entry)

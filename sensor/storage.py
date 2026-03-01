@@ -3,14 +3,12 @@ import cloudinary.uploader as upl
 from config import IMG_API_KEY, IMG_API_SECRET, IMG_STORAGE_NAME
 
 cld.config(
-    cloud_name=IMG_STORAGE_NAME,
-    api_key=IMG_API_KEY,
-    api_secret=IMG_API_SECRET,
+    cloud_name='duaqczxir',
+    api_key='932599918752923',
+    api_secret='4VxunUYPHFmtP1jaH0tcvPUyt7E',
 )
 
 
 def upload_image(image_path):
-    print("start")
     result = upl.upload(image_path)
-    print("stop")
     return result["secure_url"]

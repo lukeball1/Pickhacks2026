@@ -1,14 +1,18 @@
-from inference_sdk import InferenceHTTPClient
+from inference_sdk import InferenceHTTPClient, InferenceConfiguration
 from config import API_URL, API_KEY, MODEL_ID
 
-CLIENT = InferenceHTTPClient(api_url=API_URL, api_key=API_KEY)
+CONFIGURATION = InferenceConfiguration(
+    confidence_threshold=0.75
+)
 
+CLIENT = InferenceHTTPClient(api_url=API_URL, api_key=API_KEY)
 
 def detect_pothole(image_path):
     """
     Send image to inference server.
     Returns raw result dictionary.
     """
+    CLIENT.configure(CONFIGURATION)
     return CLIENT.infer(image_path, model_id=MODEL_ID)
 
 

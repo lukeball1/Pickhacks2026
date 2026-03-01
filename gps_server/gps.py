@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-current_location = {"lat": 0, "lon": 0}
+current_location = {"lat": 37, "lon": -91}
 
 
 @app.route("/gps", methods=["POST"])
@@ -13,7 +13,7 @@ def receive_gps():
     current_location["lat"] = data["lat"]
     current_location["lon"] = data["lon"]
 
-    print("Latitude:", data['lat'], "\nLongitude:", data['lon'], "\n")
+    print("Latitude:", data['lat'], "\nLongitude:", data['lon'], "\n", flush=True)
 
     return jsonify({"status": "ok"})
 

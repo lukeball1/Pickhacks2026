@@ -29,13 +29,10 @@ def main_loop():
                 print(f"[{time.strftime('%m/%d/%Y %H:%M:%S')}] pothole detected with confidence {confidence:.3f}\n")
 
                 location = get_current_location()
-                print("here02", temp_file)
                 image_url = upload_image("temp.jpg")
-                print("here03")
                 road_info, coords = snap_point_to_road(
                     location["latitude"], location["longitude"]
                 )
-                print("here00")
                 pothole_data = {
                     "location": {
                         "type": "Point",
@@ -48,13 +45,11 @@ def main_loop():
                     "status": "unconfirmed",
                     "detection_date": time.strftime("%m/%d/%Y %H:%M")
                 }
-                print("here01")
                 for k, v in road_info.items():
                     pothole_data[k] = v
 
                 insert_or_update_pothole(collection, pothole_data, DUPLICATE_DISTANCE_M)
 
-                print("Pothole reported to database.")
 
         except Exception as e:
             print("Error in main loop:", e)

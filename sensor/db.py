@@ -17,4 +17,4 @@ def insert_or_update_pothole(collection, pothole_data, duplicate_distance_m=4.57
     """
     # TODO: Implement geospatial query and update
     collection.insert_one(pothole_data)
-    print("Inserted/Updated pothole:", pothole_data)
+    print("pothole added to database")
