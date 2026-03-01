@@ -143,8 +143,8 @@ for i, snap in enumerate(snapped_results):
         "location": {
             "type": "Point",
             "coordinates": [
-                float(snap["closest_point"].x),
                 float(snap["closest_point"].y),
+                float(snap["closest_point"].x),
             ],
         },
         "confidence": round(random.uniform(0.5, 1.0), 2),
