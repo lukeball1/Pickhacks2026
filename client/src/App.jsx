@@ -16,13 +16,19 @@ function App() {
 
   const [allPotholes, setAllPotholes] = useState([]);
 
-  const loadPotholes = async (org) => {
+  useEffect(() => {
+    if (user && user.org_id && potholes.length === 0) {
+      loadPotholes(user.org_id);
+    }
+  })
+
+  const loadPotholes = async (org_id) => {
     console.log("pothole function called");
-    if (!org) {
+    if (!org_id) {
       return;
     }
     try {
-      const URL = `http://127.0.0.1:5000/potholes/${org._id}`;
+      const URL = `http://127.0.0.1:5000/potholes/${org_id}`;
       const result = await fetch (URL);
       const data = await result.json();
       
@@ -71,8 +77,8 @@ function App() {
   }
   
   useEffect(() => {
-    if (potholes.length == 0) {
-      loadPotholes();
+    if (potholes.length == 0 && selectedOrg != null) {
+      loadPotholes(selectedOrg._id);
     }
     if (selectedOrg === null) { 
       

@@ -61,7 +61,8 @@ function LeftList({ allPotholes, potholes, onModalClose, onApplyFilters, onOrgan
 
             </div>
 
-            <select value={selectedOrg} onChange={(e) => { setSelectedOrg(e.target.value); onOrganizationChange(e.target.value); } }>
+            <select className='orgSelector' value={selectedOrg} onChange={(e) => { setSelectedOrg(e.target.value); onOrganizationChange(e.target.value); } }>
+                <option key={-1} value={null}> </option>
                 {
                     orgs.map((org, index) => (
                         <option key={index} value={org.name}>{org.name}</option>
