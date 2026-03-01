@@ -1,0 +1,6902 @@
+[
+  {
+    "_id": {
+      "$oid": "b15d7c701f5245b89f193a4c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.633673970680675,
+        -90.23658403186123
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 6.6,
+      "height_cm": 5.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/01/2026 11:57",
+    "road_name": "Forest Park Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "8db646d2bb1344b1933eff14"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.683574225270554,
+        -90.23094417665573
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 17.9,
+      "height_cm": 11.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/25/2026 17:42",
+    "road_name": "Rosalie Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8a28b4a05ed6446abcc03fe0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.582108214147325,
+        -90.30052340263333
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 18.5,
+      "height_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/04/2026 22:14",
+    "road_name": "Eichelberger Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "5ad74abec62d4892a2f2d85e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.569437713249215,
+        -90.25087797595158
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 15.7,
+      "height_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/11/2026 04:56",
+    "road_name": "Eichelberger Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3c4eb5987c5a432cbfe55514"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60370954339145,
+        -90.2397164730315
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 8.6,
+      "height_cm": 6.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/19/2026 20:39",
+    "road_name": "Arkansas Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "bbc164af5f7b4acfacc65acc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6137977,
+        -90.2707716
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 15.0,
+      "height_cm": 7.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/11/2026 06:28",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0508e9c6bc9a440ea273318d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63648852472044,
+        -90.24368633741996
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 18.1,
+      "height_cm": 12.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/18/2026 00:28",
+    "road_name": "Laclede Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "41b4dd92a7d2491fbf780736"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.672427426552915,
+        -90.24710099267352
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 17.2,
+      "height_cm": 8.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/22/2026 23:50",
+    "road_name": "Lexington Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "91d7ce8f7b17447f81e618d4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63551337017969,
+        -90.24607310039123
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 9.5,
+      "height_cm": 13.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/16/2026 21:37",
+    "road_name": "Forest Park Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "af6cc25f19e24886abb2cbf5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.5973207984715,
+        -90.25446834575635
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 8.0,
+      "height_cm": 10.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/22/2026 00:23",
+    "road_name": "McDonald Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0e8c724dab4d4d09b93ccc94"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62956762698277,
+        -90.27278976454197
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 12.5,
+      "height_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/14/2026 01:06",
+    "road_name": "Oakland Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "b1268640e4454855ac71be83"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61456988432225,
+        -90.25182619135995
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 15.4,
+      "height_cm": 13.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/26/2026 07:02",
+    "road_name": "Russell Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dc81c855eb75472ebd5d603f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62833575464338,
+        -90.23965055486251
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 19.2,
+      "height_cm": 14.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/25/2026 22:49",
+    "road_name": "Gratiot Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d2935430a58f4cb6b0633926"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61168310553771,
+        -90.24401118523261
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 9.3,
+      "height_cm": 11.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/12/2026 13:39",
+    "road_name": "Flad Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d755848abe824416af6ee73e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61482635274264,
+        -90.25463433475657
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 15.4,
+      "height_cm": 13.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/17/2026 13:14",
+    "road_name": "Russell Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1680aaa0e07444a99f34b4c5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.614670766624634,
+        -90.2608048658656
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 15.6,
+      "height_cm": 14.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/20/2026 09:53",
+    "road_name": "Alfred Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c67a8ab3541147dab6db2ecb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65719135330423,
+        -90.28105466745231
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 11.3,
+      "height_cm": 10.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/19/2026 03:35",
+    "road_name": "Cates Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1d5325c403e74b8da92d1695"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64451316034926,
+        -90.25725771854285
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 13.2,
+      "height_cm": 5.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/08/2026 17:28",
+    "road_name": "North Taylor Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "90000b6b2a894558bdf60bd5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.623308690264885,
+        -90.22377416948233
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 5.1,
+      "height_cm": 12.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/05/2026 01:15",
+    "road_name": "Chouteau Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "b57b772d167147ecb8ec4ffd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6349399410455,
+        -90.24253444734579
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 16.4,
+      "height_cm": 14.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/20/2026 14:35",
+    "road_name": "Forest Park Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "8a61a61bb6784081b5c2ea01"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60570214732145,
+        -90.26217995207492
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 12.1,
+      "height_cm": 12.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/01/2026 18:36",
+    "road_name": "South West Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "d1f7d562cf274e25ace0214a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.674416099999995,
+        -90.2864057
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 8.7,
+      "height_cm": 5.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/16/2026 20:26",
+    "road_name": "Wells Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "164f27fe9cb6450faa2e0d26"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64018058296065,
+        -90.25423609803437
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 19.8,
+      "height_cm": 6.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/05/2026 05:01",
+    "road_name": "West Pine Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b6035eafce6648dd89a25d05"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.648326860394285,
+        -90.25803251089397
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 13.8,
+      "height_cm": 8.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/22/2026 13:01",
+    "road_name": "Westminster Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f4194b3f56a54bb4b56390e8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67511921718433,
+        -90.25914477580561
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 11.8,
+      "height_cm": 12.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/09/2026 16:46",
+    "road_name": "West Norwood Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "248bfd21b740490caff0a29c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.69899083351352,
+        -90.25408028734523
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 19.7,
+      "height_cm": 3.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/28/2026 00:38",
+    "road_name": "Robin Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "07e051bc29e64c07afa584f9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62803346150642,
+        -90.23676514570488
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 12.9,
+      "height_cm": 11.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/09/2026 02:43",
+    "road_name": "Gratiot Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7b63a45c553a437ab7287809"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.635706260471295,
+        -90.2398963617204
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 16.4,
+      "height_cm": 9.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/01/2026 19:04",
+    "road_name": "Laclede Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a82f5c589f66494d8c6d9a77"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58512753075854,
+        -90.26669748117752
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 8.1,
+      "height_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/28/2026 20:42",
+    "road_name": "Neosho Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "db400386c520460ea7dcfc42"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.624075464808,
+        -90.26211395608624
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 14.1,
+      "height_cm": 7.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/09/2026 04:50",
+    "road_name": "South Taylor Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f624f00ab6064c81bcaa414e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59442200089829,
+        -90.22757347833992
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 16.4,
+      "height_cm": 11.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/04/2026 07:43",
+    "road_name": "Ohio Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dab897b72ef0464db414183a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.675608329087915,
+        -90.21648715446979
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 11.6,
+      "height_cm": 11.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/22/2026 21:56",
+    "road_name": "Alice Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9be9a29bded44581b571d932"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64564817265708,
+        -90.25194371581468
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 8.9,
+      "height_cm": 10.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/01/2026 09:55",
+    "road_name": "Westminster Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "33cb1b8ad445481db208f3bc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61144447846762,
+        -90.26665594429646
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 6.2,
+      "height_cm": 10.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/20/2026 18:29",
+    "road_name": "Tower Grove Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "29a5701567d04f1883aea07d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.69943971796647,
+        -90.25874063000667
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 6.5,
+      "height_cm": 13.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/01/2026 10:58",
+    "road_name": "Lillian Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ce71534573ee45348d2a3571"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66892234257322,
+        -90.28359511241976
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 16.5,
+      "height_cm": 5.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/02/2026 18:46",
+    "road_name": "Minerva Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "079ab15a106341168ed89eb8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.577610289732405,
+        -90.25784530771698
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 11.0,
+      "height_cm": 14.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/24/2026 03:33",
+    "road_name": "Randall Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4aae88dc305147fb9191ed68"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.647891551792604,
+        -90.21767478647023
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 14.7,
+      "height_cm": 5.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/18/2026 21:21",
+    "road_name": "Glasgow Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3cfcc0bc8e574ab08a3581e3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.605822385725766,
+        -90.25382120345525
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 8.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/12/2026 15:34",
+    "road_name": "Main Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "7394252a0fcf4085a9bd3c6e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58252429744426,
+        -90.23938967070572
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 17.7,
+      "height_cm": 10.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/05/2026 11:53",
+    "road_name": "South Compton Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "bce3770c2719437d937acea6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62083280299101,
+        -90.2695554537156
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 16.2,
+      "height_cm": 4.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/27/2026 17:01",
+    "road_name": "McRee Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "e0462d1a894e4964b7ba79c8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58145169518931,
+        -90.25536523400466
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 19.0,
+      "height_cm": 9.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/13/2026 16:47",
+    "road_name": "Gustine Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "950627d872384a70ab0d5a47"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58188541528889,
+        -90.24983496832189
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 17.7,
+      "height_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/23/2026 13:00",
+    "road_name": "Bingham Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2199150937e24350a86022e5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62923689646376,
+        -90.26371532356265
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 6.6,
+      "height_cm": 8.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/02/2026 14:29",
+    "road_name": "South Kingshighway Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e9d34b915e0440adbaebf400"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.587626457893755,
+        -90.26974405906779
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 6.6,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/21/2026 17:24",
+    "road_name": "Taft Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3300632c89f440528ebf3c27"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61582193982544,
+        -90.23464953109595
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 11.3,
+      "height_cm": 14.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/21/2026 16:41",
+    "road_name": "Officer David Haynes Memorial Highway",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "8ce80bca915f440f85bb0f93"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.602943111598954,
+        -90.22761874869497
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 7.1,
+      "height_cm": 11.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/14/2026 12:49",
+    "road_name": "Gravois Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "068bee70a56f4b6da89b632b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65090814545043,
+        -90.23580499325288
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 6.1,
+      "height_cm": 13.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/01/2026 22:13",
+    "road_name": "Evans Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "12a85411c2e545baada4efaa"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.636956013323534,
+        -90.22514340446449
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 19.9,
+      "height_cm": 6.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/02/2026 08:55",
+    "road_name": "North Compton Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "a3b6079c7b3e44c69015eb55"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66984685475825,
+        -90.23040802393574
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 9.7,
+      "height_cm": 11.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/25/2026 08:02",
+    "road_name": "Red Bud Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5683314da11f4b48ac0081c0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.614970276248236,
+        -90.25621347906447
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 13.5,
+      "height_cm": 12.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/08/2026 16:17",
+    "road_name": "Russell Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0352bf67f7264db3a5d7dc94"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.569708105872095,
+        -90.24246958887488
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 14.6,
+      "height_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/26/2026 13:55",
+    "road_name": "Delor Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "a4c1ba3b520343e38ee63cd1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60230145996836,
+        -90.21595475969214
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 17.8,
+      "height_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/18/2026 12:36",
+    "road_name": "Senate Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "897367655cda49528201c1be"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62244854916331,
+        -90.2389128118337
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 5.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/13/2026 00:40",
+    "road_name": "Vista Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "05fd4e69608547cfb5108d9d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62739075756305,
+        -90.24342864449318
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 5.6,
+      "height_cm": 5.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/17/2026 16:31",
+    "road_name": "Chouteau Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "fb2bbb418572478d90c90016"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62552347795953,
+        -90.23447564918212
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 8.3,
+      "height_cm": 6.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/16/2026 22:00",
+    "road_name": "Chouteau Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "748606340e644741a41118cc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65721324751425,
+        -90.25007972650094
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 9.1,
+      "height_cm": 10.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/06/2026 01:54",
+    "road_name": "Evans Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "705b0a35f3a744b2978de600"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.623236500000004,
+        -90.273984
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 6.0,
+      "height_cm": 14.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/13/2026 01:09",
+    "road_name": "Aero Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "81f8acf6fc7442e98d80c368"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65522029776565,
+        -90.22571021070362
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 13.6,
+      "height_cm": 12.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/09/2026 17:34",
+    "road_name": "Prairie Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "be046fa8d7df410db94e0f59"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.55736174199299,
+        -90.24969710840489
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 16.3,
+      "height_cm": 11.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/12/2026 00:58",
+    "road_name": "Holly Hills Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "fb4bb202f8c940fabbdfe44b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60657967704256,
+        -90.22909421302995
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 11.5,
+      "height_cm": 8.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/17/2026 04:36",
+    "road_name": "Sidney Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "d8b5f16bfb634a5cacb6c5e7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6352844864796,
+        -90.27801648119134
+      ]
+    },
+    "confidence": 0.94,
+    "size": {
+      "width_cm": 10.1,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/04/2026 08:45",
+    "road_name": "Wells Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "3fc726fcf8ff418090d4e5b3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.614792494113566,
+        -90.25673771088393
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 7.2,
+      "height_cm": 12.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/01/2026 23:42",
+    "road_name": "Tower Grove Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "829cf5adf363446cb11b6c74"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67678676380835,
+        -90.27390882195836
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 18.3,
+      "height_cm": 11.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/10/2026 22:01",
+    "road_name": "Maffitt Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "aac911672cb64d88ba393da0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.56432890499157,
+        -90.24342344768395
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 11.0,
+      "height_cm": 14.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/20/2026 05:08",
+    "road_name": "Unknown",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "ada733aabf9942ac80aa2652"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63269510000001,
+        -90.2156831
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 14.7,
+      "height_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/02/2026 11:29",
+    "road_name": "Pine Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "89ba038c56a646e68201752f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6916702,
+        -90.2322619
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 17.0,
+      "height_cm": 13.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/21/2026 20:52",
+    "road_name": "Wildrose",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5aa38e5fb5274c5a8a4212f2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60994608166596,
+        -90.22145960941687
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 19.5,
+      "height_cm": 3.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/09/2026 20:09",
+    "road_name": "Ann Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ff50b6406d11435fb7c02792"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.634668729595326,
+        -90.21638172273117
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 18.9,
+      "height_cm": 3.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/02/2026 16:45",
+    "road_name": "Locust Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "05a966e04cfa4b5190cf8082"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.657837874347884,
+        -90.23048983088428
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 13.6,
+      "height_cm": 10.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/10/2026 16:33",
+    "road_name": "Kennerly Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "45f50e3c09194f5f999b2b72"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62376013796616,
+        -90.22142466227227
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 6.6,
+      "height_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/19/2026 05:32",
+    "road_name": "Papin Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "85f8066ce182423d91230323"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63299093642352,
+        -90.2583954720937
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 11.4,
+      "height_cm": 6.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/24/2026 21:50",
+    "road_name": "Clayton Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "fe1d328d56e4465dbf891d96"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65123126470143,
+        -90.2115582873927
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 8.3,
+      "height_cm": 3.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "01/30/2026 04:46",
+    "road_name": "Parnell Street",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "c568cb87dc9d414392cc9e2d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6429935512462,
+        -90.2604754742818
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 9.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/14/2026 17:11",
+    "road_name": "Lindell Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "14f8ea1260794a7591628910"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63756968313684,
+        -90.26612698849343
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 16.7,
+      "height_cm": 11.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/07/2026 00:53",
+    "road_name": "South Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "58dd71580a9345c1af4708fc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62632193568492,
+        -90.23830556214894
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 8.0,
+      "height_cm": 11.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/01/2026 13:09",
+    "road_name": "Chouteau Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "a3e00cb420f2446ca46b4a4e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66680002838443,
+        -90.25151532989189
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 15.6,
+      "height_cm": 4.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "detection_date": "02/03/2026 18:12",
+    "road_name": "Northland Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4e869ffc58f849a9aa35e490"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.57957822323618,
+        -90.25845077898677
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 13.6,
+      "height_cm": 10.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/19/2026 05:12",
+    "road_name": "Leona Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "810fba08ab5149ddac9f58b4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65344348177239,
+        -90.22349507864445
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 11.2,
+      "height_cm": 13.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/12/2026 21:05",
+    "road_name": "Fall Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "32fd73381c4b46b5aee422a0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.575773076537395,
+        -90.23952566336624
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 12.2,
+      "height_cm": 6.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "detection_date": "02/06/2026 05:17",
+    "road_name": "East Michigan Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e87b00d4a9fa493ebf65e0a8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61323789805107,
+        -90.2307999259725
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 19.4,
+      "height_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/15/2026 08:53",
+    "road_name": "Allen Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "93967fa491d3478eacd2a7b7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64585758748912,
+        -90.23311589570275
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 19.8,
+      "height_cm": 3.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/03/2026 20:24",
+    "road_name": "Finney Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4b7214f00afc46fa884d9fe0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.668880717595556,
+        -90.23427661950731
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 10.5,
+      "height_cm": 7.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/14/2026 19:24",
+    "road_name": "Natural Bridge Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "9ddae6fa4b0945b099aaf72b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64700203066496,
+        -90.24608013105887
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 6.9,
+      "height_cm": 5.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/21/2026 12:57",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "441495897fc04481b0ce1280"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66096851524845,
+        -90.23726088427159
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 6.7,
+      "height_cm": 4.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/18/2026 17:12",
+    "road_name": "Lambdin Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4c81660f343b4ed0b0062536"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64159487339242,
+        -90.2654567947657
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 14.5,
+      "height_cm": 4.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/09/2026 18:35",
+    "road_name": "North Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "3f64e9c4f6fd443c8c0af32b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66438360806491,
+        -90.22630635037406
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 9.2,
+      "height_cm": 3.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/12/2026 18:40",
+    "road_name": "Palm Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "05d38d68e0e84c02bf330c9a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.696476329873015,
+        -90.23445458940091
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 7.3,
+      "height_cm": 3.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/20/2026 15:15",
+    "road_name": "Calvary Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "430e6e4f2b30487d9d9ceb97"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.658489170902605,
+        -90.26024914278555
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 15.5,
+      "height_cm": 4.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/06/2026 10:30",
+    "road_name": "Maple Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "04f48a9a654b47aa8ddf837b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63103162647481,
+        -90.24947339522194
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 5.3,
+      "height_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/24/2026 21:49",
+    "road_name": "Jack Buck Memorial Highway",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "16bd6e1d8fd64009941a5477"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6296317873586,
+        -90.25654838545384
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 7.1,
+      "height_cm": 12.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/26/2026 16:23",
+    "road_name": "Chouteau Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "88bfd1516ac641b1a88466de"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.660251676555845,
+        -90.27910953723229
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 19.4,
+      "height_cm": 14.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/05/2026 15:51",
+    "road_name": "Maple Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a8a87b0334574784be04fae5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.639954446744845,
+        -90.22295413111058
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 13.2,
+      "height_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/18/2026 22:35",
+    "road_name": "Franklin Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1a1c1ad919d84c62a5eaea2d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.69292235863463,
+        -90.2415009752648
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 14.9,
+      "height_cm": 14.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/19/2026 16:18",
+    "road_name": "Harney Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "222cb4bf5f264a91b44aa467"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.641182645399844,
+        -90.2517283797008
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 13.0,
+      "height_cm": 9.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/18/2026 03:21",
+    "road_name": "Lindell Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "cc8e4f8ba87d42e89209ea22"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.605830985385666,
+        -90.27741725627993
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 6.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "02/14/2026 15:30",
+    "road_name": "Arsenal Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "7c0b43c454ec4bc8b4fb9266"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.644305076406575,
+        -90.25158256944201
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 18.5,
+      "height_cm": 5.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/28/2026 14:15",
+    "road_name": "McPherson Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4933ee7bf82448caa570632a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59991015386942,
+        -90.24173319851103
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 15.0,
+      "height_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/22/2026 19:33",
+    "road_name": "Connecticut Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "acf4ac9043c54d768c7559ea"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59760383366472,
+        -90.24596826667604
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 13.8,
+      "height_cm": 8.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "02/03/2026 10:43",
+    "road_name": "North Utah Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a80e19e89f38495d864c6faf"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.600122388625664,
+        -90.2285098469757
+      ]
+    },
+    "confidence": 0.98,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 13.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/09/2026 10:55",
+    "road_name": "Arsenal Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "ee6c7836d27a4fb58befd564"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62622152130204,
+        -90.26239327044603
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 8.9,
+      "height_cm": 6.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/07/2026 07:21",
+    "road_name": "Manchester Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "7191431ea66e4d42899e5a28"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.651936485977885,
+        -90.26778525695796
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 18.2,
+      "height_cm": 8.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/14/2026 06:06",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "7c38cebdeb4245ce95c8f450"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66366053174851,
+        -90.26121167271957
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 18.6,
+      "height_cm": 6.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/05/2026 08:15",
+    "road_name": "North Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "bc30efb9d62647379d685969"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65935540177497,
+        -90.24918921455814
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 9.1,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/23/2026 01:15",
+    "road_name": "Aldine Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7364c8453972480994fcfa57"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64881792647018,
+        -90.26184521119748
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 5.4,
+      "height_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/14/2026 04:22",
+    "road_name": "McPherson Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c9830838b7e24e3b817d4016"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58533916297824,
+        -90.25738252834857
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 11.1,
+      "height_cm": 4.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/19/2026 10:20",
+    "road_name": "Ray Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ec018627d2d24302b698d91e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64042364105411,
+        -90.23734800573081
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 16.8,
+      "height_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/15/2026 08:16",
+    "road_name": "Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4560ba9330b24d959b5ddbe8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65177246627426,
+        -90.24072439187972
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 19.3,
+      "height_cm": 5.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/03/2026 18:27",
+    "road_name": "Page Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "6033118bbfd0474aae53bb9b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66585464091038,
+        -90.2766044906791
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 16.9,
+      "height_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/17/2026 01:33",
+    "road_name": "Burd Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1c73fc1035554581b7b08a6a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6042634817883,
+        -90.20889643203022
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 14.9,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/27/2026 02:23",
+    "road_name": "Menard Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "fab7e470cc4340bda195bc98"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.608826675710425,
+        -90.2323721122788
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 5.0,
+      "height_cm": 14.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/28/2026 13:06",
+    "road_name": "Shenandoah Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4c5b24264d9e43b39344d08e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.602922256997395,
+        -90.24326269607046
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 6.7,
+      "height_cm": 13.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/04/2026 09:59",
+    "road_name": "Arsenal Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "38626cfd369a4808ba18b7e6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59897597218012,
+        -90.2415466896166
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 10.9,
+      "height_cm": 13.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "01/30/2026 23:34",
+    "road_name": "Wyoming Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "540577f8dca54c04815c1376"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66311245572692,
+        -90.25870277928783
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 19.3,
+      "height_cm": 6.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/26/2026 18:01",
+    "road_name": "Aldine Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "963a4372a0e04714a49efdd0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.627370921342084,
+        -90.23348672697536
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 10.7,
+      "height_cm": 6.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/19/2026 17:29",
+    "road_name": "Gratiot Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dbd75c146d29418eaca5b810"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.57688910792694,
+        -90.25194744886105
+      ]
+    },
+    "confidence": 0.94,
+    "size": {
+      "width_cm": 17.7,
+      "height_cm": 5.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/15/2026 06:18",
+    "road_name": "Dewey Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cff06e1ff0df46838f21cc12"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62625653364112,
+        -90.24593909401487
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 14.3,
+      "height_cm": 6.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/15/2026 12:46",
+    "road_name": "Central Industrial Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "ed876e0b27194446be289186"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59779396257931,
+        -90.27202670511
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 19.3,
+      "height_cm": 6.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/22/2026 03:18",
+    "road_name": "Fairview Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dd9c1eff4d3443c58d914523"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.636508563715125,
+        -90.24693400026375
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 14.8,
+      "height_cm": 12.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/24/2026 11:59",
+    "road_name": "South Sarah Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "adc60aaf236c4981abf57edb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63105776087149,
+        -90.26614302113163
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 13.6,
+      "height_cm": 8.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/28/2026 20:20",
+    "road_name": "Jack Buck Memorial Highway",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "d9d861d26ec94ec28dfa5d07"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.663095598799444,
+        -90.25294396189754
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 14.9,
+      "height_cm": 4.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/21/2026 16:40",
+    "road_name": "Leduc Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "eb1a22a06e06425ca0414197"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.639936067869876,
+        -90.25306470140058
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 12.8,
+      "height_cm": 7.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/02/2026 14:28",
+    "road_name": "West Pine Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8cea94f0048b47708322d623"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63261210231109,
+        -90.2404596469799
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 18.6,
+      "height_cm": 10.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/22/2026 16:07",
+    "road_name": "Jack Buck Memorial Highway",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "14716234700344529d874810"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6433934,
+        -90.2301924
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 6.0,
+      "height_cm": 4.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/08/2026 15:41",
+    "road_name": "Saint Alphonsus Street",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "95f5a7c8d0a341779c7a2ee1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.591062598601354,
+        -90.23996806148412
+      ]
+    },
+    "confidence": 0.98,
+    "size": {
+      "width_cm": 16.1,
+      "height_cm": 7.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/17/2026 20:32",
+    "road_name": "Louisiana Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ba5da0f65591405686455f7f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.599405882496384,
+        -90.24543016076935
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 10.4,
+      "height_cm": 10.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/08/2026 00:44",
+    "road_name": "Wyoming Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9d619670468b4b558861c2e8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59896079999999,
+        -90.26476570000001
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 8.5,
+      "height_cm": 4.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/24/2026 11:56",
+    "road_name": "Fyler Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2c6e43ea24a7431aaddcc163"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.647521623235335,
+        -90.22664554483849
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 10.2,
+      "height_cm": 7.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/05/2026 21:51",
+    "road_name": "Cozens Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a6ea739845644bfba9bf01bd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62390131273272,
+        -90.22208757342875
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 17.2,
+      "height_cm": 13.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/02/2026 20:47",
+    "road_name": "Papin Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "aade3cbcada14556b4316905"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64380221112814,
+        -90.27319596587246
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 16.0,
+      "height_cm": 8.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/24/2026 03:22",
+    "road_name": "Forest Park Parkway",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "930f29c6b94b41abbf86aac4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59613111930186,
+        -90.25908794507725
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 17.0,
+      "height_cm": 4.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/08/2026 04:12",
+    "road_name": "Bent Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cb06184c3c0f4308ae9032f2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59025062717576,
+        -90.21505201178918
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 6.3,
+      "height_cm": 4.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/20/2026 08:12",
+    "road_name": "South 2nd Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ba9fe4c9829b480ba694958a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64570068107542,
+        -90.28160574844154
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 7.9,
+      "height_cm": 12.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/28/2026 11:46",
+    "road_name": "Lindell Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "9ca98dd712c9422c838963c5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.633285123922384,
+        -90.24282377949918
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 5.6,
+      "height_cm": 13.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/13/2026 02:55",
+    "road_name": "South Vandeventer Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "e6cbc8fb945b4c0c8119070f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63311589830251,
+        -90.27572846242943
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 11.9,
+      "height_cm": 6.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/15/2026 18:42",
+    "road_name": "Clayton Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "a6be181760d84bec88ae432f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59321021822999,
+        -90.25612759293178
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 5.8,
+      "height_cm": 12.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/17/2026 06:38",
+    "road_name": "Miami Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "66f2c26651634387aede8de9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.657635241162644,
+        -90.26849797143814
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 9.4,
+      "height_cm": 5.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/28/2026 06:11",
+    "road_name": "Raymond Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a9cb3121418e44b4834155b8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.55984613778725,
+        -90.24428242008348
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 14.5,
+      "height_cm": 9.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/07/2026 20:57",
+    "road_name": "Elwood Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "24c166ee5b7042f1a075b12d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61071464238828,
+        -90.25260366192487
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 14.1,
+      "height_cm": 14.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/15/2026 00:14",
+    "road_name": "Shenandoah Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1fab5a6e33f949ee89b3ca60"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64102428993269,
+        -90.2746747890295
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 9.6,
+      "height_cm": 8.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "detection_date": "02/07/2026 09:53",
+    "road_name": "Theatre Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "75affb43fd22483daa734a96"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61628569046342,
+        -90.2372729617794
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 12.1,
+      "height_cm": 6.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/23/2026 06:06",
+    "road_name": "Unknown",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "caba0a4a92df4de2a61d12bd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65071008915831,
+        -90.25452205597341
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 8.4,
+      "height_cm": 9.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/23/2026 10:08",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "75a6d3f42491459d877423ad"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58872838439173,
+        -90.23309893281657
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 6.7,
+      "height_cm": 13.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/02/2026 09:21",
+    "road_name": "Winnebago Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c02699fa0a2145f7b874b7e9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67341821902592,
+        -90.25669370926764
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 13.1,
+      "height_cm": 11.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/27/2026 20:23",
+    "road_name": "Norwood Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dbb6883cda5b4c409ffa5c12"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62660750261581,
+        -90.25270128604821
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 5.5,
+      "height_cm": 12.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/12/2026 23:44",
+    "road_name": "Kentucky Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d3d30512deb54bcb9a19c541"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64428733055237,
+        -90.24321601159879
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 13.3,
+      "height_cm": 10.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/10/2026 03:44",
+    "road_name": "North Sarah Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "6082fbf4018b4514bba2766b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64456812116809,
+        -90.24056499781327
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 10.6,
+      "height_cm": 3.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/06/2026 22:10",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "55c2b9ba3f294e7497fc46e8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.632494404818424,
+        -90.25030540603059
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 18.9,
+      "height_cm": 6.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "02/11/2026 16:30",
+    "road_name": "Clayton Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "aca95bc1dbe44f8ea951830f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.613687304433874,
+        -90.24556612470977
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 9.3,
+      "height_cm": 6.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/21/2026 06:38",
+    "road_name": "South 39th Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "ea78a824995a44d99cedec1a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67859067096492,
+        -90.26950715325295
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 18.0,
+      "height_cm": 9.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "01/30/2026 09:33",
+    "road_name": "Clara Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e45197f2c36d4efc908716a7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65207290816596,
+        -90.26805071128128
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 11.1,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 16:47",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "c2f2727ab980417493826836"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.70019161193369,
+        -90.24369149560609
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 5.0,
+      "height_cm": 5.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/06/2026 18:50",
+    "road_name": "West Florissant Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "7354e4277fa848e7bfc601c9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.638362432000235,
+        -90.238163294045
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 9.4,
+      "height_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 13:22",
+    "road_name": "Lindell Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "5425ff592c974d13a398655d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.631569153278285,
+        -90.25889009858507
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 5.8,
+      "height_cm": 7.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/15/2026 06:15",
+    "road_name": "Unknown",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "fbef594e93ba4e2c9b8ab860"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.595599971652824,
+        -90.27461144340938
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 8.8,
+      "height_cm": 5.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 10:02",
+    "road_name": "Miami Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3057eda3373f44f0b4064a60"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.5778434346965,
+        -90.2511357744789
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 10.3,
+      "height_cm": 6.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/03/2026 18:49",
+    "road_name": "Dewey Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7be3410b589b4230a5bee147"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.640614299999996,
+        -90.2678125
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 9.5,
+      "height_cm": 6.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/01/2026 21:17",
+    "road_name": "Forest Park Parkway",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "f6c90226244d47e49b99faaa"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63330910685899,
+        -90.27768261430529
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 5.8,
+      "height_cm": 8.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/05/2026 20:48",
+    "road_name": "Clayton Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "2bf012cae8c144d0b91932fc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.612807199173446,
+        -90.29362065253689
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 10.8,
+      "height_cm": 7.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/07/2026 15:07",
+    "road_name": "Columbia Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "d8a0869a2a0a4ca2b362f204"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.620439171482374,
+        -90.26462919381089
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 16.8,
+      "height_cm": 6.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/23/2026 03:29",
+    "road_name": "McRee Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "782244cb353a4aabbf986f5c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60893046243993,
+        -90.25949475778303
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 9.0,
+      "height_cm": 5.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/11/2026 01:37",
+    "road_name": "Magnolia Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "1a7f8703f80d449aa90ebd62"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.623016345160515,
+        -90.22348219701678
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 10.2,
+      "height_cm": 10.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/07/2026 01:38",
+    "road_name": "California Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3911c4e893b642138ce6f47c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64129701609804,
+        -90.26321388255947
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 13.0,
+      "height_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/07/2026 08:37",
+    "road_name": "Buckingham Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "afab3f09ea8542118750f12d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62688116227128,
+        -90.26482623671194
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 14.2,
+      "height_cm": 5.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/28/2026 21:27",
+    "road_name": "South Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "1c4a91f0cc30466dbced2746"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66612882776155,
+        -90.24769228760624
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 19.3,
+      "height_cm": 10.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/06/2026 07:48",
+    "road_name": "Maffitt Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c3032f6d944b4973a3d55eb5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60215869085547,
+        -90.28110528536814
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 11.1,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/10/2026 08:26",
+    "road_name": "Wyoming Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2e92d557911e4ac2867ddb9f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.595961522757335,
+        -90.25783444316758
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 6.2,
+      "height_cm": 5.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "01/31/2026 17:52",
+    "road_name": "Fairview Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1efa26b2c7bf4e5b8fe02a04"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.649491215325845,
+        -90.28127571262344
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 5.7,
+      "height_cm": 7.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/15/2026 02:32",
+    "road_name": "Waterman Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8b6dd7e4fb69435892e2e2d3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.630098708062775,
+        -90.24541394700228
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 17.9,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/17/2026 09:32",
+    "road_name": "South Vandeventer Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "0c092591c7994a6489930bbc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66175063126289,
+        -90.26180309791768
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 14.0,
+      "height_cm": 8.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/08/2026 18:51",
+    "road_name": "North Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "b171524899c940cb82aa2c6e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.667975064609564,
+        -90.21795174304731
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 8.7,
+      "height_cm": 10.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/13/2026 05:42",
+    "road_name": "Lee Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "e4885bf75d3847d39a707643"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59942037844921,
+        -90.22203199854789
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 19.4,
+      "height_cm": 12.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/21/2026 10:37",
+    "road_name": "Crittenden Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a25c387b58e4414281cfaca7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61440018733359,
+        -90.2500396243847
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 8.3,
+      "height_cm": 6.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/13/2026 05:22",
+    "road_name": "Russell Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1e8bd20485c94e608a872621"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.630171460161854,
+        -90.22882040828492
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 6.5,
+      "height_cm": 8.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/26/2026 12:46",
+    "road_name": "Spruce Street",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "210fb8da19444f6daf379988"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6449142,
+        -90.2865355
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 9.7,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/10/2026 02:48",
+    "road_name": "DeBaliviere Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "003775c441bd4e32a387185a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62610969678027,
+        -90.24245702584847
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 11.9,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/10/2026 02:03",
+    "road_name": "South 39th Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "9ce3a05d8742442285e69bf7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65868452708523,
+        -90.20389860353399
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 18.6,
+      "height_cm": 5.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/27/2026 04:26",
+    "road_name": "Mallinckrodt Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "554eca107ee6449e8cc51281"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.69680217850426,
+        -90.23131167126459
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 7.4,
+      "height_cm": 14.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "01/30/2026 23:13",
+    "road_name": "Wildrose",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f0ece9d4f43f4984b53d2811"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61137499037335,
+        -90.2791206809072
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 8.8,
+      "height_cm": 9.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "01/30/2026 23:07",
+    "road_name": "Columbia Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "4f9087e2f72d45018716e897"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61731792110661,
+        -90.26144811564322
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 10.2,
+      "height_cm": 4.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/02/2026 19:07",
+    "road_name": "South Vandeventer Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "d9a6dbd290494e89a258ebb1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60787056876229,
+        -90.24827245027869
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 8.7,
+      "height_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/10/2026 21:28",
+    "road_name": "Magnolia Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "d77758924bac4b90aacb86ca"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.611257401173226,
+        -90.273358261371
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 9.3,
+      "height_cm": 12.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/17/2026 01:55",
+    "road_name": "Southwest Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "7b7955d4a910453689df87d9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.615688481665146,
+        -90.26352655383397
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 7.5,
+      "height_cm": 8.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "01/30/2026 23:33",
+    "road_name": "South Vandeventer Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "f6b9a2da59f745bb944464ad"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60643092222928,
+        -90.25681034813142
+      ]
+    },
+    "confidence": 0.66,
+    "size": {
+      "width_cm": 17.5,
+      "height_cm": 7.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/04/2026 11:16",
+    "road_name": "Main Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "969f361296ef49958ba25841"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.615715385358435,
+        -90.24801068611515
+      ]
+    },
+    "confidence": 0.98,
+    "size": {
+      "width_cm": 19.6,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/23/2026 04:12",
+    "road_name": "Lawrence Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2aa019074a1c4b00bf7c23d4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62856294063687,
+        -90.23956816725202
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 5.7,
+      "height_cm": 10.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/11/2026 15:43",
+    "road_name": "Gratiot Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "329ecae297b14ab08fbcdabd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.614204223878126,
+        -90.26920113336153
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 16.1,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/20/2026 09:12",
+    "road_name": "Bischoff Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e3e0f14e9ba5489291888b3b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66516447287471,
+        -90.26827171382185
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 19.7,
+      "height_cm": 13.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/10/2026 06:22",
+    "road_name": "Union Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "63f05a3e9a3847cbad2dbef3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6849463417457,
+        -90.26957377520723
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 13.4,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "02/16/2026 01:06",
+    "road_name": "Natural Bridge Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "c78ef29620a746ebab6563f4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.68833983626836,
+        -90.24175178457584
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 10.1,
+      "height_cm": 6.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/27/2026 02:07",
+    "road_name": "North Kingshighway Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "c074b1ace1b04b5e80632022"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58926183180792,
+        -90.28944134499065
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 5.0,
+      "height_cm": 14.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/07/2026 05:58",
+    "road_name": "Lansdowne Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4a1e818505eb4f32a676ddc2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66755804492422,
+        -90.26197053673549
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 15.9,
+      "height_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/09/2026 11:36",
+    "road_name": "Lotus Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "abf58ac7de974965b5eecef3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65405958780777,
+        -90.25709097967152
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 8.7,
+      "height_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "02/25/2026 17:00",
+    "road_name": "Walton Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "fa8c33932d7a481dba41d7de"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67759502879653,
+        -90.21949660478033
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 7.1,
+      "height_cm": 4.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/15/2026 12:50",
+    "road_name": "Algernon Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5c8f7fa9632f4c189391ccea"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.652255557861146,
+        -90.24817054976
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 17.9,
+      "height_cm": 10.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "01/30/2026 19:12",
+    "road_name": "North Newstead Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d3a6e7d21e974857848af9b0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64536862316748,
+        -90.25747802948885
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 17.2,
+      "height_cm": 6.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/17/2026 00:24",
+    "road_name": "Pershing Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b4a6673521364827816c3403"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64904893269578,
+        -90.25697056791292
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 6.3,
+      "height_cm": 4.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/27/2026 23:58",
+    "road_name": "Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d2b1b3b417c54ca185774a5c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64596062492229,
+        -90.24994309427957
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 9.5,
+      "height_cm": 5.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/11/2026 10:28",
+    "road_name": "Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1cd58ff1b0b641c5868a5899"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59572373587675,
+        -90.23549016114401
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 16.7,
+      "height_cm": 3.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/20/2026 07:52",
+    "road_name": "Michigan Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "024626804d9a4358b64e41bd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.604062218621195,
+        -90.22560030319471
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 9.8,
+      "height_cm": 8.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "detection_date": "02/14/2026 05:13",
+    "road_name": "Ohio Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d6e1fd3e4e2a48dc985d619c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.57924530544488,
+        -90.25920823968018
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 12.9,
+      "height_cm": 5.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/06/2026 11:39",
+    "road_name": "Itaska Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0fa80687e3e242259c606ef8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60972236096941,
+        -90.24199070478541
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 15.1,
+      "height_cm": 6.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/17/2026 01:18",
+    "road_name": "Shenandoah Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "13e59b32bf564e2984606da5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.601322566763194,
+        -90.27669635168607
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 6.7,
+      "height_cm": 6.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/08/2026 22:56",
+    "road_name": "Brannon Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ee4c1544527742b3b998bba3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.600365399999994,
+        -90.1988323
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 5.1,
+      "height_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "detection_date": "02/21/2026 13:56",
+    "road_name": "Barton Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "08a9e5f571f045e19106cc2a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64587413770913,
+        -90.24072679380227
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 17.7,
+      "height_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "01/30/2026 05:57",
+    "road_name": "Enright Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "416ba648b7d74bd4aede5c14"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64088175567567,
+        -90.23513879131428
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 12.8,
+      "height_cm": 5.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/01/2026 02:05",
+    "road_name": "North Spring Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "fd5e646c6837415dbbfce885"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60827030000001,
+        -90.2750033
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 7.4,
+      "height_cm": 8.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/06/2026 01:42",
+    "road_name": "Reber Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "eb1c4b9e139a4db1b8a0db33"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64565421137122,
+        -90.22993149419845
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 11.4,
+      "height_cm": 11.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/19/2026 20:55",
+    "road_name": "Cook Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f170882a6dbc48a79e5d819b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64049156084047,
+        -90.27256941081278
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 14.7,
+      "height_cm": 11.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/14/2026 04:18",
+    "road_name": "Faulkner Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "69b944ef3e2445e299b35630"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59499334113216,
+        -90.25087964875314
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 11.7,
+      "height_cm": 10.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/08/2026 21:34",
+    "road_name": "Gustine Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "70e203b3968f4039a10b2f29"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60516935574721,
+        -90.25872719843309
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 19.1,
+      "height_cm": 6.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/22/2026 01:08",
+    "road_name": "Center Cross Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "b0a24b9caff04b8f849a9ffe"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.612449273754876,
+        -90.18919706337725
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 18.7,
+      "height_cm": 7.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/25/2026 23:34",
+    "road_name": "South Wharf Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2e5f7985ea8b4d178a76023e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.654793,
+        -90.302072
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 5.7,
+      "height_cm": 8.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/25/2026 11:45",
+    "road_name": "Washington Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "97e8a22c6a164614a49419e5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6819576666555,
+        -90.23397617953646
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 17.1,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/11/2026 14:54",
+    "road_name": "Shirley Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "03db954b0ae54a04bb77d3af"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.605518298502936,
+        -90.24724399512714
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 14.8,
+      "height_cm": 3.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/15/2026 17:45",
+    "road_name": "Main Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "ab984d7dfd344f5e8547ace6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66250432540758,
+        -90.2552371752099
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 14.1,
+      "height_cm": 10.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/20/2026 18:22",
+    "road_name": "Cote Brilliante Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "046e572572f1445dbd7adc26"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60743784160685,
+        -90.28091831076247
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 17.2,
+      "height_cm": 13.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/25/2026 06:51",
+    "road_name": "Odell Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6900369f3be541c5a77a4a85"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62907075113965,
+        -90.23284319436502
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 7.5,
+      "height_cm": 14.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/16/2026 12:01",
+    "road_name": "South Theresa Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "e644518b90e845f086f951f6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63106804672891,
+        -90.2560670065043
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 7.8,
+      "height_cm": 9.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/09/2026 18:16",
+    "road_name": "Unknown",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "a2b676e5a0524bbdafe7f946"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62795169999999,
+        -90.2717478
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 10.5,
+      "height_cm": 14.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/22/2026 06:36",
+    "road_name": "Berthold Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "21decc23569644e093da2bf3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.5991575541027,
+        -90.22838860556261
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 18.3,
+      "height_cm": 7.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/12/2026 13:17",
+    "road_name": "Juniata Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "92ec74b8ee7d44c381edb3b6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60244319478172,
+        -90.26353269904028
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 16.8,
+      "height_cm": 9.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/09/2026 09:49",
+    "road_name": "Alfred Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6a23116327344632b09c242b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64202482637488,
+        -90.23754626132336
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 15.4,
+      "height_cm": 14.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/17/2026 23:28",
+    "road_name": "Washington Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "b7d554f5456c43c880a1059a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64249154388381,
+        -90.25078724348101
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 19.6,
+      "height_cm": 13.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/01/2026 16:22",
+    "road_name": "Maryland Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7a7a4cb9b9d54422b09e5024"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63404026103435,
+        -90.26122161936442
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 10.8,
+      "height_cm": 14.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/18/2026 13:37",
+    "road_name": "McKinley Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "bc417a67521f483b9cf6f38a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.641983913487614,
+        -90.23442859726664
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 9.2,
+      "height_cm": 6.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/01/2026 00:27",
+    "road_name": "North Spring Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "9a8dfd752d0f44b88ed581b2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.691062644602916,
+        -90.26915298700979
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 16.6,
+      "height_cm": 12.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/01/2026 20:31",
+    "road_name": "Goodfellow Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "4944cffc86fc45f2ae97f8d1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58110516734866,
+        -90.26612714185784
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 18.1,
+      "height_cm": 5.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/27/2026 12:07",
+    "road_name": "Delor Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "692b7c8ac2c242f8b6f7088a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65822417669165,
+        -90.26538373052823
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 10.3,
+      "height_cm": 7.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/28/2026 10:20",
+    "road_name": "Vernon Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "33996c9659424aee8793d895"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60404906140802,
+        -90.29506349122926
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 18.3,
+      "height_cm": 10.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/21/2026 19:40",
+    "road_name": "Wyoming Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4e628b46eaff4a069fc5d73e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.699560299999995,
+        -90.2669959
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 6.9,
+      "height_cm": 8.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/20/2026 20:23",
+    "road_name": "Amelia Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "26fd464d06944161956c8516"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63481142022637,
+        -90.24926776821438
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 14.4,
+      "height_cm": 6.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/19/2026 13:13",
+    "road_name": "Duncan Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "fae0b742fded45488fc1b9bb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66964471861642,
+        -90.20915026826212
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 19.6,
+      "height_cm": 3.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/25/2026 10:25",
+    "road_name": "Strodtman Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2ef4bac46d204d1fb0a27b32"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.602307022486386,
+        -90.24736256805292
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 13.9,
+      "height_cm": 10.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/05/2026 20:24",
+    "road_name": "Hartford Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "209f8f1e99584c28a94d08a4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.5941475603435,
+        -90.23235837059018
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 16.5,
+      "height_cm": 12.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/12/2026 17:14",
+    "road_name": "Cherokee Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "79ecc27d90c44e15897a05c5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.65093824989379,
+        -90.25571900292417
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 13.1,
+      "height_cm": 14.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/15/2026 17:28",
+    "road_name": "Delmar Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "b0d937b123c04b29878219b8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.608351168751476,
+        -90.21763592038712
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 10.2,
+      "height_cm": 11.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/22/2026 20:12",
+    "road_name": "McNair Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ec6654173e4749728ba56a6e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.63251461159765,
+        -90.1927738527243
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 8.8,
+      "height_cm": 8.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/14/2026 03:32",
+    "road_name": "Convention Plaza",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e5747ad58ba74e3791a0974e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64770832350034,
+        -90.26107539188303
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 9.4,
+      "height_cm": 10.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/21/2026 05:51",
+    "road_name": "North Euclid Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "620007e802b74cd28e251c85"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60068615852165,
+        -90.25137862319848
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 5.7,
+      "height_cm": 11.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/17/2026 12:02",
+    "road_name": "Connecticut Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "bb293e6de9c5425f945c8c2f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.642440814700095,
+        -90.27507499835332
+      ]
+    },
+    "confidence": 0.73,
+    "size": {
+      "width_cm": 18.9,
+      "height_cm": 4.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/15/2026 15:35",
+    "road_name": "Grand Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "09b1651c19f4442cb4fd32d5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.641564022709396,
+        -90.26095928805442
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 10.1,
+      "height_cm": 12.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "detection_date": "02/09/2026 23:20",
+    "road_name": "West Pine Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b0749c1e8ffc44af88778978"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64864416207158,
+        -90.29253390697589
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 6.6,
+      "height_cm": 6.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/10/2026 07:46",
+    "road_name": "Forest Park Parkway",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "d45abfce39b14406a57663cb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61914639587046,
+        -90.27344007400879
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 15.7,
+      "height_cm": 12.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "02/27/2026 14:21",
+    "road_name": "Pattison Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "44d0b75411864097abc10dda"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.665344446487325,
+        -90.284018448832
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 8.7,
+      "height_cm": 3.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/13/2026 21:27",
+    "road_name": "Julian Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "008c51f3c5ff404693b1fca1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.61737849090991,
+        -90.24204057651671
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 6.9,
+      "height_cm": 9.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "01/31/2026 02:29",
+    "road_name": "Lafayette Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "15270808de8144e6a9b000b4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6865899,
+        -90.2639661
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 11.4,
+      "height_cm": 10.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/07/2026 13:17",
+    "road_name": "Stratford Avenue",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "2c67703823b14f35aa19f072"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.629091464209225,
+        -90.22531075364039
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 18.1,
+      "height_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/17/2026 00:01",
+    "road_name": "Spruce Street",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "68efc22014ce4c25af9eeb91"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.68146606316368,
+        -90.23735353557753
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 10.5,
+      "height_cm": 6.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/06/2026 14:56",
+    "road_name": "Marcus Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4167827e8d40471bb2156807"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64393917738328,
+        -90.24533789870904
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 17.6,
+      "height_cm": 4.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/15/2026 13:03",
+    "road_name": "Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9b17a45e288244fa8216685f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.632617691629235,
+        -90.24155328206257
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 14.1,
+      "height_cm": 10.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/20/2026 04:40",
+    "road_name": "Jack Buck Memorial Highway",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "ccb76276412c4165aa1e1447"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64931690112196,
+        -90.22387205566424
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 8.0,
+      "height_cm": 5.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "01/31/2026 13:48",
+    "road_name": "Bacon Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "554561453da4422c807c4d3b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.640965087747404,
+        -90.27361547089936
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 6.0,
+      "height_cm": 7.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/10/2026 12:03",
+    "road_name": "Grand Drive",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "31c7cbfdcb254e96854c84bc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60101036054605,
+        -90.24328634185004
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 13.8,
+      "height_cm": 3.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/13/2026 23:14",
+    "road_name": "Juniata Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "43f508f79f364da6b2411d83"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.636769667085446,
+        -90.25849433566052
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 9.5,
+      "height_cm": 4.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/03/2026 11:03",
+    "road_name": "Duncan Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d67ac0c97edc4cb182d2e9e0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60990716515962,
+        -90.2534241201774
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 8.4,
+      "height_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/27/2026 04:17",
+    "road_name": "Botanical Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "850a1237de2a4c9ab9061623"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.655989939310075,
+        -90.26645089667407
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 18.3,
+      "height_cm": 10.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/25/2026 14:14",
+    "road_name": "Academy Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d0422c06170d4f4abfa48529"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67119952268452,
+        -90.23643537367128
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 17.0,
+      "height_cm": 6.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/16/2026 17:58",
+    "road_name": "San Francisco Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f903903f3bf84fd5836f7eca"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59260542869133,
+        -90.24383562509257
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 8.2,
+      "height_cm": 12.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "02/10/2026 20:38",
+    "road_name": "South Grand Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "fc409a667a6f46a0b4b701a1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66142481449393,
+        -90.26185958802837
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 13.2,
+      "height_cm": 11.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/14/2026 10:24",
+    "road_name": "North Kingshighway Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "6b4acab42d2f4dd3aa2c752f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.613363318962215,
+        -90.23184921609045
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 8.5,
+      "height_cm": 3.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/19/2026 07:02",
+    "road_name": "Allen Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0e7f9fbaa96a4496981aa3b5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.642829508050625,
+        -90.25969851655819
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 14.5,
+      "height_cm": 13.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "01/30/2026 03:36",
+    "road_name": "Lindell Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "fabe19b45a9f4b3b8ff36bff"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62801229784649,
+        -90.24804518232443
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 12.9,
+      "height_cm": 10.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/26/2026 11:53",
+    "road_name": "Unknown",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "a181b05d10854c7db96f0975"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.675722928273906,
+        -90.24336091492657
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 15.6,
+      "height_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/18/2026 17:45",
+    "road_name": "Margaretta Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dea47e30cbc64dab8dc4894c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.55785666462986,
+        -90.26139747606719
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 17.5,
+      "height_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/16/2026 12:43",
+    "road_name": "Loughborough Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "20feff015ebe4e4cb78f482a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64559638168912,
+        -90.25450774258346
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 11.5,
+      "height_cm": 3.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/09/2026 05:49",
+    "road_name": "McPherson Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "feab04be09e04872893ec24f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.67855135991636,
+        -90.28232009588244
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 12.2,
+      "height_cm": 4.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/23/2026 15:13",
+    "road_name": "Highland Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "061c0009e4ef4c8e95b55971"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6531594,
+        -90.2511365
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 14.7,
+      "height_cm": 15.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/08/2026 09:27",
+    "road_name": "C D Banks Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b7b4092b2251428db806dad1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.577571990980786,
+        -90.25287001442564
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 12.1,
+      "height_cm": 8.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/23/2026 16:38",
+    "road_name": "South 38th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "bd7f090c47104ad4b2df1da1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.55319450000001,
+        -90.2494374
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 17.5,
+      "height_cm": 8.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/21/2026 19:18",
+    "road_name": "Haven Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2c8da0cfaa364b3da7913453"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.6207825690145,
+        -90.24866535396534
+      ]
+    },
+    "confidence": 0.94,
+    "size": {
+      "width_cm": 19.7,
+      "height_cm": 6.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/15/2026 13:55",
+    "road_name": "Folsom Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5493253b3a7f45bf9efa734f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62624287511992,
+        -90.23792609059248
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 5.9,
+      "height_cm": 11.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/13/2026 19:41",
+    "road_name": "Chouteau Avenue",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "8a3ec4156e0e4b5e9211f502"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.583314446779596,
+        -90.23385592628443
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 5.0,
+      "height_cm": 12.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/09/2026 13:37",
+    "road_name": "Osage Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7920a3cc35f640088f634277"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.646938919849646,
+        -90.23722834931338
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 8.9,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/06/2026 16:51",
+    "road_name": "C D Banks Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d146593dbe7b4778a0b6bcd3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.628109851024455,
+        -90.25649329736974
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 5.1,
+      "height_cm": 6.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "detection_date": "02/20/2026 13:17",
+    "road_name": "Tower Grove Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "ec50867b4c2046e790cc70b5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59068719999999,
+        -90.205629
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 9.9,
+      "height_cm": 8.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/27/2026 13:06",
+    "road_name": "Arsenal Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d7a01444d6e94f8b8e05d9e3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60608839928885,
+        -90.2417055664285
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 9.0,
+      "height_cm": 12.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/24/2026 12:29",
+    "road_name": "South Grand Boulevard",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "8974fd2ad59f460e8d115e28"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.671711834827406,
+        -90.24103457721195
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 18.3,
+      "height_cm": 4.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/03/2026 00:21",
+    "road_name": "Natural Bridge Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "9ddd367016a243fa9670e98a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.634909746239515,
+        -90.24973441547534
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 14.9,
+      "height_cm": 8.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/12/2026 17:06",
+    "road_name": "Duncan Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2460e572198b47bd8c5a2243"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64502512585016,
+        -90.24438500106224
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 10.1,
+      "height_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "01/31/2026 05:27",
+    "road_name": "Washington Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "bf0eed894fde4c1586f9fc7d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62941464721043,
+        -90.25389627535657
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 11.8,
+      "height_cm": 11.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "open",
+    "detection_date": "02/26/2026 02:44",
+    "road_name": "South Boyle Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "ef364be6618445e192ea4024"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.58363462441032,
+        -90.27962983195009
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 17.8,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/11/2026 19:28",
+    "road_name": "Itaska Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4f0cb85192134c12a7729691"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.64737251280741,
+        -90.24970985190402
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 10.5,
+      "height_cm": 3.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/27/2026 12:03",
+    "road_name": "Washington Boulevard",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "57d5225133b64af6acfb2655"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59081564401773,
+        -90.20577013408173
+      ]
+    },
+    "confidence": 0.57,
+    "size": {
+      "width_cm": 10.4,
+      "height_cm": 9.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/01/2026 09:47",
+    "road_name": "Arsenal Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1d2365a0c0ad4a1aaf6209f6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62173438903876,
+        -90.24918089760631
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 11.5,
+      "height_cm": 5.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/03/2026 07:58",
+    "road_name": "Park Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8d0ec7e1941d4beeadc5d672"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62033999134363,
+        -90.25391721918297
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 7.9,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "01/31/2026 08:53",
+    "road_name": "Blaine Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "070c33a9ae6444e9a333786e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.649094894104735,
+        -90.27397032665468
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 8.2,
+      "height_cm": 10.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/03/2026 13:55",
+    "road_name": "Union Boulevard",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "79097c0c1fde46958f6ca3bc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.613653265783505,
+        -90.25528067845121
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 16.7,
+      "height_cm": 14.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/20/2026 14:19",
+    "road_name": "Flora Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1ebc7fbdbedb4df782732287"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.580954885730364,
+        -90.24809605555029
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 9.1,
+      "height_cm": 12.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/08/2026 10:40",
+    "road_name": "Bingham Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "89ec3f1bab3c4456b280ebe0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59655555287094,
+        -90.22713524013564
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 10.5,
+      "height_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "01/30/2026 15:41",
+    "road_name": "Ohio Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "32119da36583487eacb798ff"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.691980690678065,
+        -90.22957179269366
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 12.8,
+      "height_cm": 13.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "02/01/2026 12:13",
+    "road_name": "Wildrose",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4f88204f43814e50a3448d45"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.62894291219899,
+        -90.26678838545668
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 13.2,
+      "height_cm": 5.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/27/2026 12:32",
+    "road_name": "Oakland Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "72ae5de3d6384204af21fc93"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.66857187449845,
+        -90.27289521606451
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 19.2,
+      "height_cm": 9.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "open",
+    "detection_date": "02/25/2026 18:07",
+    "road_name": "Doctor Martin Luther King Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "a063fc81068e482c8e5f798f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60615070100337,
+        -90.22237317710793
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 11.5,
+      "height_cm": 9.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/11/2026 19:51",
+    "road_name": "Victor Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "68ab94775f1746f8b5afb2b0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.682545200000014,
+        -90.2795559
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 7.7,
+      "height_cm": 7.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/22/2026 11:14",
+    "road_name": "Saint Louis Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5f44ad1d62e1440594aa87a1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.588741838793574,
+        -90.26652548452938
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 18.0,
+      "height_cm": 6.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/17/2026 04:56",
+    "road_name": "Osceola Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0fd287b182c6481bbdb36035"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.59388734652379,
+        -90.2035221124411
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 14.6,
+      "height_cm": 7.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/11/2026 13:51",
+    "road_name": "Sidney Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "25f3c5b2bf0b4f2696f2c046"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.60561269324675,
+        -90.21748397565668
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 10.9,
+      "height_cm": 7.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/08/2026 01:17",
+    "road_name": "James Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8e64f71f3a8040dcb2d46064"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.663703406352255,
+        -90.26006003036697
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 5.8,
+      "height_cm": 7.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "unconfirmed",
+    "detection_date": "02/06/2026 06:18",
+    "road_name": "Aldine Place",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cc7568178bda4438b0507d58"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        38.645139778716604,
+        -90.25639024333442
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 13.0,
+      "height_cm": 8.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/13/2026 03:39",
+    "road_name": "Pershing Avenue",
+    "road_type": "residential"
+  }
+]
