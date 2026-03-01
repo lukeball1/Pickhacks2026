@@ -39,9 +39,14 @@ def getPotholes(org_id):
     potholes = getPotholeCollection()
     orgs = getOrganizationCollection()
     org = orgs.find_one({ '_id': org_id })
-    # return jsonify({"success": True, "org": org})
-    # if org is None: 
-    #     return jsonify({"success": False, "message": "Organization not found."}), 404
+    try:
+        # Wrap the string org_id in ObjectId
+        org = orgs.find_one({ '_id': str(org_id) })
+    except Exception as e:
+        return jsonify({"success": False, "message": "Invalid ID format"}), 400
+
+    if org is None: 
+        return jsonify({"success": False, "message": "Organization not found."}), 404
     results = potholes.find({
         "location.coordinates.0": {"$gte": org["region"]["minLat"], "$lte": org["region"]["maxLat"]},
         "location.coordinates.1": {"$gte": org["region"]["minLng"], "$lte": org["region"]["maxLng"]}
@@ -59,7 +64,7 @@ def getPotholes(org_id):
 def changePotholeStatus(pothole_id):
     potholes = getPotholeCollection()
     new_status = request.json.get("status")
-    result = potholes.update_one({ '_id': ObjectId(pothole_id) }, { '$set': { 'status': new_status } })
+    result = potholes.update_one({ '_id': pothole_id }, { '$set': { 'status': new_status } })
     potholes.database.client.close()
     if result.modified_count == 1:
         return jsonify({"success": True, "message": "Pothole status updated successfully."})

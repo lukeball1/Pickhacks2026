@@ -52,7 +52,7 @@ function App() {
       setRegion(org.region);
       setSelectedOrg(org);
       // applyRegionFilter(org.region);
-      loadPotholes(org);
+      loadPotholes(org._id);
       console.log("Selected organization region:", org);
     }
   }
@@ -70,7 +70,7 @@ function App() {
   const applyRegionFilter = (region) => {
     const filtered = potholes.filter(pothole => {
       return (pothole.location.coordinates[0] >= region.min_lat && pothole.location.coordinates[0] <= region.max_lat) &&
-             (pothole.location.coordinates[1] >= region.min_lng && pothole.location.coordinates[1] <= region.max_lng);
+              (pothole.location.coordinates[1] >= region.min_lng && pothole.location.coordinates[1] <= region.max_lng);
     });
     setFilteredPotholes(filtered);
     setRegion(region);
@@ -83,7 +83,7 @@ function App() {
     if (selectedOrg === null) { 
       
     }
-  }, [potholes, selectedOrg]);
+  }, [isAuthenticated, potholes, selectedOrg]);
   
   if (isLoading) {
     return (
