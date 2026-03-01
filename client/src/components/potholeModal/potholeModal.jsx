@@ -40,8 +40,8 @@ function PotholeModal({ pothole, onClose }){
         if (!status) return { color: '#757575', label: '' }; // Safety check
         switch (status.toLowerCase()) {
             case 'resolved': return { color: '#4CAF50', label: 'RESOLVED' };
-            case 'in progress': return { color: '#FBC02D', label: 'IN PROGRESS' };
-            case 'open': return { color: '#FF9800', label: 'OPEN' };
+            case 'in progress': return { color: '#FBFB2D', label: 'IN PROGRESS' };
+            case 'open': return { color: '#C77C2C', label: 'OPEN' };
             case 'unconfirmed': return { color: '#ec1010', label: 'UNCONFIRMED' };
             default: return { color: '#757575', label: status.toUpperCase() };
         }
@@ -70,7 +70,7 @@ function PotholeModal({ pothole, onClose }){
                         <div className="modal-content">
                             <img src={pothole.image_url} alt="pothole" />
                             <div className="modal-text">
-                                <h2>({pothole.location.coordinates[1].toFixed(4)}°, {pothole.location.coordinates[0].toFixed(4)}°)</h2>
+                                <h2>({pothole.location.coordinates[0].toFixed(4)}°, {pothole.location.coordinates[1].toFixed(4)}°)</h2>
                                 <div className="modal-text-strlocation">
                                     <h4>Street Name: {pothole.road_name}</h4>
                                     <h4>Street Type: {pothole.road_type.charAt(0).toUpperCase() + pothole.road_type.slice(1)}</h4>
@@ -80,11 +80,11 @@ function PotholeModal({ pothole, onClose }){
                                     isAuthenticated ?
                                     <>
                                         <label htmlFor="status">Status: </label>
-                                        <select id="status" value={selectedStatus} onChange={changeStatus}>
-                                            <option value={"resolved"}>RESOLVED</option>
-                                            <option value={"in progress"}>IN PROGRESS</option>
-                                            <option value={"open"}>OPEN</option>
-                                            <option value={"unconfirmed"}>UNCONFIRMED</option>
+                                        <select id="status" style={style} value={selectedStatus} onChange={changeStatus}>
+                                            <option style={{color: 'white'}} value={"resolved"}>RESOLVED</option>
+                                            <option style={{color: 'white'}} value={"in progress"}>IN PROGRESS</option>
+                                            <option style={{color: 'white'}} value={"open"}>OPEN</option>
+                                            <option style={{color: 'white'}} value={"unconfirmed"}>UNCONFIRMED</option>
                                         </select>
                                     </> :
                                     <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
@@ -92,7 +92,8 @@ function PotholeModal({ pothole, onClose }){
                                 
                                 <hr />
                                 <p>Width: {pothole.size.width_cm}cm</p>
-                                <p>Depth: {pothole.size.depth_cm}cm</p>
+                                <p>Height: {pothole.size.height_cm}cm</p>
+                                <p>Confidence: {Math.round(pothole.confidence * 100)}%</p>
                                 <button className="close-btn" onClick={onClose}>Close</button>
                             </div>
                         </div>

@@ -51,9 +51,7 @@ function MapAPI({ potholes, onModalClose }) {
                 >
                     {
                         potholes.map((p) => {
-                            // <p>text</p>
                             return <MapPin pothole={p} onClick={() => { setSelectedPothole(p); setModal(p); }} />
-                            // <Marker ref={p} position={{ lat: p['coordinates'][1], lon: p['coordinates'][0] }} />
                         })
                     }
                 </Map>

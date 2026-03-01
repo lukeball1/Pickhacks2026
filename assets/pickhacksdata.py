@@ -102,6 +102,9 @@ def snap_point_to_road(lat, lon, roads_gdf):
 
     road_name = nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME")
     road_name = road_name if type(road_name) == type("") else ("Unknown" if type(road_name) == type(3.4) else road_name[0])
+    if nearest_road.get("highway_clean") == "motorway":
+        road_name = "Interstate 44"
+    
     return {
         "road_name": road_name,
         "road_type": nearest_road.get("highway_clean"),
@@ -136,8 +139,6 @@ status_options = ["unconfirmed", "open", "in progress", "resolved"]
 fake_dataset = []
 
 for i, snap in enumerate(snapped_results):
-    if str(snap["road_name"]) == "nan" and snap["road_type"] == "motorway":
-        snap["road_name"] = "Interstate 44"
     entry = {
         "_id": {"$oid": str(uuid.uuid4().hex)[:24]},
         "location": {
