@@ -4,6 +4,20 @@ import './potholeModal.css';
 
 // Destructure pothole AND onClose from props
 function PotholeModal({ pothole, onClose }){
+
+    const getStatusStyle = (status) => {
+        if (!status) return { color: '#757575', label: '' }; // Safety check
+        switch (status.toLowerCase()) {
+            case 'resolved': return { color: '#4CAF50', label: 'RESOLVED' };
+            case 'in progress': return { color: '#FBC02D', label: 'IN PROGRESS' };
+            case 'open': return { color: '#FF9800', label: 'OPEN' };
+            case 'unconfirmed': return { color: '#ec1010', label: 'UNCONFIRMED' };
+            default: return { color: '#757575', label: status.toUpperCase() };
+        }
+    };
+
+    const style = pothole ? getStatusStyle(pothole.status) : null;
+
     return (
         <AnimatePresence>
             {pothole && (
@@ -26,7 +40,7 @@ function PotholeModal({ pothole, onClose }){
                             <img src={pothole.image_url} alt="pothole" />
                             <div className="modal-text">
                                 <h2>({pothole.location.coordinates[1].toFixed(4)}°, {pothole.location.coordinates[0].toFixed(4)}°)</h2>
-                                <p>Status: <strong>{pothole.status.toUpperCase()}</strong></p>
+                                <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
                                 <hr />
                                 <p>Width: {pothole.size.width_cm}cm</p>
                                 <p>Depth: {pothole.size.depth_cm}cm</p>

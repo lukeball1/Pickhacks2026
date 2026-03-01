@@ -36,3 +36,10 @@
     top: 0;
     
 }
+
+.modal-text button{
+    border-radius: 0.5rem;
+    border-color: transparent;
+    width: 3.75rem;
+    height: 1.75rem;  
+}
