@@ -27,7 +27,7 @@ function LeftList({ potholes }){
                             onClick={() => 
                                 setSelectedPothole(item)
                             }
-                            > Pothole #{index + 1}</li>
+                            > Pothole #{index + 1} - {item.road_name}</li>
                         </div>
                     ))}
                 </ul>
