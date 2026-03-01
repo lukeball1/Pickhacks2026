@@ -16,27 +16,26 @@ def main_loop():
     while True:
         # time.sleep(1)
         try:
-            print("capturing")
+            print("scanning...")
             frame = capture_frame(CAMERA_ID)
 
             # Save temporary image for inference
             temp_file = "temp.jpg"
             cv2.imwrite(temp_file, frame)
-            print("written")
             result = detect_pothole(temp_file)
 
             detected, confidence, size = is_pothole_detected(result)
-            print("analyzed.")
             if detected:
-                print(f"Pothole detected with confidence {confidence:.3f}")
+                print(f"[{time.strftime('%m/%d/%Y %H:%M:%S')}] pothole detected with confidence {confidence:.3f}\n")
 
                 location = get_current_location()
-
-                filename = f"{VEHICLE_ID}_{int(time.time())}.jpg"
-                image_url = upload_image(temp_file)
+                print("here02", temp_file)
+                image_url = upload_image("temp.jpg")
+                print("here03")
                 road_info, coords = snap_point_to_road(
                     location["latitude"], location["longitude"]
                 )
+                print("here00")
                 pothole_data = {
                     "location": {
                         "type": "Point",
@@ -46,10 +45,10 @@ def main_loop():
                     "size": size,
                     "image_url": image_url,
                     "vehicle_id": VEHICLE_ID,
-                    "status": "open",
-                    "first_detected_at": time.time(),
-                    "last_updated_at": time.time(),
+                    "status": "unconfirmed",
+                    "detection_date": time.strftime("%m/%d/%Y %H:%M")
                 }
+                print("here01")
                 for k, v in road_info.items():
                     pothole_data[k] = v
 

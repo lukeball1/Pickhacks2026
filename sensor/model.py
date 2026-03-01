@@ -36,7 +36,7 @@ def is_pothole_detected(result):
 
     size = {
         "width_cm": best.get("width"),
-        "depth_cm": best.get("height"),
+        "height_cm": best.get("height"),
     }
 
     return True, confidence, size

@@ -1,1159 +1,30 @@
 [
   {
     "_id": {
-      "$oid": "4563f82c0695441aaaa876da"
+      "$oid": "53155cd28d4f488183415da3"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.74597772418457,
-        37.95148024785333
+        -91.77732688627951,
+        37.924969392719284
       ]
     },
-    "confidence": 0.66,
+    "confidence": 0.97,
     "size": {
-      "width_cm": 14.8,
-      "depth_cm": 8.1
+      "width_cm": 10.1,
+      "depth_cm": 8.6
     },
     "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "open",
-    "first_detected_at": 1772331114.848925,
-    "last_updated_at": 1772331114.8489254,
-    "road_name": "East 10th Street",
-    "road_type": "secondary"
-  },
-  {
-    "_id": {
-      "$oid": "ef2517488f494c63b619a07b"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7429232,
-        37.92191779999999
-      ]
-    },
-    "confidence": 0.57,
-    "size": {
-      "width_cm": 7.5,
-      "depth_cm": 9.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
     "vehicle_id": "CAR_6",
-    "status": "in progress",
-    "first_detected_at": 1772331114.848949,
-    "last_updated_at": 1772331114.848949,
+    "status": "unconfirmed",
+    "detection_date": "02/08/2026 23:47",
     "road_name": "Unknown",
     "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "583135c5d2fb4f23a95a4e49"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.769402,
-        37.92473100000001
-      ]
-    },
-    "confidence": 0.9,
-    "size": {
-      "width_cm": 18.6,
-      "depth_cm": 7.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8489652,
-    "last_updated_at": 1772331114.8489652,
-    "road_name": "Shady Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "ae94e202695a41b39d77ee1d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75666215713586,
-        37.97318377526939
-      ]
-    },
-    "confidence": 0.61,
-    "size": {
-      "width_cm": 9.1,
-      "depth_cm": 4.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.84898,
-    "last_updated_at": 1772331114.84898,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "7d0a2a9aebc34ea5babab8da"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.749961,
-        37.952635
-      ]
-    },
-    "confidence": 0.51,
-    "size": {
-      "width_cm": 13.2,
-      "depth_cm": 14.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "open",
-    "first_detected_at": 1772331114.8489957,
-    "last_updated_at": 1772331114.848996,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "f527c51f2ac84cb6933fa60a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77726297728553,
-        37.972831070861005
-      ]
-    },
-    "confidence": 0.59,
-    "size": {
-      "width_cm": 11.1,
-      "depth_cm": 13.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8490105,
-    "last_updated_at": 1772331114.8490107,
-    "road_name": "Vichy Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "187cc52ccc73470b9cbcef6f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74979335413941,
-        37.94019344166071
-      ]
-    },
-    "confidence": 0.57,
-    "size": {
-      "width_cm": 12.6,
-      "depth_cm": 12.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "open",
-    "first_detected_at": 1772331114.8490248,
-    "last_updated_at": 1772331114.8490248,
-    "road_name": "Richard Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "a130f888172f4b1e817963ba"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77442617485048,
-        37.947791593203746
-      ]
-    },
-    "confidence": 0.86,
-    "size": {
-      "width_cm": 6.4,
-      "depth_cm": 11.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "resolved",
-    "first_detected_at": 1772331114.849039,
-    "last_updated_at": 1772331114.8490393,
-    "road_name": "West 5th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "607e7b5e38a44dda9827751f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.773851,
-        37.92128
-      ]
-    },
-    "confidence": 0.78,
-    "size": {
-      "width_cm": 8.3,
-      "depth_cm": 6.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8490522,
-    "last_updated_at": 1772331114.8490522,
-    "road_name": "Timberlane Court",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "2a1afb2c6b3d4f6daeeb0c0c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.803282,
-        37.94713329999999
-      ]
-    },
-    "confidence": 0.91,
-    "size": {
-      "width_cm": 5.2,
-      "depth_cm": 8.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8490644,
-    "last_updated_at": 1772331114.8490644,
-    "road_name": "County Road 8110",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "aff85ccc2f6741f58e240851"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76426479481704,
-        37.958759487975684
-      ]
-    },
-    "confidence": 0.65,
-    "size": {
-      "width_cm": 8.9,
-      "depth_cm": 11.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8490763,
-    "last_updated_at": 1772331114.8490763,
-    "road_name": "Sharp Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "e8cb4d4c538548b2a8b6d313"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7528164,
-        37.941742699999985
-      ]
-    },
-    "confidence": 0.66,
-    "size": {
-      "width_cm": 15.1,
-      "depth_cm": 5.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "resolved",
-    "first_detected_at": 1772331114.849091,
-    "last_updated_at": 1772331114.8490913,
-    "road_name": "Leonard Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d1ddb88784894e338c2f9f32"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7530543,
-        37.926110099999995
-      ]
-    },
-    "confidence": 0.85,
-    "size": {
-      "width_cm": 19.3,
-      "depth_cm": 4.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "open",
-    "first_detected_at": 1772331114.8491037,
-    "last_updated_at": 1772331114.8491037,
-    "road_name": "Carriage Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "cf3fbaab28754a9097efb1b9"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78282995931247,
-        37.95581579743546
-      ]
-    },
-    "confidence": 0.94,
-    "size": {
-      "width_cm": 7.0,
-      "depth_cm": 10.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8491154,
-    "last_updated_at": 1772331114.8491156,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "8ea9ebb1075b4a558e807fd1"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74306319979225,
-        37.940330296484234
-      ]
-    },
-    "confidence": 0.71,
-    "size": {
-      "width_cm": 13.3,
-      "depth_cm": 5.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8491275,
-    "last_updated_at": 1772331114.8491275,
-    "road_name": "Whitecliff Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "c884efffc1974baf975e5e8f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7475918035469,
-        37.946807289297624
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
-      "width_cm": 19.8,
-      "depth_cm": 12.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8491395,
-    "last_updated_at": 1772331114.8491397,
-    "road_name": "Burgher Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "0ffde390fa314205bac5fe74"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.769402,
-        37.92473100000001
-      ]
-    },
-    "confidence": 0.67,
-    "size": {
-      "width_cm": 5.9,
-      "depth_cm": 14.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8491518,
-    "last_updated_at": 1772331114.849152,
-    "road_name": "Shady Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "2d139acac8584f228f0f5b1f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77177834558273,
-        37.94459390618859
-      ]
-    },
-    "confidence": 0.8,
-    "size": {
-      "width_cm": 6.8,
-      "depth_cm": 13.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849164,
-    "last_updated_at": 1772331114.849164,
-    "road_name": "West 1st Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "1907ba09ab42422e95e8acfe"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75812859247971,
-        37.971005933040054
-      ]
-    },
-    "confidence": 0.56,
-    "size": {
-      "width_cm": 9.4,
-      "depth_cm": 4.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8491766,
-    "last_updated_at": 1772331114.8491766,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "38322bcb849944f591e6750d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77359022631302,
-        37.92305974889907
-      ]
-    },
-    "confidence": 0.84,
-    "size": {
-      "width_cm": 7.6,
-      "depth_cm": 7.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8491888,
-    "last_updated_at": 1772331114.8491888,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d21e0afe611e45e0bca3f183"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.73402150000001,
-        37.972558899999996
-      ]
-    },
-    "confidence": 0.99,
-    "size": {
-      "width_cm": 14.6,
-      "depth_cm": 11.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849201,
-    "last_updated_at": 1772331114.849201,
-    "road_name": "County Road 3060",
-    "road_type": "secondary"
-  },
-  {
-    "_id": {
-      "$oid": "9a70a159e8c44565a1c91a39"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77652019063335,
-        37.94449622991775
-      ]
-    },
-    "confidence": 0.51,
-    "size": {
-      "width_cm": 14.0,
-      "depth_cm": 4.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8492136,
-    "last_updated_at": 1772331114.8492136,
-    "road_name": "North Faulkner Avenue",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "3ab5a1c7805d483284a183fc"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77063163830213,
-        37.9576228817896
-      ]
-    },
-    "confidence": 0.78,
-    "size": {
-      "width_cm": 7.7,
-      "depth_cm": 5.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8492258,
-    "last_updated_at": 1772331114.8492258,
-    "road_name": "West 17th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d1401cfc9d994785a539c7c6"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7391132,
-        37.938308899999996
-      ]
-    },
-    "confidence": 0.87,
-    "size": {
-      "width_cm": 5.4,
-      "depth_cm": 11.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8492374,
-    "last_updated_at": 1772331114.8492377,
-    "road_name": "Coventry Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "0003fdaba3cc4bcd886686b5"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.780938,
-        37.935029
-      ]
-    },
-    "confidence": 0.73,
-    "size": {
-      "width_cm": 15.8,
-      "depth_cm": 13.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849252,
-    "last_updated_at": 1772331114.8492525,
-    "road_name": "Oaklane Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "c7992300174244edaa083404"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.777409,
-        37.96717499999998
-      ]
-    },
-    "confidence": 0.71,
-    "size": {
-      "width_cm": 8.9,
-      "depth_cm": 6.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8492649,
-    "last_updated_at": 1772331114.849265,
-    "road_name": "Woodcrest Circle",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "7817b0d04c6c40488730dd95"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7882616,
-        37.957603199999994
-      ]
-    },
-    "confidence": 0.94,
-    "size": {
-      "width_cm": 8.5,
-      "depth_cm": 3.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849277,
-    "last_updated_at": 1772331114.849277,
-    "road_name": "Fraternity Circle",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d15727efcb1649678b05bf20"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.772815,
-        37.958910499999995
-      ]
-    },
-    "confidence": 0.64,
-    "size": {
-      "width_cm": 11.0,
-      "depth_cm": 4.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8492894,
-    "last_updated_at": 1772331114.8492894,
-    "road_name": "West 18th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "3fa029f6d50e4681b693cb25"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7539971329123,
-        37.93245715712573
-      ]
-    },
-    "confidence": 0.84,
-    "size": {
-      "width_cm": 14.0,
-      "depth_cm": 5.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8493016,
-    "last_updated_at": 1772331114.8493016,
-    "road_name": "Chestnut Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "1cd136d13aee495691a3863f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75979190757658,
-        37.96795506164982
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
-      "width_cm": 18.1,
-      "depth_cm": 5.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "open",
-    "first_detected_at": 1772331114.8493137,
-    "last_updated_at": 1772331114.8493137,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "5fb4cd00315249468b151cd2"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77530942991415,
-        37.948353307782234
-      ]
-    },
-    "confidence": 0.58,
-    "size": {
-      "width_cm": 9.6,
-      "depth_cm": 8.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8493257,
-    "last_updated_at": 1772331114.849326,
-    "road_name": "Kingshighway",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "173705bcd1414d51a4e8494f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7757124,
-        37.9298987
-      ]
-    },
-    "confidence": 0.64,
-    "size": {
-      "width_cm": 14.8,
-      "depth_cm": 14.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8493376,
-    "last_updated_at": 1772331114.8493376,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "b006233e953349f6afdde333"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7402273,
-        37.916235599999986
-      ]
-    },
-    "confidence": 0.92,
-    "size": {
-      "width_cm": 20.0,
-      "depth_cm": 8.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "resolved",
-    "first_detected_at": 1772331114.84935,
-    "last_updated_at": 1772331114.8493502,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "e7b66b5c4892449fade2f660"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74799399534236,
-        37.96774805828446
-      ]
-    },
-    "confidence": 0.96,
-    "size": {
-      "width_cm": 8.8,
-      "depth_cm": 5.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8493624,
-    "last_updated_at": 1772331114.8493624,
-    "road_name": "McCutchen Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "85ef6808149c4a9a8e071a2f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
-      "width_cm": 17.1,
-      "depth_cm": 4.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8493748,
-    "last_updated_at": 1772331114.8493748,
-    "road_name": "Eagleson Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "6a3add6cd6b9457eba5c5af3"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76902069858653,
-        37.91913063898642
-      ]
-    },
-    "confidence": 0.71,
-    "size": {
-      "width_cm": 11.5,
-      "depth_cm": 11.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8493936,
-    "last_updated_at": 1772331114.8493936,
-    "road_name": "Ann Lee Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "54f6e8e115a741f0be3fba75"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7480025742661,
-        37.960821297551156
-      ]
-    },
-    "confidence": 0.91,
-    "size": {
-      "width_cm": 15.9,
-      "depth_cm": 4.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8494048,
-    "last_updated_at": 1772331114.8494053,
-    "road_name": "McCutchen Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "ff0a4652711b458f97681cdb"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.773327,
-        37.920329
-      ]
-    },
-    "confidence": 0.94,
-    "size": {
-      "width_cm": 5.4,
-      "depth_cm": 14.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.849417,
-    "last_updated_at": 1772331114.849417,
-    "road_name": "Silverleaf Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "7ab5a58561514222acadf7ad"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7715720396205,
-        37.93995726631124
-      ]
-    },
-    "confidence": 0.63,
-    "size": {
-      "width_cm": 10.3,
-      "depth_cm": 11.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8494284,
-    "last_updated_at": 1772331114.8494287,
-    "road_name": "South Rolla Street",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "1635e0c5981a401f9a528b5d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7848294,
-        37.9234659
-      ]
-    },
-    "confidence": 0.66,
-    "size": {
-      "width_cm": 8.1,
-      "depth_cm": 14.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.84944,
-    "last_updated_at": 1772331114.8494403,
-    "road_name": "Redwood Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "cde5a75d21b74e26a768e4ed"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7773074,
-        37.97286540000001
-      ]
-    },
-    "confidence": 0.52,
-    "size": {
-      "width_cm": 12.8,
-      "depth_cm": 7.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8494518,
-    "last_updated_at": 1772331114.8494518,
-    "road_name": "Vichy Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "1e88ddc4a01146cd92633b84"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7660508,
-        37.94115289999999
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 15.9,
-      "depth_cm": 3.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "open",
-    "first_detected_at": 1772331114.8494632,
-    "last_updated_at": 1772331114.8494632,
-    "road_name": "Green Acres Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "75a74d35608a47298a3dcc3d"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.753712,
-        37.964358
-      ]
-    },
-    "confidence": 0.54,
-    "size": {
-      "width_cm": 17.4,
-      "depth_cm": 7.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "open",
-    "first_detected_at": 1772331114.849475,
-    "last_updated_at": 1772331114.849475,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "79f83841b9974a0497edbaa6"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7763206314644,
-        37.94844609142341
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 11.0,
-      "depth_cm": 3.1
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8494864,
-    "last_updated_at": 1772331114.8494864,
-    "road_name": "Wet 6th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d5ba52d6e600484a86cc7531"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.70909088300772,
-        37.980587731067764
-      ]
-    },
-    "confidence": 0.81,
-    "size": {
-      "width_cm": 14.0,
-      "depth_cm": 11.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8494978,
-    "last_updated_at": 1772331114.849498,
-    "road_name": "Dillon Outer Drive",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "a7548fda4a294cd1828b1aa1"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74176540933007,
-        37.921894088418746
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 16.0,
-      "depth_cm": 12.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "open",
-    "first_detected_at": 1772331114.8495095,
-    "last_updated_at": 1772331114.8495095,
-    "road_name": "Unknown",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "7953124124574e949c74fe7a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74189462283411,
-        37.96893003832238
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 19.0,
-      "depth_cm": 10.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "open",
-    "first_detected_at": 1772331114.8495212,
-    "last_updated_at": 1772331114.8495214,
-    "road_name": "County Road 3060",
-    "road_type": "secondary"
-  },
-  {
-    "_id": {
-      "$oid": "1bf9cf1c8bd84296b6c88c7c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75904460000001,
-        37.9465064
-      ]
-    },
-    "confidence": 0.63,
-    "size": {
-      "width_cm": 9.5,
-      "depth_cm": 9.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8495328,
-    "last_updated_at": 1772331114.8495328,
-    "road_name": "Great Oaks Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "58ee72bc86804f9dbdf2f4f6"
+      "$oid": "5b106618144c4e8cba1498ec"
     },
     "location": {
       "type": "Point",
@@ -1162,1198 +33,113 @@
         37.9152728
       ]
     },
-    "confidence": 0.98,
+    "confidence": 0.96,
     "size": {
-      "width_cm": 13.8,
-      "depth_cm": 15.0
+      "width_cm": 5.0,
+      "depth_cm": 13.9
     },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
     "vehicle_id": "CAR_3",
-    "status": "open",
-    "first_detected_at": 1772331114.8495443,
-    "last_updated_at": 1772331114.8495443,
+    "status": "unconfirmed",
+    "detection_date": "02/14/2026 03:19",
     "road_name": "Thomas Drive",
     "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "afa053907fbf4f1a86838d0c"
+      "$oid": "474f368ad7da4ebe8f88f430"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.73979940328346,
-        37.92786299080247
-      ]
-    },
-    "confidence": 0.65,
-    "size": {
-      "width_cm": 13.9,
-      "depth_cm": 9.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "open",
-    "first_detected_at": 1772331114.8495557,
-    "last_updated_at": 1772331114.8495557,
-    "road_name": "Osage Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "1ca75e922b3b46ee895f8280"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76195568595627,
-        37.938526082208135
-      ]
-    },
-    "confidence": 0.75,
-    "size": {
-      "width_cm": 5.2,
-      "depth_cm": 9.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "open",
-    "first_detected_at": 1772331114.849567,
-    "last_updated_at": 1772331114.849567,
-    "road_name": "Southview Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "a036906b6cdb4b999e87d44c"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.59,
-    "size": {
-      "width_cm": 8.5,
-      "depth_cm": 9.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "open",
-    "first_detected_at": 1772331114.849578,
-    "last_updated_at": 1772331114.8495781,
-    "road_name": "Eagleson Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "91c0736cd4cc4f209c1121d9"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.790381,
-        37.95443800000001
-      ]
-    },
-    "confidence": 0.53,
-    "size": {
-      "width_cm": 6.2,
-      "depth_cm": 3.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "open",
-    "first_detected_at": 1772331114.8495898,
-    "last_updated_at": 1772331114.8495898,
-    "road_name": "Hyer Court",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "d2120760930c47fbaa0f31ef"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77052566269579,
-        37.95399243744138
-      ]
-    },
-    "confidence": 0.59,
-    "size": {
-      "width_cm": 9.6,
-      "depth_cm": 9.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "open",
-    "first_detected_at": 1772331114.849601,
-    "last_updated_at": 1772331114.849601,
-    "road_name": "North Elm Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "e25b4b7abc7c4c53843879d9"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76593070451835,
-        37.957652016992476
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 5.3,
-      "depth_cm": 6.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "open",
-    "first_detected_at": 1772331114.8496125,
-    "last_updated_at": 1772331114.8496125,
-    "road_name": "East 17th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "6f2ef130d38f4ee6b5007feb"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75087446429875,
-        37.93224440769011
-      ]
-    },
-    "confidence": 0.93,
-    "size": {
-      "width_cm": 16.9,
-      "depth_cm": 7.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8496246,
-    "last_updated_at": 1772331114.8496246,
-    "road_name": "Stratford Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "629b9b2a9c334290a2edc1c3"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7656369,
-        37.9627595
-      ]
-    },
-    "confidence": 0.61,
-    "size": {
-      "width_cm": 12.0,
-      "depth_cm": 12.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "in progress",
-    "first_detected_at": 1772331114.84964,
-    "last_updated_at": 1772331114.84964,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "1cb9dfabc994464caa36cd5a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76478638646256,
-        37.94152917543438
-      ]
-    },
-    "confidence": 0.92,
-    "size": {
-      "width_cm": 14.4,
-      "depth_cm": 12.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8496518,
-    "last_updated_at": 1772331114.8496518,
-    "road_name": "Green Acres Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "dd5eb4b3aa8440fc913651a2"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77805658801294,
-        37.941385217964
-      ]
-    },
-    "confidence": 0.57,
-    "size": {
-      "width_cm": 9.8,
-      "depth_cm": 3.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "resolved",
-    "first_detected_at": 1772331114.849677,
-    "last_updated_at": 1772331114.849677,
-    "road_name": "South Spilman Avenue",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "290c5cf32da64ce8a897a8a1"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7424222,
-        37.91777779999999
-      ]
-    },
-    "confidence": 0.71,
-    "size": {
-      "width_cm": 7.4,
-      "depth_cm": 8.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.84969,
-    "last_updated_at": 1772331114.84969,
-    "road_name": "County Ridge Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "c949a7cbbb3740b59f21ba84"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74838254976372,
-        37.921028860868574
-      ]
-    },
-    "confidence": 0.79,
-    "size": {
-      "width_cm": 15.9,
-      "depth_cm": 8.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8497021,
-    "last_updated_at": 1772331114.8497021,
-    "road_name": "Unknown",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "8059f077133c4f2995313351"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7738018,
-        37.9730474
-      ]
-    },
-    "confidence": 0.91,
-    "size": {
-      "width_cm": 13.2,
-      "depth_cm": 11.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8497138,
-    "last_updated_at": 1772331114.8497138,
-    "road_name": "Camelot Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "4109c94ee7ab48c98aee1498"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.754803,
-        37.93013500000001
-      ]
-    },
-    "confidence": 0.57,
-    "size": {
-      "width_cm": 15.6,
-      "depth_cm": 12.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8497255,
-    "last_updated_at": 1772331114.8497255,
-    "road_name": "Mimosa Court",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "fd0805f221eb490abcd0f4d7"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77056437343663,
-        37.94221814215617
-      ]
-    },
-    "confidence": 0.97,
-    "size": {
-      "width_cm": 18.8,
-      "depth_cm": 12.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "in progress",
-    "first_detected_at": 1772331114.849741,
-    "last_updated_at": 1772331114.849741,
-    "road_name": "Newman Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "5f600bd4b38a43ba9d0cdee8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7632920952234,
-        37.933673193013924
-      ]
-    },
-    "confidence": 0.89,
-    "size": {
-      "width_cm": 8.6,
-      "depth_cm": 14.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "in progress",
-    "first_detected_at": 1772331114.849753,
-    "last_updated_at": 1772331114.849753,
-    "road_name": "Winchester Drive",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "9bd6286e39bb4cb7892a01ca"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7768675,
-        37.9149745
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 11.2,
-      "depth_cm": 11.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849764,
-    "last_updated_at": 1772331114.849764,
-    "road_name": "West Little Oaks Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "46daba2c32c14cc29bc2278a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75830835097122,
-        37.9706858550402
-      ]
-    },
-    "confidence": 0.91,
-    "size": {
-      "width_cm": 8.6,
-      "depth_cm": 11.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849776,
-    "last_updated_at": 1772331114.849776,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "0e4e1cae34224e50ab99d82f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74387650532421,
-        37.95839687787032
-      ]
-    },
-    "confidence": 0.86,
-    "size": {
-      "width_cm": 18.6,
-      "depth_cm": 12.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8497877,
-    "last_updated_at": 1772331114.8497877,
-    "road_name": "Lincoln Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "a38ca6441921466a838b3686"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7619251,
-        37.94033840000001
+        -91.772511,
+        37.9542884
       ]
     },
     "confidence": 0.63,
     "size": {
-      "width_cm": 13.8,
-      "depth_cm": 6.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "in progress",
-    "first_detected_at": 1772331114.849799,
-    "last_updated_at": 1772331114.8497992,
-    "road_name": "Southview Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "4e5208d49cf841c69ce4aaba"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.76788543273129,
-        37.93210791891675
-      ]
-    },
-    "confidence": 0.62,
-    "size": {
-      "width_cm": 18.7,
-      "depth_cm": 12.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8498106,
-    "last_updated_at": 1772331114.8498106,
-    "road_name": "Winchester Drive",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "2f6fc0441b14450d866251a6"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.77,
-    "size": {
-      "width_cm": 10.1,
-      "depth_cm": 6.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8498223,
-    "last_updated_at": 1772331114.8498223,
-    "road_name": "Eagleson Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "178177e8c26944f08f89734e"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75751709275924,
-        37.95149361819421
-      ]
-    },
-    "confidence": 0.81,
-    "size": {
-      "width_cm": 5.2,
-      "depth_cm": 10.1
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8498337,
-    "last_updated_at": 1772331114.8498337,
-    "road_name": "East 10th Street",
-    "road_type": "secondary"
-  },
-  {
-    "_id": {
-      "$oid": "da8842c5721147388fc5bd2f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7789135,
-        37.9726675
-      ]
-    },
-    "confidence": 0.95,
-    "size": {
-      "width_cm": 17.3,
-      "depth_cm": 9.1
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_0",
-    "status": "open",
-    "first_detected_at": 1772331114.849845,
-    "last_updated_at": 1772331114.849845,
-    "road_name": "Eagleson Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "e29e4719b9f64d7ea531f679"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78912731132331,
-        37.94050723313972
-      ]
-    },
-    "confidence": 0.55,
-    "size": {
-      "width_cm": 16.2,
-      "depth_cm": 12.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8498566,
-    "last_updated_at": 1772331114.8498566,
-    "road_name": "Bridge School Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "3430272976504985ae5a4014"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74677746678995,
-        37.93217687685672
-      ]
-    },
-    "confidence": 0.55,
-    "size": {
-      "width_cm": 16.5,
-      "depth_cm": 8.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.849868,
-    "last_updated_at": 1772331114.849868,
-    "road_name": "Commercial Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "61a1b0efa4c1442d938dbec8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.8013601,
-        37.94628970000001
-      ]
-    },
-    "confidence": 0.58,
-    "size": {
-      "width_cm": 9.7,
-      "depth_cm": 3.4
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8498795,
-    "last_updated_at": 1772331114.8498795,
-    "road_name": "Westside Drive",
-    "road_type": "unclassified"
-  },
-  {
-    "_id": {
-      "$oid": "b93745ceb4ff4c6982be54ee"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75272853276016,
-        37.9178552739494
-      ]
-    },
-    "confidence": 0.68,
-    "size": {
-      "width_cm": 12.0,
-      "depth_cm": 5.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8498914,
-    "last_updated_at": 1772331114.8498914,
-    "road_name": "Casey Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "8f6b8a410d464257850a247b"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77895023471876,
-        37.929621365917626
-      ]
-    },
-    "confidence": 0.9,
-    "size": {
-      "width_cm": 14.5,
-      "depth_cm": 10.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "resolved",
-    "first_detected_at": 1772331114.849905,
-    "last_updated_at": 1772331114.849905,
-    "road_name": "South Bishop Avenue",
-    "road_type": "primary"
-  },
-  {
-    "_id": {
-      "$oid": "dde16f7cc04f4947a1d9941a"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78577304290769,
-        37.944413757879325
-      ]
-    },
-    "confidence": 0.5,
-    "size": {
-      "width_cm": 6.1,
-      "depth_cm": 14.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8499167,
-    "last_updated_at": 1772331114.8499167,
-    "road_name": "Bryant Road",
-    "road_type": "tertiary"
-  },
-  {
-    "_id": {
-      "$oid": "80596a4e1b24470a9ea78291"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75191216521516,
-        37.97520100871759
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 7.3,
-      "depth_cm": 14.8
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8499296,
-    "last_updated_at": 1772331114.8499296,
-    "road_name": "Interstate 44",
-    "road_type": "motorway"
-  },
-  {
-    "_id": {
-      "$oid": "2be94a64014747e9ae141a61"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.735661,
-        37.954618
-      ]
-    },
-    "confidence": 0.92,
-    "size": {
-      "width_cm": 11.3,
-      "depth_cm": 11.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_7",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8499417,
-    "last_updated_at": 1772331114.8499417,
-    "road_name": "Wellington Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "b17497cdb49d4af4939c7326"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.756254580141,
-        37.948220224220265
-      ]
-    },
-    "confidence": 0.6,
-    "size": {
-      "width_cm": 13.7,
-      "depth_cm": 8.9
+      "width_cm": 6.6,
+      "depth_cm": 13.7
     },
     "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
-    "vehicle_id": "CAR_4",
+    "vehicle_id": "CAR_5",
     "status": "open",
-    "first_detected_at": 1772331114.8499537,
-    "last_updated_at": 1772331114.8499537,
-    "road_name": "Grandsir Avenue",
+    "detection_date": "02/22/2026 21:03",
+    "road_name": "Unknown",
     "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "ac3e723290cb4ff589fc53b9"
+      "$oid": "19c224033aa24af998414a0f"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.77527219675133,
-        37.971186951775486
-      ]
-    },
-    "confidence": 0.69,
-    "size": {
-      "width_cm": 6.2,
-      "depth_cm": 12.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8499656,
-    "last_updated_at": 1772331114.8499656,
-    "road_name": "Vichy Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "8ea51ac502c44ea8896c44c8"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.74674432705525,
-        37.96796841372341
-      ]
-    },
-    "confidence": 0.98,
-    "size": {
-      "width_cm": 19.7,
-      "depth_cm": 5.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8499775,
-    "last_updated_at": 1772331114.8499775,
-    "road_name": "County Road 3060",
-    "road_type": "secondary"
-  },
-  {
-    "_id": {
-      "$oid": "df79ee59b0a34faca2b90c47"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77324950014696,
-        37.96534978108908
-      ]
-    },
-    "confidence": 0.57,
-    "size": {
-      "width_cm": 5.9,
-      "depth_cm": 14.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
-    "vehicle_id": "CAR_9",
-    "status": "open",
-    "first_detected_at": 1772331114.8499894,
-    "last_updated_at": 1772331114.8499897,
-    "road_name": "Vichy Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "2defa78c16364558863d5a10"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77874272597067,
-        37.9305795018517
-      ]
-    },
-    "confidence": 0.61,
-    "size": {
-      "width_cm": 12.8,
-      "depth_cm": 12.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8500009,
-    "last_updated_at": 1772331114.8500009,
-    "road_name": "South Bishop Avenue",
-    "road_type": "primary"
-  },
-  {
-    "_id": {
-      "$oid": "5e0b9c44785a473daf3f6e5f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7790612,
-        37.9597187
+        -91.755834114988,
+        37.92556734911073
       ]
     },
     "confidence": 0.53,
     "size": {
-      "width_cm": 13.8,
-      "depth_cm": 4.5
+      "width_cm": 10.2,
+      "depth_cm": 13.4
     },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
-    "vehicle_id": "CAR_4",
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_0",
     "status": "resolved",
-    "first_detected_at": 1772331114.8500128,
-    "last_updated_at": 1772331114.8500128,
-    "road_name": "Collegiate Boulevard",
-    "road_type": "residential"
+    "detection_date": "02/14/2026 04:06",
+    "road_name": "East Lions Club Drive",
+    "road_type": "secondary"
   },
   {
     "_id": {
-      "$oid": "95d01b3426ce4bec9a2d47c5"
+      "$oid": "f014cc6705d14112a0914c90"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.76614221745825,
-        37.94918585681692
-      ]
-    },
-    "confidence": 0.81,
-    "size": {
-      "width_cm": 13.7,
-      "depth_cm": 5.0
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
-    "vehicle_id": "CAR_8",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8500242,
-    "last_updated_at": 1772331114.8500242,
-    "road_name": "East 7th Street",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "91dfbfc393464746b88bf06b"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7231986,
-        37.9820226
-      ]
-    },
-    "confidence": 0.8,
-    "size": {
-      "width_cm": 13.5,
-      "depth_cm": 10.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8500357,
-    "last_updated_at": 1772331114.8500357,
-    "road_name": "Enterprise Drive",
-    "road_type": "unclassified"
-  },
-  {
-    "_id": {
-      "$oid": "a67f96b75ec34654be67e0f9"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78295479924017,
-        37.94279402874298
+        -91.76778171527903,
+        37.95820797949736
       ]
     },
     "confidence": 0.51,
     "size": {
-      "width_cm": 7.4,
-      "depth_cm": 11.2
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "open",
-    "first_detected_at": 1772331114.8500473,
-    "last_updated_at": 1772331114.8500473,
-    "road_name": "Morrell Avenue",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "5c5594735bd84d378b8c0380"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75726234533167,
-        37.95577219625079
-      ]
-    },
-    "confidence": 0.63,
-    "size": {
-      "width_cm": 9.5,
-      "depth_cm": 14.3
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
-    "vehicle_id": "CAR_2",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8500588,
-    "last_updated_at": 1772331114.8500588,
-    "road_name": "Farrar Drive",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "ba3401c18c67491dbe5a6f5f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7346555,
-        37.94765299999999
-      ]
-    },
-    "confidence": 0.77,
-    "size": {
-      "width_cm": 17.8,
-      "depth_cm": 12.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8500702,
-    "last_updated_at": 1772331114.8500702,
-    "road_name": "Nottingham Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "7a7489e19293422c95e8ac76"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.786891,
-        37.926915
-      ]
-    },
-    "confidence": 0.89,
-    "size": {
-      "width_cm": 6.6,
-      "depth_cm": 6.4
+      "width_cm": 8.3,
+      "depth_cm": 3.5
     },
     "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8500826,
-    "last_updated_at": 1772331114.8500826,
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/21/2026 05:42",
+    "road_name": "North Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1283e85d0b3645baa5142b5c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7738575,
+        37.91987199999999
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 7.8,
+      "depth_cm": 12.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/18/2026 19:13",
     "road_name": "Unknown",
     "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "71e08bd2c9004a14ab2a5664"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7843528,
-        37.9610774
-      ]
-    },
-    "confidence": 0.78,
-    "size": {
-      "width_cm": 19.0,
-      "depth_cm": 3.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
-    "vehicle_id": "CAR_6",
-    "status": "unconfirmed",
-    "first_detected_at": 1772331114.8501096,
-    "last_updated_at": 1772331114.8501096,
-    "road_name": "Crinoidal Court",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "2919762197ae4b31a3c2f070"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.77668175030645,
-        37.94048781803968
-      ]
-    },
-    "confidence": 0.82,
-    "size": {
-      "width_cm": 16.7,
-      "depth_cm": 4.9
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
-    "vehicle_id": "CAR_4",
-    "status": "open",
-    "first_detected_at": 1772331114.850121,
-    "last_updated_at": 1772331114.850121,
-    "road_name": "Williams Road",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "47b61f1918b246f8a88301a0"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.7843528,
-        37.9610774
-      ]
-    },
-    "confidence": 0.69,
-    "size": {
-      "width_cm": 16.2,
-      "depth_cm": 14.6
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
-    "vehicle_id": "CAR_1",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8501325,
-    "last_updated_at": 1772331114.8501325,
-    "road_name": "Crinoidal Court",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "b5c484b1fc874fdaa326c54f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.78035835571005,
-        37.94237274309962
-      ]
-    },
-    "confidence": 0.55,
-    "size": {
-      "width_cm": 16.7,
-      "depth_cm": 6.7
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_3",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8501449,
-    "last_updated_at": 1772331114.8501449,
-    "road_name": "South Walker Avenue",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "e55937c34e864349a0d86b4f"
-    },
-    "location": {
-      "type": "Point",
-      "coordinates": [
-        -91.75211974207268,
-        37.91785940683132
-      ]
-    },
-    "confidence": 0.58,
-    "size": {
-      "width_cm": 19.8,
-      "depth_cm": 11.5
-    },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "in progress",
-    "first_detected_at": 1772331114.8501565,
-    "last_updated_at": 1772331114.8501568,
-    "road_name": "Casey Lane",
-    "road_type": "residential"
-  },
-  {
-    "_id": {
-      "$oid": "a36a8da5138f45338602a5e3"
+      "$oid": "008ed59a90bd4a85880464b3"
     },
     "location": {
       "type": "Point",
@@ -2362,41 +148,2155 @@
         37.9234659
       ]
     },
-    "confidence": 0.8,
+    "confidence": 0.85,
     "size": {
-      "width_cm": 7.0,
-      "depth_cm": 4.6
+      "width_cm": 19.8,
+      "depth_cm": 6.8
     },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
-    "vehicle_id": "CAR_5",
-    "status": "resolved",
-    "first_detected_at": 1772331114.8501685,
-    "last_updated_at": 1772331114.8501685,
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/05/2026 19:49",
     "road_name": "Redwood Drive",
     "road_type": "residential"
   },
   {
     "_id": {
-      "$oid": "1fa9523fd6764be096c6735c"
+      "$oid": "857a82e8b756449f8e059bba"
     },
     "location": {
       "type": "Point",
       "coordinates": [
-        -91.73715353289123,
-        37.928379600550294
+        -91.74858197310901,
+        37.94016570751624
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 13.8,
+      "depth_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/09/2026 20:50",
+    "road_name": "Richard Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7f9a96e9fb224f2d814c4fbe"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7395251,
+        37.9426412
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 15.4,
+      "depth_cm": 10.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/05/2026 03:59",
+    "road_name": "Belmont Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cad2ecfd9fdc4d5e9969d1e6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78094405194086,
+        37.938320969720515
+      ]
+    },
+    "confidence": 0.78,
+    "size": {
+      "width_cm": 15.1,
+      "depth_cm": 13.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "open",
+    "detection_date": "02/06/2026 23:47",
+    "road_name": "South Adrian Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5033960f90704f98b49b06bf"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74661145913981,
+        37.93673756353675
+      ]
+    },
+    "confidence": 0.81,
+    "size": {
+      "width_cm": 8.3,
+      "depth_cm": 3.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/12/2026 02:50",
+    "road_name": "Curtis Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "5bf88eb5c78f48ca92438a87"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77237864799986,
+        37.94618357579577
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 5.2,
+      "depth_cm": 4.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/06/2026 05:46",
+    "road_name": "West 3rd Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "629d6bd98d0c4c76bdb8cf14"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76373522030295,
+        37.951442791361856
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 12.7,
+      "depth_cm": 8.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/11/2026 21:39",
+    "road_name": "East 10th Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "6ec34ea2fc93415983f0580c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.788165,
+        37.95776229999999
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 14.1,
+      "depth_cm": 13.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/15/2026 22:05",
+    "road_name": "Fraternity Circle",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a32adb46b72e49b1b68b2610"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.8020842501459,
+        37.93569715645082
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 8.8,
+      "depth_cm": 13.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "in progress",
+    "detection_date": "02/15/2026 18:19",
+    "road_name": "Bridge School Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "36a5dc55ce2b4d33b6e259dd"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78134596502491,
+        37.92235530951265
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 9.7,
+      "depth_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/13/2026 21:17",
+    "road_name": "West Lions Club Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "24f5f7dedf4b438d971f0483"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7738575,
+        37.91987199999999
+      ]
+    },
+    "confidence": 0.56,
+    "size": {
+      "width_cm": 6.8,
+      "depth_cm": 5.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/03/2026 08:36",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "b590790957e443fcba6aae6b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78691,
+        37.927477999999994
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 6.6,
+      "depth_cm": 12.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/18/2026 01:10",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6d3bee5322dc4f40a6c7b94c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7438832,
+        37.95870519999999
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 6.6,
+      "depth_cm": 8.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/11/2026 22:07",
+    "road_name": "Lincoln Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a7bf7167d8e248ed88130a3d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.777409,
+        37.96717499999998
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 6.8,
+      "depth_cm": 4.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/07/2026 11:24",
+    "road_name": "Woodcrest Circle",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ce3f2b0e2ced4eceab0dbc9c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7420430391929,
+        37.976459129252184
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 17.1,
+      "depth_cm": 3.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/01/2026 03:39",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "b2e7024be3864df4b5223a3c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75804518185076,
+        37.97115445294838
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 19.5,
+      "depth_cm": 11.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/07/2026 09:56",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "55d1eb678214459c99b4211e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.736372,
+        37.954640999999995
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 16.9,
+      "depth_cm": 14.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/12/2026 19:01",
+    "road_name": "Wellington Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "3bac345fd58d46918e21fd58"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7718724,
+        37.929820500000005
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 14.5,
+      "depth_cm": 7.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "resolved",
+    "detection_date": "02/02/2026 05:22",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "fba0a46abfa749cbabfe8d5a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7843528,
+        37.9610774
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 16.5,
+      "depth_cm": 10.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/24/2026 10:33",
+    "road_name": "Crinoidal Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dd22e90c5e0b42439894f01b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7773074,
+        37.97286540000001
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 14.0,
+      "depth_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 13:24",
+    "road_name": "Vichy Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6316b6173f7148f2bc7ebe17"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7560511800407,
+        37.97371516503641
+      ]
+    },
+    "confidence": 0.65,
+    "size": {
+      "width_cm": 6.1,
+      "depth_cm": 9.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/22/2026 05:49",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "6ce01e71b50c4d39a922fee1"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7524997871767,
+        37.955947060989736
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 15.9,
+      "depth_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/20/2026 20:47",
+    "road_name": "Forum Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "43cefdfbd2b045669096453d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7402273,
+        37.916235599999986
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 11.9,
+      "depth_cm": 13.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330171/OIP-1576219033_fc61dq.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/27/2026 08:29",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7c8b68fce3aa42328c6186ae"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7848294,
+        37.9234659
+      ]
+    },
+    "confidence": 0.95,
+    "size": {
+      "width_cm": 8.8,
+      "depth_cm": 9.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/06/2026 02:27",
+    "road_name": "Redwood Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4b63e379f3894e55892067be"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7716544,
+        37.94348640000001
+      ]
+    },
+    "confidence": 0.94,
+    "size": {
+      "width_cm": 11.8,
+      "depth_cm": 12.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/12/2026 15:07",
+    "road_name": "South Pine Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "074b15f69ac347e284b99d60"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76475375798178,
+        37.95702875596149
+      ]
+    },
+    "confidence": 0.89,
+    "size": {
+      "width_cm": 6.8,
+      "depth_cm": 13.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330152/OIP-1454779713_uspj28.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "01/30/2026 15:59",
+    "road_name": "Bardsley Road",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "8ed73ad9c71648099b87bc4c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74385918304647,
+        37.95696099550376
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 8.8,
+      "depth_cm": 4.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/18/2026 04:46",
+    "road_name": "Lincoln Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "56ed12a15fa0488da0010823"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76400073203959,
+        37.956112533845
+      ]
+    },
+    "confidence": 0.97,
+    "size": {
+      "width_cm": 16.3,
+      "depth_cm": 8.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "unconfirmed",
+    "detection_date": "02/17/2026 18:13",
+    "road_name": "Iowa Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "db9f053be25e403fa5317863"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7738018,
+        37.9730474
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 15.2,
+      "depth_cm": 7.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/22/2026 14:48",
+    "road_name": "Camelot Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a51f6d82d8374e8a90793cbc"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7789135,
+        37.9726675
+      ]
+    },
+    "confidence": 0.75,
+    "size": {
+      "width_cm": 5.2,
+      "depth_cm": 13.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "resolved",
+    "detection_date": "02/23/2026 07:56",
+    "road_name": "Eagleson Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8eeb90c5514e48038174d5b2"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75605778170946,
+        37.94138638267374
+      ]
+    },
+    "confidence": 0.74,
+    "size": {
+      "width_cm": 6.1,
+      "depth_cm": 8.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/06/2026 07:22",
+    "road_name": "Salem Avenue",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "633fbe2f99274351a2d4e649"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.79970304149764,
+        37.93618394427195
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 7.9,
+      "depth_cm": 4.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/17/2026 14:23",
+    "road_name": "Bridge School Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "152fab955245423d9648b347"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75389284759918,
+        37.96902239793668
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 10.9,
+      "depth_cm": 10.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/22/2026 16:07",
+    "road_name": "Tenbrink Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "96f767c3e7fa47ebbce12c15"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7590746171699,
+        37.96277208098073
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 17.4,
+      "depth_cm": 13.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-4167574473_g8cjrr.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "in progress",
+    "detection_date": "02/06/2026 12:45",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "6a8e18211a9741f6b79c45f9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76060968013773,
+        37.944284318535395
+      ]
+    },
+    "confidence": 0.68,
+    "size": {
+      "width_cm": 11.2,
+      "depth_cm": 3.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/06/2026 15:31",
+    "road_name": "Soest Road",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "9f79870ee50f439592973f31"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.756087,
+        37.973690999999995
+      ]
+    },
+    "confidence": 0.8,
+    "size": {
+      "width_cm": 13.3,
+      "depth_cm": 10.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/17/2026 18:53",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "2c443f992d2a4e6b91d69154"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7804384,
+        37.96286150000001
+      ]
+    },
+    "confidence": 0.52,
+    "size": {
+      "width_cm": 11.5,
+      "depth_cm": 8.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/05/2026 09:39",
+    "road_name": "Meriweather Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9d17d12868e045019070bada"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77707245167142,
+        37.954867323644905
+      ]
+    },
+    "confidence": 0.55,
+    "size": {
+      "width_cm": 12.7,
+      "depth_cm": 8.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/04/2026 02:31",
+    "road_name": "North Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "1a5bae8cd45f4604ab61ac93"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7532926,
+        37.935700700000005
+      ]
+    },
+    "confidence": 0.88,
+    "size": {
+      "width_cm": 12.9,
+      "depth_cm": 12.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-2411227685_ssq1ba.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/09/2026 18:37",
+    "road_name": "Brighton Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "cad52ea972274e16ab41c0a5"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7789135,
+        37.9726675
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 18.9,
+      "depth_cm": 9.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "unconfirmed",
+    "detection_date": "02/10/2026 00:57",
+    "road_name": "Eagleson Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "dc6804f0f964460baf617a98"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76963002019555,
+        37.922310170941294
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 18.2,
+      "depth_cm": 12.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330159/OIP-406954142_ubitzy.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/08/2026 12:33",
+    "road_name": "West Lions Club Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "cb627620ad224a54b0d4a477"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74766677820465,
+        37.951516513148555
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 9.7,
+      "depth_cm": 7.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/10/2026 02:13",
+    "road_name": "East 10th Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "f8325c52cffd4fbeb5a2d957"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7656369,
+        37.9627595
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 17.9,
+      "depth_cm": 7.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "resolved",
+    "detection_date": "02/18/2026 14:40",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "e7b17334d7e343718ea9f5e3"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77006969813438,
+        37.95070156754394
       ]
     },
     "confidence": 0.76,
     "size": {
-      "width_cm": 10.3,
-      "depth_cm": 9.1
+      "width_cm": 5.4,
+      "depth_cm": 7.7
     },
-    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330166/OIP-2404651253_w1huwh.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/10/2026 16:26",
+    "road_name": "East 9th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "33b0cccbe945499b89e6c8ad"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74848180058441,
+        37.94545550730116
+      ]
+    },
+    "confidence": 0.61,
+    "size": {
+      "width_cm": 18.5,
+      "depth_cm": 11.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/18/2026 09:36",
+    "road_name": "Forum Drive",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "95ea949a5d6f418bbd53c1b4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7430648,
+        37.93723049999999
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 17.4,
+      "depth_cm": 10.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/27/2026 03:20",
+    "road_name": "Scottsvale Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "8a66138589d148fc8882229d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76195528484786,
+        37.93856399457419
+      ]
+    },
+    "confidence": 0.86,
+    "size": {
+      "width_cm": 19.8,
+      "depth_cm": 9.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_0",
+    "status": "unconfirmed",
+    "detection_date": "02/19/2026 18:51",
+    "road_name": "Southview Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9c3588bb84ec47349cff9c35"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77799006468089,
+        37.94341662617836
+      ]
+    },
+    "confidence": 0.98,
+    "size": {
+      "width_cm": 10.8,
+      "depth_cm": 3.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330161/OIP-1702511532_ly1sbv.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/26/2026 09:44",
+    "road_name": "South Spilman Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e9e5b42b0188405188f5c78b"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76383425913558,
+        37.93188879338744
+      ]
+    },
+    "confidence": 0.77,
+    "size": {
+      "width_cm": 5.8,
+      "depth_cm": 14.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "open",
+    "detection_date": "02/20/2026 02:44",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "56e3372484e44130aa8f987d"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75925294426503,
+        37.95117998041204
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 6.2,
+      "depth_cm": 7.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/25/2026 20:58",
+    "road_name": "Murry Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "ad243bbe42414f2d98cb4722"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76319524663461,
+        37.916611504117256
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 6.6,
+      "depth_cm": 6.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/28/2026 16:49",
+    "road_name": "Traci Dawn Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "0037b5848e4842ffb261df14"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74220123931234,
+        37.951429097911564
+      ]
+    },
+    "confidence": 0.69,
+    "size": {
+      "width_cm": 14.6,
+      "depth_cm": 6.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
     "vehicle_id": "CAR_8",
     "status": "open",
-    "first_detected_at": 1772331114.8501806,
-    "last_updated_at": 1772331114.8501806,
-    "road_name": "Unknown",
+    "detection_date": "02/10/2026 18:37",
+    "road_name": "East 10th Street",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "9b87d81aa3d94b639b5ee8c8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76247744616639,
+        37.92475663045805
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 7.2,
+      "depth_cm": 6.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/01/2026 15:58",
+    "road_name": "Brady Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "e2d860e15db24b57a432b68f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77990084707187,
+        37.92522100969483
+      ]
+    },
+    "confidence": 0.91,
+    "size": {
+      "width_cm": 11.2,
+      "depth_cm": 14.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/22/2026 16:24",
+    "road_name": "South Bishop Avenue",
     "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "e37e3d167bb64dc18c94d51c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7628019,
+        37.9152728
+      ]
+    },
+    "confidence": 0.54,
+    "size": {
+      "width_cm": 11.9,
+      "depth_cm": 3.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/25/2026 11:52",
+    "road_name": "Thomas Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9869f455f61e4ab8b891b8ff"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75077320845345,
+        37.94825603678983
+      ]
+    },
+    "confidence": 0.99,
+    "size": {
+      "width_cm": 6.2,
+      "depth_cm": 14.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "01/31/2026 10:27",
+    "road_name": "Whitney Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "091cb50cbd6643e4951e88bb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78246222362141,
+        37.942137780244074
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 16.0,
+      "depth_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "unconfirmed",
+    "detection_date": "02/12/2026 14:40",
+    "road_name": "Unknown",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "dd3f7eb6254c45b49ff5132a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77122239522099,
+        37.93764757703937
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 17.8,
+      "depth_cm": 4.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "01/31/2026 21:44",
+    "road_name": "South Rolla Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "0d77a832ab00409db75cd47a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7628019,
+        37.9152728
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 12.2,
+      "depth_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1404063461_vidfyq.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/25/2026 03:23",
+    "road_name": "Thomas Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c423d7bb817848e9b76831bb"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75855409637299,
+        37.97024344124757
+      ]
+    },
+    "confidence": 0.87,
+    "size": {
+      "width_cm": 11.8,
+      "depth_cm": 11.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "open",
+    "detection_date": "02/04/2026 09:08",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "f764793814be41dbb3f2159c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77705566353565,
+        37.94845948842928
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 18.4,
+      "depth_cm": 11.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 23:46",
+    "road_name": "Wet 6th Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "59454f0521684b5c922da865"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76835433451001,
+        37.93187535026832
+      ]
+    },
+    "confidence": 0.72,
+    "size": {
+      "width_cm": 19.1,
+      "depth_cm": 12.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "unconfirmed",
+    "detection_date": "02/01/2026 14:43",
+    "road_name": "Winchester Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "aebfa76b66d4445bbdfb05d8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77194092181328,
+        37.941221095697784
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 5.2,
+      "depth_cm": 6.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 22:44",
+    "road_name": "South Rolla Street",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "2e9f46344cfe4ed98bc2ad77"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.78096097913348,
+        37.94174683367942
+      ]
+    },
+    "confidence": 0.71,
+    "size": {
+      "width_cm": 11.9,
+      "depth_cm": 13.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "01/29/2026 20:45",
+    "road_name": "South Adrian Avenue",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "1c64ced2d04d4086bca87d8e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.736447,
+        37.954583
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 11.9,
+      "depth_cm": 11.5
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330162/OIP-3598766977_yjsssf.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/08/2026 07:52",
+    "road_name": "Wellington Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "206fa449ee1a412ab1280356"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.797861186687,
+        37.94204101389071
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 17.1,
+      "depth_cm": 5.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330149/OIP-1768797789_u9jloo.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "in progress",
+    "detection_date": "02/22/2026 21:39",
+    "road_name": "Old Wire Outer Road",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "d3d0b21ba0e3436880af92a9"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77091200002253,
+        37.96902801593153
+      ]
+    },
+    "confidence": 0.62,
+    "size": {
+      "width_cm": 15.8,
+      "depth_cm": 9.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/19/2026 14:08",
+    "road_name": "Vienna Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "42f22b5f13ab4daa8444a03c"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7313577,
+        37.988703699999995
+      ]
+    },
+    "confidence": 0.5,
+    "size": {
+      "width_cm": 18.7,
+      "depth_cm": 11.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "open",
+    "detection_date": "02/24/2026 14:39",
+    "road_name": "Perrot Boulevard",
+    "road_type": "unclassified"
+  },
+  {
+    "_id": {
+      "$oid": "13bd7b8289ca4c689216b403"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7738018,
+        37.9730474
+      ]
+    },
+    "confidence": 0.6,
+    "size": {
+      "width_cm": 7.0,
+      "depth_cm": 6.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "in progress",
+    "detection_date": "02/18/2026 14:56",
+    "road_name": "Camelot Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "7147f8e70ac949c1a172c0e6"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77729546308139,
+        37.94867304857969
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 6.8,
+      "depth_cm": 11.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/19/2026 19:25",
+    "road_name": "North Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "81978698aabd4b91acbf0c90"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.73644383422217,
+        37.95432217439781
+      ]
+    },
+    "confidence": 0.67,
+    "size": {
+      "width_cm": 5.6,
+      "depth_cm": 13.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330164/OIP-1619559912_rsa00h.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "open",
+    "detection_date": "02/26/2026 15:56",
+    "road_name": "Wellington Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4f8837ef888f430ab483368f"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76088135056848,
+        37.96598358106851
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 18.5,
+      "depth_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/16/2026 03:16",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "0816c522ab3e4e7e9daf7f93"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.74139971884689,
+        37.96902785160283
+      ]
+    },
+    "confidence": 0.92,
+    "size": {
+      "width_cm": 11.6,
+      "depth_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_6",
+    "status": "resolved",
+    "detection_date": "02/07/2026 15:29",
+    "road_name": "County Road 3060",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "2be839e75ba64e3d80820225"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76195725158668,
+        37.93837809952409
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 16.7,
+      "depth_cm": 8.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "open",
+    "detection_date": "02/01/2026 18:36",
+    "road_name": "Southview Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "aa41bd229cc3465b8e0874a7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77059637043854,
+        37.94725222821033
+      ]
+    },
+    "confidence": 1.0,
+    "size": {
+      "width_cm": 11.0,
+      "depth_cm": 12.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "unconfirmed",
+    "detection_date": "02/09/2026 23:01",
+    "road_name": "North Elm Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "2ce96bf7dbdb40f4b6045b58"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.79757730743167,
+        37.936594010761134
+      ]
+    },
+    "confidence": 0.76,
+    "size": {
+      "width_cm": 19.5,
+      "depth_cm": 3.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330151/OIP-2273908615_qsmklb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "open",
+    "detection_date": "01/31/2026 04:42",
+    "road_name": "Bridge School Road",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d92484e8bd8f46a4aa7c96ea"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7836966,
+        37.92253560000001
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 13.6,
+      "depth_cm": 11.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "resolved",
+    "detection_date": "02/28/2026 14:43",
+    "road_name": "West Lions Club Drive",
+    "road_type": "tertiary"
+  },
+  {
+    "_id": {
+      "$oid": "a032d6769a9d4e03b36dd6b7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77365633099657,
+        37.94442326563008
+      ]
+    },
+    "confidence": 0.7,
+    "size": {
+      "width_cm": 6.5,
+      "depth_cm": 6.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330157/OIP-982042502_kcsqex.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "resolved",
+    "detection_date": "02/10/2026 14:11",
+    "road_name": "South Main Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "29cf4031e57b4e1ab501b413"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7391132,
+        37.938308899999996
+      ]
+    },
+    "confidence": 0.9,
+    "size": {
+      "width_cm": 12.8,
+      "depth_cm": 14.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330169/OIP-1468803598_yxhyqi.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "in progress",
+    "detection_date": "02/09/2026 19:47",
+    "road_name": "Coventry Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "a9acbf389a06403b80d4ae25"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77549940000002,
+        37.9569916
+      ]
+    },
+    "confidence": 0.98,
+    "size": {
+      "width_cm": 5.4,
+      "depth_cm": 10.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "resolved",
+    "detection_date": "02/21/2026 03:03",
+    "road_name": "Saint Patricks Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "aaaa2de5a7c945e88411f142"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77789866747126,
+        37.91672840134328
+      ]
+    },
+    "confidence": 0.59,
+    "size": {
+      "width_cm": 10.3,
+      "depth_cm": 11.3
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_3",
+    "status": "in progress",
+    "detection_date": "02/25/2026 03:46",
+    "road_name": "South Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "57940468dbef4dddaf6739a0"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75300802970848,
+        37.975010258873226
+      ]
+    },
+    "confidence": 0.85,
+    "size": {
+      "width_cm": 6.3,
+      "depth_cm": 14.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330147/OIP-3820741383_r8ej0r.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "unconfirmed",
+    "detection_date": "02/19/2026 23:55",
+    "road_name": "Interstate 44",
+    "road_type": "motorway"
+  },
+  {
+    "_id": {
+      "$oid": "40d491d1d6c347f69d960745"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76862566853356,
+        37.93946916774471
+      ]
+    },
+    "confidence": 0.79,
+    "size": {
+      "width_cm": 19.3,
+      "depth_cm": 9.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/05/2026 22:38",
+    "road_name": "South Olive Street",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "194e0d1814124d07b3b2362a"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.77744484551131,
+        37.93668396949353
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 5.5,
+      "depth_cm": 14.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/15/2026 12:35",
+    "road_name": "South Bishop Avenue",
+    "road_type": "primary"
+  },
+  {
+    "_id": {
+      "$oid": "cc37615942d443a7aebcd838"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7402273,
+        37.916235599999986
+      ]
+    },
+    "confidence": 0.64,
+    "size": {
+      "width_cm": 9.3,
+      "depth_cm": 5.9
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_2",
+    "status": "in progress",
+    "detection_date": "02/24/2026 10:55",
+    "road_name": "Unknown",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "f726fa1104854068b8c66a3e"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75217831673393,
+        37.9429558454849
+      ]
+    },
+    "confidence": 0.58,
+    "size": {
+      "width_cm": 11.5,
+      "depth_cm": 9.1
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_5",
+    "status": "resolved",
+    "detection_date": "02/25/2026 00:58",
+    "road_name": "Honeysuckle Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "c4eb3240f6674521b7233d37"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7464985,
+        37.95685159999999
+      ]
+    },
+    "confidence": 0.93,
+    "size": {
+      "width_cm": 15.2,
+      "depth_cm": 14.0
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-1744883177_ly6gnf.jpg",
+    "vehicle_id": "CAR_8",
+    "status": "unconfirmed",
+    "detection_date": "02/03/2026 16:14",
+    "road_name": "Jackson Circle",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "9d85eb6350174760a97a1681"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7448263635962,
+        37.94131657898821
+      ]
+    },
+    "confidence": 0.84,
+    "size": {
+      "width_cm": 16.3,
+      "depth_cm": 7.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330165/OIP-4144304071_pyvbrr.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "resolved",
+    "detection_date": "02/19/2026 23:16",
+    "road_name": "Coventry Lane",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "d130134dabce4a4c822cadd7"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7392924,
+        37.9695934
+      ]
+    },
+    "confidence": 0.63,
+    "size": {
+      "width_cm": 6.2,
+      "depth_cm": 5.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_9",
+    "status": "in progress",
+    "detection_date": "02/21/2026 00:21",
+    "road_name": "County Road 3060",
+    "road_type": "secondary"
+  },
+  {
+    "_id": {
+      "$oid": "3522df56b29a42e7807c7fba"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.790381,
+        37.95443800000001
+      ]
+    },
+    "confidence": 0.82,
+    "size": {
+      "width_cm": 19.7,
+      "depth_cm": 7.7
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330154/OIP-2313164561_vvcayy.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/02/2026 07:06",
+    "road_name": "Hyer Court",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "395b040e02544d22aeceb6f8"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7368061105964,
+        37.95260555052167
+      ]
+    },
+    "confidence": 0.53,
+    "size": {
+      "width_cm": 14.0,
+      "depth_cm": 5.8
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330155/OIP-1515424121_csb3cz.jpg",
+    "vehicle_id": "CAR_1",
+    "status": "open",
+    "detection_date": "02/05/2026 13:52",
+    "road_name": "Wellington Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "15d0af503cb74bb18db426b4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.7789135,
+        37.9726675
+      ]
+    },
+    "confidence": 0.83,
+    "size": {
+      "width_cm": 18.3,
+      "depth_cm": 10.2
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-3931292219_foesfl.jpg",
+    "vehicle_id": "CAR_7",
+    "status": "in progress",
+    "detection_date": "02/16/2026 22:19",
+    "road_name": "Eagleson Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "4d7eb5c57e2a446e925612d4"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.75559770610892,
+        37.941716120379965
+      ]
+    },
+    "confidence": 0.96,
+    "size": {
+      "width_cm": 16.6,
+      "depth_cm": 11.4
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330170/OIP-1069577361_aigjrb.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "resolved",
+    "detection_date": "02/17/2026 07:37",
+    "road_name": "Elliott Drive",
+    "road_type": "residential"
+  },
+  {
+    "_id": {
+      "$oid": "88475df0a3d44238b81943ec"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -91.76407743883202,
+        37.947906154891776
+      ]
+    },
+    "confidence": 0.51,
+    "size": {
+      "width_cm": 16.1,
+      "depth_cm": 10.6
+    },
+    "image_url": "https://res.cloudinary.com/duaqczxir/image/upload/v1772330144/OIP-4000302117_sauf47.jpg",
+    "vehicle_id": "CAR_4",
+    "status": "in progress",
+    "detection_date": "02/14/2026 13:00",
+    "road_name": "Iowa Street",
+    "road_type": "residential"
   }
 ]

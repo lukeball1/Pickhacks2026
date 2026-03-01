@@ -148,13 +148,13 @@ for i, snap in enumerate(snapped_results):
         "confidence": round(random.uniform(0.5, 1.0), 2),
         "size": {
             "width_cm": round(random.uniform(5, 20), 1),
-            "depth_cm": round(random.uniform(3, 15), 1),
+            "height_cm": round(random.uniform(3, 15), 1),
         },
         "image_url": images[random.randint(0, 22)],
         "vehicle_id": f"CAR_{random.randint(0,9)}",
         "status": random.choice(status_options),
-        "first_detected_at": time.time(),
-        "last_updated_at": time.time(),
+        "detection_date": time.strftime("%m/%d/%Y %H:%M", time.localtime(time.time() - random.randint(0, 2592000))),
+        
         "road_name": (
             snap["road_name"]
             if type(snap["road_name"]) == type("")
