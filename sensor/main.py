@@ -26,7 +26,7 @@ def main_loop():
 
             detected, confidence, size = is_pothole_detected(result)
             if detected:
-                print(f"[{time.strftime('%m/%d/%Y %H:%M:%S')}] pothole detected with confidence {confidence:.3f}\n")
+                print(f"[{time.strftime('%m/%d/%Y %H:%M:%S')}] pothole detected with confidence {confidence:.3f}")
 
                 location = get_current_location()
                 image_url = upload_image("temp.jpg")
