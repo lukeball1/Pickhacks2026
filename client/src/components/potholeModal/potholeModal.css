@@ -1,0 +1,38 @@
+.modal-backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* This puts it at the bottom */
+    z-index: 9999; /* Ensure this is very high */
+}
+
+.modal-container{
+    width: 45%;
+    
+}
+
+.modal-content{
+    background: darkgray;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    height: 17rem;
+}
+
+.modal-content img{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.modal-text{
+    margin-right: auto;
+    top: 0;
+    
+}
