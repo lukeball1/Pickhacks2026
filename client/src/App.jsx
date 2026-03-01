@@ -7,6 +7,8 @@ import { useAuth0 } from '@auth0/auth0-react'
 
 function App() {
   const [potholes, setPotholes] = useState([]);
+
+  const [filteredPotholes, setFilteredPotholes] = useState([]);
   
   const { loginWithRedirect, isAuthenticated, isLoading, logout, error } = useAuth0();
 
@@ -26,6 +28,16 @@ function App() {
       console.log("error in loading potholes");
     }
   }
+
+  const applyFilters = (roadName, streetType, status) => {
+    const filtered = potholes.filter(pothole => {
+      const matchesRoadName = roadName ? pothole.road_name.toLowerCase().includes(roadName.toLowerCase()) : true;
+      const matchesStreetType = streetType ? pothole.road_type.toLowerCase() === streetType.toLowerCase() : true;
+      const matchesStatus = status ? pothole.status.toLowerCase() === status.toLowerCase() : true;
+      return matchesRoadName && matchesStreetType && matchesStatus;
+    });
+    setFilteredPotholes(filtered);
+  }
   
   useEffect(() => {
     if (potholes.length == 0) {
@@ -42,7 +54,7 @@ function App() {
   return(
     <div className='app'>
       <div className="leftSide">
-        <LeftList potholes={potholes} onModalClose={loadPotholes}/>
+        <LeftList potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={loadPotholes} onApplyFilters={applyFilters}/>
         {
           isAuthenticated ?
           (<button onClick={logout} >LOG OUT</button>) :
@@ -50,7 +62,7 @@ function App() {
         }
       </div>
       <div className="rightSide">
-        <MapAPI potholes={potholes} onModalClose={loadPotholes}/>
+        <MapAPI potholes={(filteredPotholes.length > 0 ? filteredPotholes : potholes)} onModalClose={loadPotholes}/>
       </div>
     </div>
   )
