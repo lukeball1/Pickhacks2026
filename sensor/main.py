@@ -7,6 +7,7 @@ from db import connect_db, insert_or_update_pothole
 from utils import get_current_location
 from storage import upload_image
 from config import CAMERA_ID, VEHICLE_ID, DUPLICATE_DISTANCE_M
+from pickhacksroads import snap_point_to_road
 
 
 def main_loop():
@@ -32,15 +33,14 @@ def main_loop():
                 location = get_current_location()
 
                 filename = f"{VEHICLE_ID}_{int(time.time())}.jpg"
-                image_url = upload_image(frame, filename)
-
+                image_url = upload_image(temp_file)
+                road_info, coords = snap_point_to_road(
+                    location["latitude"], location["longitude"]
+                )
                 pothole_data = {
                     "location": {
                         "type": "Point",
-                        "coordinates": [
-                            location["latitude"],
-                            location["longitude"]
-                        ],
+                        "coordinates": [coords["lat"], coords["lon"]],
                     },
                     "confidence": confidence,
                     "size": size,
@@ -50,12 +50,10 @@ def main_loop():
                     "first_detected_at": time.time(),
                     "last_updated_at": time.time(),
                 }
+                for k, v in road_info.items():
+                    pothole_data[k] = v
 
-                insert_or_update_pothole(
-                    collection,
-                    pothole_data,
-                    DUPLICATE_DISTANCE_M
-                )
+                insert_or_update_pothole(collection, pothole_data, DUPLICATE_DISTANCE_M)
 
                 print("Pothole reported to database.")
 

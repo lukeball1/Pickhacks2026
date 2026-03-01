@@ -24,9 +24,7 @@ def is_pothole_detected(result):
 
     predictions = result.get("predictions", [])
 
-    pothole_predictions = [
-        p for p in predictions if p.get("class") == "Potholes"
-    ]
+    pothole_predictions = [p for p in predictions if p.get("class") == "Potholes"]
 
     if not pothole_predictions:
         return False, 0.0, {}
