@@ -13,7 +13,7 @@ def receive_gps():
     current_location["lat"] = data["lat"]
     current_location["lon"] = data["lon"]
 
-    print("Latitude:", data['lat'], "\nLongitude:", data['lon'], "\n")
+    print("Latitude:", data['lat'], "\nLongitude:", data['lon'], "\n", flush=True)
 
     return jsonify({"status": "ok"})
 
