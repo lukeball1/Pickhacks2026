@@ -38,7 +38,7 @@ const getStatusStyle = (status) => {
       return;
     }
 
-  }, [marker, backgroundColor])
+  }, [marker, backgroundColor, pothole])
 
   
 
