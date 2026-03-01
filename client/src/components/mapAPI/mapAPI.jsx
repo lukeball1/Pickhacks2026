@@ -6,8 +6,8 @@ import PotholeModal from '../potholeModal/potholeModal';
 
 const ROLLA_CENTER = {lat: 37.9485, lng:-91.7715};
 
-function MapAPI({potholes}) {
-    const [SelectedPothole, setSelectedPothole] = useState(null);
+function MapAPI({ potholes, onModalClose }) {
+    const [selectedPothole, setSelectedPothole] = useState(null);
     const [modal, setModal] = useState(false);
     
     const mapStyles = [
@@ -57,7 +57,11 @@ function MapAPI({potholes}) {
                         })
                     }
                 </Map>
-                <PotholeModal pothole={SelectedPothole} onClose={() => setSelectedPothole(null)} />
+                {
+                    selectedPothole && (
+                        <PotholeModal pothole={selectedPothole} onClose={() => { setSelectedPothole(null); onModalClose(); }} />
+                    )
+                }
             </APIProvider>
     );
 }

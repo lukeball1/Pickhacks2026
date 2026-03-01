@@ -4,7 +4,7 @@ import PotholeModal from '../potholeModal/potholeModal';
 import PupilIMG from '../../assets/PUPILlogo.png';
 // import { useAuth0 } from '@auth0/auth0-react';
 
-function LeftList({ potholes }){
+function LeftList({ potholes, onModalClose }){
 
     const [selectedPothole, setSelectedPothole] = useState(null);
 
@@ -36,7 +36,9 @@ function LeftList({ potholes }){
 
             </div>
 
-            <PotholeModal pothole={selectedPothole} onClose={() => setSelectedPothole(null)}/>
+            {selectedPothole && (
+                <PotholeModal pothole={selectedPothole} onClose={() => { setSelectedPothole(null); onModalClose(); }}/>
+            )}
 
         </div>
     );

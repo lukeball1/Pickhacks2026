@@ -33,3 +33,14 @@ def getAllPotholes():
     response = {"success": True, "potholes": final}
     return jsonify(response)
     # display image of pothole with labels? 
+
+@app.route("/pothole/<pothole_id>/change_status", methods=["POST"])
+def changePotholeStatus(pothole_id):
+    potholes = getPotholeCollection()
+    new_status = request.json.get("status")
+    result = potholes.update_one({ '_id': ObjectId(pothole_id) }, { '$set': { 'status': new_status } })
+    potholes.database.client.close()
+    if result.modified_count == 1:
+        return jsonify({"success": True, "message": "Pothole status updated successfully."})
+    else:
+        return jsonify({"success": False, "message": "Failed to update pothole status."}), 400
