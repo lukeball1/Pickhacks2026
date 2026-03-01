@@ -24,7 +24,28 @@ def getPothole(pothole_id):
 @app.route("/", methods=["GET"]) 
 def getAllPotholes():
     potholes = getPotholeCollection()
-    results = potholes.find()
+    results = potholes.find(limit=0)
+    final = list(results)
+    potholes.database.client.close()
+    print("results:", results)
+    for result in final: 
+        result['_id'] = str(result['_id'])
+    response = {"success": True, "potholes": final}
+    return jsonify(response)
+    # display image of pothole with labels?
+
+@app.route("/potholes/<org_id>", methods=["GET"]) 
+def getPotholes(org_id):
+    potholes = getPotholeCollection()
+    orgs = getOrganizationCollection()
+    org = orgs.find_one({ '_id': org_id })
+    # return jsonify({"success": True, "org": org})
+    # if org is None: 
+    #     return jsonify({"success": False, "message": "Organization not found."}), 404
+    results = potholes.find({
+        "location.coordinates.0": {"$gte": org["region"]["minLat"], "$lte": org["region"]["maxLat"]},
+        "location.coordinates.1": {"$gte": org["region"]["minLng"], "$lte": org["region"]["maxLng"]}
+    }, limit=0)
     final = list(results)
     potholes.database.client.close()
     print("results:", results)

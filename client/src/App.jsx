@@ -16,10 +16,14 @@ function App() {
 
   const [allPotholes, setAllPotholes] = useState([]);
 
-  const loadPotholes = async () => {
+  const loadPotholes = async (org) => {
     console.log("pothole function called");
-    try{
-      const result = await fetch ("http://127.0.0.1:5000/");
+    if (!org) {
+      return;
+    }
+    try {
+      const URL = `http://127.0.0.1:5000/potholes/${org._id}`;
+      const result = await fetch (URL);
       const data = await result.json();
       
       if (data.success){
@@ -41,6 +45,8 @@ function App() {
       const org = data.organization;
       setRegion(org.region);
       setSelectedOrg(org);
+      // applyRegionFilter(org.region);
+      loadPotholes(org);
       console.log("Selected organization region:", org);
     }
   }
@@ -55,13 +61,7 @@ function App() {
     setFilteredPotholes(filtered);
   }
 
-  const applyRegionFilter = (minLat, maxLat, minLng, maxLng) => {
-    const region = {
-      min_lat: minLat,
-      max_lat: maxLat,
-      min_lng: minLng,
-      max_lng: maxLng
-    };
+  const applyRegionFilter = (region) => {
     const filtered = potholes.filter(pothole => {
       return (pothole.location.coordinates[0] >= region.min_lat && pothole.location.coordinates[0] <= region.max_lat) &&
              (pothole.location.coordinates[1] >= region.min_lng && pothole.location.coordinates[1] <= region.max_lng);
@@ -74,7 +74,10 @@ function App() {
     if (potholes.length == 0) {
       loadPotholes();
     }
-  }, [potholes]);
+    if (selectedOrg === null) { 
+      
+    }
+  }, [potholes, selectedOrg]);
   
   if (isLoading) {
     return (

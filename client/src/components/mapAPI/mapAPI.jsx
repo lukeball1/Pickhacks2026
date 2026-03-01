@@ -33,7 +33,7 @@ function MapAPI({ potholes, onModalClose, region, currentOrganization }) {
                 <Map
                 style={{ width: '100%', height: '100%' }}
                 defaultCenter={ROLLA_CENTER}
-                defaultZoom={9}
+                defaultZoom={13.5}
                 mapId="56e3f3ba5b24b19c7eb8f11c"
                 // styles={mapStyles}
                 disableDefaultUI={false}
