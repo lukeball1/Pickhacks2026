@@ -12,6 +12,7 @@
   "dependencies": {
     "@auth0/auth0-react": "^2.15.0",
     "@vis.gl/react-google-maps": "^1.7.1",
+    "framer-motion": "^12.34.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

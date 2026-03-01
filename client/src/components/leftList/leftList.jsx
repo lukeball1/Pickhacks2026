@@ -1,9 +1,12 @@
-import React from 'react';
+import {React, useState} from 'react';
 import './leftList.css';
-import potholeModal from '../potholeModal/potholeModal';
+import PotholeModal from '../potholeModal/potholeModal';
 // import { useAuth0 } from '@auth0/auth0-react';
 
 function LeftList({ potholes }){
+
+    const [selectedPothole, setSelectedPothole] = useState(null);
+
 
     return(
         <div className="leftList">
@@ -21,8 +24,8 @@ function LeftList({ potholes }){
                         >
                             <li
                             style={{ cursor: "pointer"}}
-                            onClick={(e) => 
-                                <potholeModal pothole={item}/>
+                            onClick={() => 
+                                setSelectedPothole(item)
                             }
                             > Pothole #{index + 1}</li>
                         </div>
@@ -31,6 +34,9 @@ function LeftList({ potholes }){
                 
 
             </div>
+
+            <PotholeModal pothole={selectedPothole} onClose={() => setSelectedPothole(null)}/>
+
         </div>
     );
 }
