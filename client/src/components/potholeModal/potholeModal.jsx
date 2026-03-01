@@ -6,13 +6,34 @@ import { useAuth0 } from '@auth0/auth0-react'
 // Destructure pothole AND onClose from props
 function PotholeModal({ pothole, onClose }){
     const { isAuthenticated } = useAuth0();
-    const [selectedStatus, setSelectedStatus] = useState();
+    const [selectedStatus, setSelectedStatus] = useState(null);
+
+    const changeStatus = async (event) => {
+        const newStatus = event.target.value;
+        try {
+            const response = await fetch(`http://127.0.0.1:5000/pothole/${pothole._id}/change_status`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ status: newStatus }) // No body needed for this request, but fetch requires it for POST
+            });
+            const data = await response.json();
+            if (data.success) {
+                setSelectedStatus(newStatus);
+            } else {
+                console.error("Failed to update status:", data.message);
+            }
+        } catch (error) {
+            console.error("Error updating status:", error);
+        }
+    };
 
     useEffect(() => {
-        if (pothole) {
+        if (pothole && (selectedStatus == null || selectedStatus == undefined)) {
             setSelectedStatus(pothole.status)
         }
-    }, [selectedStatus])
+    }, [pothole, selectedStatus])
 
 
     const getStatusStyle = (status) => {
@@ -26,7 +47,7 @@ function PotholeModal({ pothole, onClose }){
         }
     };
 
-    const style = pothole ? getStatusStyle(pothole.status) : null;
+    const style = selectedStatus ? getStatusStyle(selectedStatus) : { color: '#DDDDDD', label: 'LOADING...' };
 
     return (
         <AnimatePresence>
@@ -41,7 +62,7 @@ function PotholeModal({ pothole, onClose }){
                     <motion.div 
                         className="modal-container"
                         initial={{ y: "100%" }}
-                        animate={{ y: -175 }}
+                        animate={{ y: -260 }}
                         exit={{ y: "100%" }}
                         transition={{ type: "spring", damping: 25, stiffness: 500 }}
                         onClick={(e) => e.stopPropagation()} // Prevents closing when clicking the card itself
@@ -55,17 +76,20 @@ function PotholeModal({ pothole, onClose }){
                                     <h4>Street Type: {pothole.road_type.charAt(0).toUpperCase() + pothole.road_type.slice(1)}</h4>
                                 </div>
                                 <p>Last Updated: {pothole.detection_date}</p>
-                                <p>Status: {
+                                {
                                     isAuthenticated ?
-                                    <select value={selectedStatus}>
-                                        <option value={"resolved"}>RESOLVED</option>
-                                        <option value={"in progress"}>IN PROGRESS</option>
-                                        <option value={"open"}>OPEN</option>
-                                        <option value={"unconfirmed"}>UNCONFIRMED</option>
-                                    </select> :
-                                    <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{pothole.status.toUpperCase()}</strong></span>
-                                    }
-                                </p>
+                                    <>
+                                        <label htmlFor="status">Status: </label>
+                                        <select id="status" value={selectedStatus} onChange={changeStatus}>
+                                            <option value={"resolved"}>RESOLVED</option>
+                                            <option value={"in progress"}>IN PROGRESS</option>
+                                            <option value={"open"}>OPEN</option>
+                                            <option value={"unconfirmed"}>UNCONFIRMED</option>
+                                        </select>
+                                    </> :
+                                    <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
+                                }
+                                
                                 <hr />
                                 <p>Width: {pothole.size.width_cm}cm</p>
                                 <p>Depth: {pothole.size.depth_cm}cm</p>
