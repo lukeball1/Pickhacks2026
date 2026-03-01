@@ -101,9 +101,12 @@ def snap_point_to_road(lat, lon, roads_gdf=roads):
         gpd.GeoSeries([nearest_pt_proj], crs="EPSG:26915").to_crs("EPSG:4326").iloc[0]
     )
 
+    road_name = nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME")
+    road_name = road_name if type(road_name) == type("") else ("Unknown" if type(road_name) == type(3.4) else road_name[0])
+
     return (
         {
-            "road_name": nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME"),
+            "road_name": road_name,
             "road_type": nearest_road.get("highway_clean"),
         },
         {
