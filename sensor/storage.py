@@ -1,15 +1,13 @@
 import cloudinary
-import cloudinary.uploader
+from config import IMG_API_KEY, IMG_API_SECRET, IMG_STORAGE_NAME
 
 cloudinary.config(
-    cloud_name="duaqczxir",
-    api_key="932599918752923",
-    api_secret="4VxunUYPHFmtP1jaH0tcvPUyt7E",
+    cloud_name=IMG_STORAGE_NAME,
+    api_key=IMG_API_KEY,
+    api_secret=IMG_API_SECRET,
 )
 
 
 def upload_image(image_path):
-    print("trying to upload")
     result = cloudinary.uploader.upload(image_path)
-    print("uploaded")
     return result["secure_url"]
