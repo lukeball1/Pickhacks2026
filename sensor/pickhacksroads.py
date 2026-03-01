@@ -111,9 +111,3 @@ def snap_point_to_road(lat, lon, roads_gdf=roads):
             "lon": nearest_pt_latlon.x,
         },
     )
-
-
-# ----------------------------------------------------
-# Example usage
-lat_input = 37.95
-lon_input = -91.78
