@@ -101,9 +101,10 @@ def snap_point_to_road(lat, lon, roads_gdf):
     )
 
     road_name = nearest_road.get("name") or nearest_road.get("TRAVELWAY_NAME")
-    if str(road_name) == "nan" and nearest_road.get("road_type") == "motorway":
-        road_name = "Interstate 44"
     road_name = road_name if type(road_name) == type("") else ("Unknown" if type(road_name) == type(3.4) else road_name[0])
+    if nearest_road.get("highway_clean") == "motorway":
+        road_name = "Interstate 44"
+    
     return {
         "road_name": road_name,
         "road_type": nearest_road.get("highway_clean"),
@@ -169,4 +170,3 @@ with open("fake_potholes.json", "w") as f:
     json.dump(fake_dataset, f, indent=2)
 
 print("Fake dataset generated: fake_potholes.json")
-
