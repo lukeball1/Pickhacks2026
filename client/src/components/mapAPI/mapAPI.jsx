@@ -34,10 +34,10 @@ function MapAPI({potholes}) {
             defaultCenter={ROLLA_CENTER}
             defaultZoom={12}
             mapId="56e3f3ba5b24b19c7eb8f11c"
-            styles={mapStyles}
+            // styles={mapStyles}
             disableDefaultUI={false}
             gestureHandling={'greedy'}
-            minZoom={14}
+            minZoom={12}
             restriction={{
                 latLngBounds: {
                 north: 37.970,
