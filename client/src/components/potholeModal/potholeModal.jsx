@@ -92,7 +92,7 @@ function PotholeModal({ pothole, onClose }){
                                 
                                 <hr />
                                 <p>Width: {pothole.size.width_cm}cm</p>
-                                <p>Depth: {pothole.size.depth_cm}cm</p>
+                                <p>Depth: {pothole.size.height_cm}cm</p>
                                 <button className="close-btn" onClick={onClose}>Close</button>
                             </div>
                         </div>

@@ -34,16 +34,23 @@
 
 .modal-text{
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    padding-left: 1rem;
     top: 0;
 }
 
 .modal-text button{
     border-radius: 0.5rem;
     border-color: transparent;
-    width: 3.75rem;
-    height: 1.75rem;  
-    margin-left: 40%;
-    margin-top: 1.75rem;
+    width: 5rem;
+    height: 2rem;  
+    margin-top: auto;
+    align-self: center;
+    cursor: pointer;
+    text-align: center;
 }
 
 .modal-text-strlocation h4{

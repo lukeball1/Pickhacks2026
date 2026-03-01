@@ -7,7 +7,7 @@ function MapPin({pothole, onClick}) {
 
   useEffect(() => {
     // const risk_score = (pothole['size']['width_cm'] * pothole['size']['depth_cm']) ** (1/2)
-    const risk_score = Math.sqrt(pothole['size']['width_cm'] * pothole['size']['depth_cm'])
+    const risk_score = Math.sqrt(pothole['size']['width_cm'] * pothole['size']['height_cm'])
     // console.log(pothole['size']['width_cm'], pothole['size']['depth_cm'])
 
     // console.log("risk: ", risk_score)
