@@ -2,9 +2,10 @@ import {React, useState} from 'react';
 import './leftList.css';
 import PotholeModal from '../potholeModal/potholeModal';
 import PupilIMG from '../../assets/PUPILlogo.png';
+import FilterMenu from '../filterMenu/filterMenu';
 // import { useAuth0 } from '@auth0/auth0-react';
 
-function LeftList({ potholes, onModalClose }){
+function LeftList({ potholes, onModalClose, onApplyFilters }){
 
     const [selectedPothole, setSelectedPothole] = useState(null);
 
@@ -14,6 +15,10 @@ function LeftList({ potholes, onModalClose }){
             <div className="icon">
                 <img src={PupilIMG}/>
             </div>
+
+            <FilterMenu onApplyFilters={(roadName, streetType, status) => {
+                onApplyFilters(roadName, streetType, status);
+            }} />
 
             <div className="potholes">
                 <h2>Potholes</h2>
