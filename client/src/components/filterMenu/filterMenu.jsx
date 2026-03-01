@@ -6,7 +6,8 @@ function FilterMenu({onApplyFilters}) {
     const [streetType, setStreetType] = useState("");
     const [status, setStatus] = useState(""); 
 
-    return <form className="filterMenu">
+    return <form className="filterMenu" onSubmit={(e) => {
+      e.preventDefault(); onApplyFilters(roadName, streetType, status)}} >
       <h3>Filter Potholes</h3>
 
       <label htmlFor="roadName">Road Name:</label>
@@ -35,7 +36,7 @@ function FilterMenu({onApplyFilters}) {
       </select>
       <br />
 
-      <button type="button" onClick={() => onApplyFilters(roadName, streetType, status)}>Apply Filters</button>
+      <input type="button" value="Apply Filters"onClick={() => onApplyFilters(roadName, streetType, status)}/>
     </form>
 }
 
