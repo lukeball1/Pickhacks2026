@@ -50,6 +50,11 @@ function PotholeModal({ pothole, onClose }){
                             <img src={pothole.image_url} alt="pothole" />
                             <div className="modal-text">
                                 <h2>({pothole.location.coordinates[1].toFixed(4)}°, {pothole.location.coordinates[0].toFixed(4)}°)</h2>
+                                <div className="modal-text-strlocation">
+                                    <h4>Street Name: {pothole.road_name}</h4>
+                                    <h4>Street Type: {pothole.road_type.charAt(0).toUpperCase() + pothole.road_type.slice(1)}</h4>
+                                </div>
+                                <p>Last Updated: {pothole.detection_date}</p>
                                 <p>Status: {
                                     isAuthenticated ?
                                     <select value={selectedStatus}>
@@ -58,15 +63,9 @@ function PotholeModal({ pothole, onClose }){
                                         <option value={"open"}>OPEN</option>
                                         <option value={"unconfirmed"}>UNCONFIRMED</option>
                                     </select> :
-                                    <strong>{pothole.status.toUpperCase()}</strong>
+                                    <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{pothole.status.toUpperCase()}</strong></span>
                                     }
                                 </p>
-                                <div className="modal-text-strlocation">
-                                    <h4>Street Name: {pothole.road_name}</h4>
-                                    <h4>Street Type: {pothole.road_type.charAt(0).toUpperCase() + pothole.road_type.slice(1)}</h4>
-                                </div>
-                                <p>Last Updated: {pothole.detection_date}</p>
-                                <p>Status: <span style={{ color: style.color, fontWeight: 'bold' }}><strong>{style.label}</strong></span></p>
                                 <hr />
                                 <p>Width: {pothole.size.width_cm}cm</p>
                                 <p>Depth: {pothole.size.depth_cm}cm</p>

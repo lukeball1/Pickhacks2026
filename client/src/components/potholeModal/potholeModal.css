@@ -35,7 +35,6 @@
 .modal-text{
     margin-right: auto;
     top: 0;
-    
 }
 
 .modal-text button{
@@ -43,7 +42,8 @@
     border-color: transparent;
     width: 3.75rem;
     height: 1.75rem;  
-    margin-top: 1.5rem;
+    margin-left: 40%;
+    margin-top: 1.75rem;
 }
 
 .modal-text-strlocation h4{
